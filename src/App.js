@@ -1,26 +1,19 @@
-import React from 'react';
-import logo from './logo.svg';
+import React, { useState } from 'react';
 import './App.css';
+import GamesTable from "./GamesTable";
 
 function App() {
-  return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
-  );
+    const [players, setPlayers] = useState(3);
+
+    return (
+        <div>
+            <h1>Jackbox Decider</h1>
+
+            <p>How many players? <input type="number" min={1} max={99} value={players} onChange={(e) => setPlayers(e.target.value)}/></p>
+
+            <GamesTable playerCount={players} />
+        </div>
+    );
 }
 
 export default App;
