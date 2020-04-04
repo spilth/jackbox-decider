@@ -33,7 +33,7 @@ function App() {
           className="mb-4"
         >
           {buttonValues.map((button) => (
-            <ToggleButton value={button.count}>{button.label}</ToggleButton>
+            <ToggleButton key={button.count} value={button.count}>{button.label}</ToggleButton>
           ))}
         </ToggleButtonGroup>
       </div>
