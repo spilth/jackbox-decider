@@ -23,7 +23,7 @@ function App() {
   return (
     <div>
       <h1 className="text-center">Jackbox Decider</h1>
-      <h2 className="text-center">How many players?</h2>
+      <h2 className="text-center">How many people?</h2>
       <div className="text-center">
         <ToggleButtonGroup
           type="radio"
@@ -38,12 +38,11 @@ function App() {
         </ToggleButtonGroup>
       </div>
 
-      <h2 className="text-center">You can play the following games:</h2>
+      <h2 className="text-center">You can play the following:</h2>
 
       <GamesTable playerCount={players} />
 
       <h6 className="text-center">
-        Source Code:{" "}
         <a href="https://github.com/spilth/jackbox-decider">
           https://github.com/spilth/jackbox-decider
         </a>

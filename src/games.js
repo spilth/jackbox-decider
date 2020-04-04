@@ -1,7 +1,7 @@
 export default [
   {
     name: "You Don't Know Jack - 2015",
-    pack: "1",
+    pack: "The Jackbox Party Pack",
     minPlayers: 1,
     maxPlayers: 4,
     url: "https://jackboxgames.com/ydkj-2015",
@@ -11,7 +11,7 @@ export default [
   },
   {
     name: "Lie Swatter",
-    pack: "1",
+    pack: "The Jackbox Party Pack",
     minPlayers: 1,
     maxPlayers: 100,
     url: "https://jackboxgames.com/lie-swatter",
@@ -20,7 +20,7 @@ export default [
   },
   {
     name: "Fibbage XL",
-    pack: "1",
+    pack: "The Jackbox Party Pack",
     minPlayers: 2,
     maxPlayers: 8,
     url: "https://jackboxgames.com/fibbage-xl",
@@ -30,7 +30,7 @@ export default [
   },
   {
     name: "Word Spud",
-    pack: "1",
+    pack: "The Jackbox Party Pack",
     minPlayers: 2,
     maxPlayers: 8,
     url: "https://jackboxgames.com/word-spud",
@@ -39,7 +39,7 @@ export default [
   },
   {
     name: "Drawful",
-    pack: "1",
+    pack: "The Jackbox Party Pack",
     minPlayers: 3,
     maxPlayers: 8,
     url: "https://jackboxgames.com/drawful",
@@ -49,7 +49,7 @@ export default [
   },
   {
     name: "Bomb Corp.",
-    pack: "2",
+    pack: "The Jackbox Party Pack 2",
     minPlayers: 1,
     maxPlayers: 4,
     url: "https://jackboxgames.com/bomb-corp",
@@ -59,7 +59,7 @@ export default [
   },
   {
     name: "Fibbage 2",
-    pack: "2",
+    pack: "The Jackbox Party Pack 2",
     minPlayers: 2,
     maxPlayers: 8,
     url: "https://jackboxgames.com/fibbage-two",
@@ -69,7 +69,7 @@ export default [
   },
   {
     name: "Bidiots",
-    pack: "2",
+    pack: "The Jackbox Party Pack 2",
     minPlayers: 3,
     maxPlayers: 6,
     url: "https://jackboxgames.com/bidiots",
@@ -79,7 +79,7 @@ export default [
   },
   {
     name: "Earwax",
-    pack: "2",
+    pack: "The Jackbox Party Pack 2",
     minPlayers: 3,
     maxPlayers: 8,
     url: "https://jackboxgames.com/earwax",
@@ -89,7 +89,7 @@ export default [
   },
   {
     name: "Quiplash XL",
-    pack: "2",
+    pack: "The Jackbox Party Pack 2",
     minPlayers: 3,
     maxPlayers: 8,
     url: "https://jackboxgames.com/quiplash-xl",
@@ -99,7 +99,7 @@ export default [
   },
   {
     name: "Trivia Murder Party",
-    pack: "3",
+    pack: "The Jackbox Party Pack 3",
     minPlayers: 1,
     maxPlayers: 8,
     url: "https://jackboxgames.com/trivia-murder-party",
@@ -109,7 +109,7 @@ export default [
   },
   {
     name: "Guesspionage",
-    pack: "3",
+    pack: "The Jackbox Party Pack 3",
     minPlayers: 2,
     maxPlayers: 8,
     url: "https://jackboxgames.com/guesspionage",
@@ -118,7 +118,7 @@ export default [
   },
   {
     name: "Fakin' It",
-    pack: "3",
+    pack: "The Jackbox Party Pack 3",
     minPlayers: 3,
     maxPlayers: 8,
     url: "https://jackboxgames.com/fakin-it",
@@ -128,7 +128,7 @@ export default [
   },
   {
     name: "Quiplash 2",
-    pack: "3",
+    pack: "The Jackbox Party Pack 3",
     minPlayers: 3,
     maxPlayers: 8,
     url: "https://jackboxgames.com/quiplash-two",
@@ -138,7 +138,7 @@ export default [
   },
   {
     name: "Tee K.O.",
-    pack: "3",
+    pack: "The Jackbox Party Pack 3",
     minPlayers: 3,
     maxPlayers: 8,
     url: "https://jackboxgames.com/tee-ko",
@@ -148,7 +148,7 @@ export default [
   },
   {
     name: "Fibbage 3",
-    pack: "4",
+    pack: "The Jackbox Party Pack 4",
     minPlayers: 2,
     maxPlayers: 8,
     url: "https://jackboxgames.com/fibbage-three",
@@ -158,7 +158,7 @@ export default [
   },
   {
     name: "Monster Seeking Monster",
-    pack: "4",
+    pack: "The Jackbox Party Pack 4",
     minPlayers: 3,
     maxPlayers: 7,
     url: "https://jackboxgames.com/monster-seeking-monster",
@@ -168,7 +168,7 @@ export default [
   },
   {
     name: "Civic Doodle",
-    pack: "4",
+    pack: "The Jackbox Party Pack 4",
     minPlayers: 3,
     maxPlayers: 8,
     url: "https://jackboxgames.com/civic-doodle",
@@ -178,7 +178,7 @@ export default [
   },
   {
     name: "Survive the Internet",
-    pack: "4",
+    pack: "The Jackbox Party Pack 4",
     minPlayers: 3,
     maxPlayers: 8,
     url: "https://jackboxgames.com/survive-the-internet",
@@ -188,7 +188,7 @@ export default [
   },
   {
     name: "Bracketeering",
-    pack: "4",
+    pack: "The Jackbox Party Pack 4",
     minPlayers: 3,
     maxPlayers: 16,
     url: "https://jackboxgames.com/bracketeering",
@@ -198,7 +198,7 @@ export default [
   },
   {
     name: "You Don't Know Jack - Full Stream",
-    pack: "5",
+    pack: "The Jackbox Party Pack 5",
     minPlayers: 1,
     maxPlayers: 8,
     url: "https://jackboxgames.com/ydkj-full-stream",
@@ -208,7 +208,7 @@ export default [
   },
   {
     name: "Split The Room",
-    pack: "5",
+    pack: "The Jackbox Party Pack 5",
     minPlayers: 3,
     maxPlayers: 8,
     url: "https://jackboxgames.com/split-the-room",
@@ -218,7 +218,7 @@ export default [
   },
   {
     name: "Mad Verse City",
-    pack: "5",
+    pack: "The Jackbox Party Pack 5",
     minPlayers: 3,
     maxPlayers: 8,
     url: "https://jackboxgames.com/mad-verse-city",
@@ -228,7 +228,7 @@ export default [
   },
   {
     name: "Patently Stupid",
-    pack: "5",
+    pack: "The Jackbox Party Pack 5",
     minPlayers: 3,
     maxPlayers: 8,
     url: "https://jackboxgames.com/patently-stupid",
@@ -238,7 +238,7 @@ export default [
   },
   {
     name: "Zeeple Dome",
-    pack: "5",
+    pack: "The Jackbox Party Pack 5",
     minPlayers: 1,
     maxPlayers: 6,
     url: "https://jackboxgames.com/zeeple-dome",
@@ -248,7 +248,7 @@ export default [
   },
   {
     name: "Trivia Murder Party 2",
-    pack: "6",
+    pack: "The Jackbox Party Pack 6",
     minPlayers: 1,
     maxPlayers: 8,
     url: "https://jackboxgames.com/trivia-murder-party-two/",
@@ -258,7 +258,7 @@ export default [
   },
   {
     name: "Role Models",
-    pack: "6",
+    pack: "The Jackbox Party Pack 6",
     minPlayers: 3,
     maxPlayers: 6,
     url: "https://jackboxgames.com/role-models/",
@@ -268,7 +268,7 @@ export default [
   },
   {
     name: "Joke Boat",
-    pack: "6",
+    pack: "The Jackbox Party Pack 6",
     minPlayers: 3,
     maxPlayers: 8,
     url: "https://jackboxgames.com/joke-boat/",
@@ -278,7 +278,7 @@ export default [
   },
   {
     name: "Dictionarium",
-    pack: "6",
+    pack: "The Jackbox Party Pack 6",
     minPlayers: 3,
     maxPlayers: 8,
     url: "https://jackboxgames.com/dictionarium/",
@@ -288,7 +288,7 @@ export default [
   },
   {
     name: "Push The Button",
-    pack: "6",
+    pack: "The Jackbox Party Pack 6",
     minPlayers: 4,
     maxPlayers: 10,
     url: "https://jackboxgames.com/push-the-button/",
@@ -298,7 +298,7 @@ export default [
   },
   {
     name: "Drawful 2",
-    pack: "",
+    pack: "Standalone Title",
     minPlayers: 3,
     maxPlayers: 8,
     url: "https://jackboxgames.com/drawful-two/",
@@ -307,7 +307,7 @@ export default [
   },
   {
     name: "Fibbage",
-    pack: "",
+    pack: "Standalone Title",
     minPlayers: 2,
     maxPlayers: 8,
     url: "https://www.jackboxgames.com/fibbage/",
@@ -316,7 +316,7 @@ export default [
   },
   {
     name: "Quiplash",
-    pack: "",
+    pack: "Standalone Title",
     minPlayers: 3,
     maxPlayers: 8,
     url: "https://www.jackboxgames.com/quiplash/",
@@ -324,7 +324,7 @@ export default [
   },
   {
     name: "You Don't Know Jack - Classic Bundle",
-    pack: "",
+    pack: "Standalone Title",
     minPlayers: 3,
     maxPlayers: 8,
     url: "https://www.jackboxgames.com/ydkj-classic-bundle/",
