@@ -12,8 +12,7 @@ function GamesTable({playerCount}) {
             <tr>
                 <th>Name</th>
                 <th>Pack</th>
-                <th>Min</th>
-                <th>Max</th>
+                <th>Players</th>
                 <th>Description</th>
             </tr>
             </thead>
@@ -23,8 +22,7 @@ function GamesTable({playerCount}) {
                     <tr key={game.name}>
                         <td><a href={game.url}>{game.name}</a></td>
                         <td>{game.pack}</td>
-                        <td>{game.minPlayers}</td>
-                        <td>{game.maxPlayers}</td>
+                        <td>{game.minPlayers} - {game.maxPlayers}</td>
                         <td>{game.description}</td>
                     </tr>
                 )
