@@ -33,12 +33,12 @@ function App() {
           className="mb-4"
         >
           {buttonValues.map((button) => (
-            <ToggleButton key={button.count} value={button.count}>{button.label}</ToggleButton>
+            <ToggleButton key={button.count} value={button.count}>
+              {button.label}
+            </ToggleButton>
           ))}
         </ToggleButtonGroup>
       </div>
-
-      <h2 className="text-center">You can play the following:</h2>
 
       <GamesTable playerCount={players} />
 
@@ -46,7 +46,7 @@ function App() {
         <a href="https://github.com/spilth/jackbox-decider">
           https://github.com/spilth/jackbox-decider
         </a>
-       </h6>
+      </h6>
     </div>
   );
 }
