@@ -7,6 +7,19 @@ import ToggleButtonGroup from "react-bootstrap/ToggleButtonGroup";
 function App() {
   const [players, setPlayers] = useState(3);
 
+  const buttonValues = [
+    { label: "1", count: 1 },
+    { label: "2", count: 2 },
+    { label: "3", count: 3 },
+    { label: "4", count: 4 },
+    { label: "5", count: 5 },
+    { label: "6", count: 6 },
+    { label: "7", count: 7 },
+    { label: "8", count: 8 },
+    { label: "9+", count: 9 },
+    { label: "17+", count: 17 },
+  ];
+
   return (
     <div>
       <h1 className="text-center">Jackbox Decider</h1>
@@ -19,18 +32,13 @@ function App() {
           onChange={(val) => setPlayers(val)}
           className="mb-4"
         >
-          <ToggleButton value={1}>1</ToggleButton>
-          <ToggleButton value={2}>2</ToggleButton>
-          <ToggleButton value={3}>3</ToggleButton>
-          <ToggleButton value={4}>4</ToggleButton>
-          <ToggleButton value={5}>5</ToggleButton>
-          <ToggleButton value={6}>6</ToggleButton>
-          <ToggleButton value={7}>7</ToggleButton>
-          <ToggleButton value={8}>8</ToggleButton>
-          <ToggleButton value={9}>9+</ToggleButton>
-          <ToggleButton value={17}>17+</ToggleButton>
+          {buttonValues.map((button) => (
+            <ToggleButton value={button.count}>{button.label}</ToggleButton>
+          ))}
         </ToggleButtonGroup>
       </div>
+
+      <h2 className="text-center">You can play the following games:</h2>
 
       <GamesTable playerCount={players} />
     </div>
