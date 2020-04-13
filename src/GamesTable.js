@@ -24,7 +24,7 @@ function GamesTable({ playerCount }) {
         <thead>
           <tr>
             <th>Name</th>
-            <th className="d-none d-sm-table-cell">Party Pack</th>
+            <th className="d-none d-md-table-cell">Party Pack</th>
             <th>
               <span className="d-none d-sm-table-cell">Players</span>{" "}
               <FontAwesomeIcon icon={faUsers} fixedWidth />
@@ -43,7 +43,7 @@ function GamesTable({ playerCount }) {
               <span className="d-none d-sm-table-cell">Extended Timers</span>{" "}
               <FontAwesomeIcon icon={faStopwatch} fixedWidth />
             </th>
-            <th className="d-none d-sm-table-cell">Description</th>
+            <th className="d-none d-md-table-cell">Description</th>
           </tr>
         </thead>
         <tbody>
@@ -53,7 +53,7 @@ function GamesTable({ playerCount }) {
                 <td>
                   <a href={game.url}>{game.name}</a>
                 </td>
-                <td className="d-none d-sm-table-cell">
+                <td className="d-none d-md-table-cell">
                   <a href={game.pack_url}>{game.pack}</a>
                 </td>
                 <td>
@@ -80,7 +80,7 @@ function GamesTable({ playerCount }) {
                     <FontAwesomeIcon icon={faTimes} fixedWidth color="red" />
                   )}
                 </td>
-                <td className="d-none d-sm-table-cell">{game.description}</td>
+                <td className="d-none d-md-table-cell">{game.description}</td>
               </tr>
             );
           })}
