@@ -8,6 +8,10 @@ export default [
     description:
       "The comedy trivia sensation with hundreds of all-new questions.",
     pack_url: "https://www.jackboxgames.com/party-pack/",
+    duration: "20 Minutes",
+    familyFriendlySetting: false,
+    manualCensoring: false,
+    extendedTimers: false,
   },
   {
     name: "Lie Swatter",
@@ -17,6 +21,11 @@ export default [
     url: "https://jackboxgames.com/lie-swatter",
     description: "The wacky-fact-filled Lie Swatter.",
     pack_url: "https://www.jackboxgames.com/party-pack/",
+    duration: "20 Minutes",
+    familyFriendlySetting: false,
+    manualCensoring: false,
+    extendedTimers: false,
+
   },
   {
     name: "Fibbage XL",
@@ -27,6 +36,10 @@ export default [
     description:
       "The hilarious bluffing game with 50% more questions added to the original hit.",
     pack_url: "https://www.jackboxgames.com/party-pack/",
+    duration: "15-20 Minutes",
+    familyFriendlySetting: true,
+    manualCensoring: false,
+    extendedTimers: false,
   },
   {
     name: "Word Spud",
@@ -36,6 +49,11 @@ export default [
     url: "https://jackboxgames.com/word-spud",
     description: "The racy-as-you-want-to-be fill-in-the-blank word game.",
     pack_url: "https://www.jackboxgames.com/party-pack/",
+    duration: "Unlimited",
+    familyFriendlySetting: false,
+    manualCensoring: false,
+    extendedTimers: false,
+
   },
   {
     name: "Drawful",
@@ -46,6 +64,10 @@ export default [
     description:
       "The bizarre drawing game where you draw right there on your phone or tablet.",
     pack_url: "https://www.jackboxgames.com/party-pack/",
+    duration: "15-20 Minutes",
+    familyFriendlySetting: true,
+    manualCensoring: true,
+    extendedTimers: true,
   },
   {
     name: "Bomb Corp.",
@@ -56,6 +78,10 @@ export default [
     description:
       "The bomb-defusing nailbiter of a party game! As interns at Bomb Corp., you must defuse random bombs in the office in order to keep your jobs. You’ll probably die, but it’ll be good work experience!",
     pack_url: "https://www.jackboxgames.com/party-pack-two/",
+    duration: "15-20 Minutes",
+    familyFriendlySetting: true,
+    manualCensoring: true,
+    extendedTimers: true,
   },
   {
     name: "Fibbage 2",
@@ -66,6 +92,11 @@ export default [
     description:
       "The runaway hit bluffing game with over 500 brand-new questions, more than 2x the original! Plus new features, like the deFIBrillator!",
     pack_url: "https://www.jackboxgames.com/party-pack-two/",
+    duration: "15-20 Minutes",
+    familyFriendlySetting: true,
+    manualCensoring: true,
+    extendedTimers: true,
+
   },
   {
     name: "Bidiots",
@@ -76,6 +107,11 @@ export default [
     description:
       "The absurd art auction game where you draw right there on your phone or tablet. Outbid your opponents for weird art pieces – drawn by players themselves – and win this strangely competitive auction game! Don’t be a bidiot!",
     pack_url: "https://www.jackboxgames.com/party-pack-two/",
+    duration: "15-20 Minutes",
+    familyFriendlySetting: true,
+    manualCensoring: true,
+    extendedTimers: true,
+
   },
   {
     name: "Earwax",
@@ -86,6 +122,10 @@ export default [
     description:
       "The hear-larious sound-effects game that will leave you up to your ears in laughter! Cow moo? Huge explosion? Or tiny fart? Which to choose?",
     pack_url: "https://www.jackboxgames.com/party-pack-two/",
+    duration: "15-20 Minutes",
+    familyFriendlySetting: true,
+    manualCensoring: true,
+    extendedTimers: true,
   },
   {
     name: "Quiplash XL",
@@ -96,6 +136,10 @@ export default [
     description:
       "The say-anything, gut-busting Quiplash XL, which includes everything in Quiplash, Quip Pack 1, AND over 100 brand-new prompts!",
     pack_url: "https://www.jackboxgames.com/party-pack-two/",
+    duration: "15-20 Minutes",
+    familyFriendlySetting: true,
+    manualCensoring: true,
+    extendedTimers: true,
   },
   {
     name: "Trivia Murder Party",
@@ -106,6 +150,10 @@ export default [
     description:
       "A deadly quiz show where you match wits with a trivia-obsessed killer.",
     pack_url: "https://www.jackboxgames.com/party-pack-three/",
+    duration: "15-20 Minutes",
+    familyFriendlySetting: false,
+    manualCensoring: false,
+    extendedTimers: true,
   },
   {
     name: "Guesspionage",
@@ -115,6 +163,10 @@ export default [
     url: "https://jackboxgames.com/guesspionage",
     description: "The brain-battering data-mining guessing game.",
     pack_url: "https://www.jackboxgames.com/party-pack-three/",
+    duration: "10-15 Minutes",
+    familyFriendlySetting: true,
+    manualCensoring: true,
+    extendedTimers: true,
   },
   {
     name: "Fakin' It",
@@ -125,6 +177,10 @@ export default [
     description:
       "One of your friends has something to hide in this sneaky game for tricksters.",
     pack_url: "https://www.jackboxgames.com/party-pack-three/",
+    duration: "15-20 Minutes",
+    familyFriendlySetting: true,
+    manualCensoring: true,
+    extendedTimers: false,
   },
   {
     name: "Quiplash 2",
@@ -135,6 +191,10 @@ export default [
     description:
       "The say-anything sequel. Play all new questions or make your own!",
     pack_url: "https://www.jackboxgames.com/party-pack-three/",
+    duration: "15 Minutes",
+    familyFriendlySetting: true,
+    manualCensoring: true,
+    extendedTimers: true,
   },
   {
     name: "Tee K.O.",
@@ -145,6 +205,10 @@ export default [
     description:
       "The t-shirt slugfest where you battle your custom t-shirts to the death!",
     pack_url: "https://www.jackboxgames.com/party-pack-three/",
+    duration: "30 Minutes",
+    familyFriendlySetting: true,
+    manualCensoring: true,
+    extendedTimers: true,
   },
   {
     name: "Fibbage 3",
@@ -155,6 +219,10 @@ export default [
     description:
       "The blanking fun sequel with all-new question types and the game mode Fibbage: Enough About You where you guess the weird facts about your friends.",
     pack_url: "https://www.jackboxgames.com/party-pack-four/",
+    duration: "15-20 Minutes",
+    familyFriendlySetting: true,
+    manualCensoring: true,
+    extendedTimers: true,
   },
   {
     name: "Monster Seeking Monster",
@@ -165,6 +233,10 @@ export default [
     description:
       "The spooky date-a-thon where you message and date fellow monsters with special powers.",
     pack_url: "https://www.jackboxgames.com/party-pack-four/",
+    duration: "15-20 Minutes",
+    familyFriendlySetting: true,
+    manualCensoring: true,
+    extendedTimers: true,
   },
   {
     name: "Civic Doodle",
@@ -175,6 +247,10 @@ export default [
     description:
       "The one-up art game where you compete to improve the town murals. Play using your phones, tablets or computers. No extra controllers needed! Plus EVEN MORE features just for streamers!",
     pack_url: "https://www.jackboxgames.com/party-pack-four/",
+    duration: "20 Minutes",
+    familyFriendlySetting: true,
+    manualCensoring: true,
+    extendedTimers: true,
   },
   {
     name: "Survive the Internet",
@@ -185,6 +261,10 @@ export default [
     description:
       "The web-based frame game where you twist your friends’ “online” comments in hilarious ways.",
     pack_url: "https://www.jackboxgames.com/party-pack-four/",
+    duration: "20 Minutes",
+    familyFriendlySetting: true,
+    manualCensoring: true,
+    extendedTimers: true,
   },
   {
     name: "Bracketeering",
@@ -195,6 +275,10 @@ export default [
     description:
       "The deranged debate match where you place smart bets on stupid arguments.",
     pack_url: "https://www.jackboxgames.com/party-pack-four/",
+    duration: "15-20 Minutes",
+    familyFriendlySetting: true,
+    manualCensoring: true,
+    extendedTimers: true,
   },
   {
     name: "You Don't Know Jack - Full Stream",
@@ -205,6 +289,10 @@ export default [
     description:
       "The pop-culture trivia mash-up YOU DON’T KNOW JACK: Full Stream. The classic returns, full of wild new surprises.",
     pack_url: "https://www.jackboxgames.com/party-pack-five/",
+    duration: "15-20 Minutes",
+    familyFriendlySetting: false,
+    manualCensoring: true,
+    extendedTimers: true,
   },
   {
     name: "Split The Room",
@@ -215,6 +303,10 @@ export default [
     description:
       "The what-if game Split the Room. Create strange and divisive hypothetical situations.",
     pack_url: "https://www.jackboxgames.com/party-pack-five/",
+    duration: "15 Minutes",
+    familyFriendlySetting: true,
+    manualCensoring: true,
+    extendedTimers: true,
   },
   {
     name: "Mad Verse City",
@@ -225,6 +317,10 @@ export default [
     description:
       "The lyric-writing game Mad Verse City. Channel your inner MC as a rap battling robot.",
     pack_url: "https://www.jackboxgames.com/party-pack-five/",
+    duration: "15-20 Minutes",
+    familyFriendlySetting: true,
+    manualCensoring: true,
+    extendedTimers: true,
   },
   {
     name: "Patently Stupid",
@@ -235,6 +331,10 @@ export default [
     description:
       "The competitive drawing game Patently Stupid. Create odd inventions to solve bizarre problems.",
     pack_url: "https://www.jackboxgames.com/party-pack-five/",
+    duration: "20 Minutes",
+    familyFriendlySetting: false,
+    manualCensoring: true,
+    extendedTimers: true,
   },
   {
     name: "Zeeple Dome",
@@ -245,6 +345,10 @@ export default [
     description:
       "The deadliest game show in the Crab Nebula, Zeeple Dome! Fling yourself at bloodthirsty aliens to win millions of Zubabucks!",
     pack_url: "https://www.jackboxgames.com/party-pack-five/",
+    duration: "10+ Minutes",
+    familyFriendlySetting: false,
+    manualCensoring: false,
+    extendedTimers: false,
   },
   {
     name: "Trivia Murder Party 2",
@@ -255,6 +359,10 @@ export default [
     description:
       "The popular trivia deathmatch Trivia Murder Party 2. Try to survive the bizarre new minigames.",
     pack_url: "https://www.jackboxgames.com/party-pack-six/",
+    duration: "15-25 Minutes",
+    familyFriendlySetting: false,
+    manualCensoring: false,
+    extendedTimers: true,
   },
   {
     name: "Role Models",
@@ -265,6 +373,10 @@ export default [
     description:
       "The offbeat personality test Role Models. Find out who you really are. (Or at least what your friends think of you.)",
     pack_url: "https://www.jackboxgames.com/party-pack-six/",
+    duration: "15 Minutes",
+    familyFriendlySetting: true,
+    manualCensoring: true,
+    extendedTimers: true,
   },
   {
     name: "Joke Boat",
@@ -275,6 +387,10 @@ export default [
     description:
       "The comedy contest Joke Boat. Craft one-liners for a cruise ship talent show.",
     pack_url: "https://www.jackboxgames.com/party-pack-six/",
+    duration: "15-25 Minutes",
+    familyFriendlySetting: true,
+    manualCensoring: true,
+    extendedTimers: true,
   },
   {
     name: "Dictionarium",
@@ -285,6 +401,10 @@ export default [
     description:
       "The weird word circus Dictionarium. May the funniest definition win.",
     pack_url: "https://www.jackboxgames.com/party-pack-six/",
+    duration: "10 Minutes",
+    familyFriendlySetting: true,
+    manualCensoring: true,
+    extendedTimers: true,
   },
   {
     name: "Push The Button",
@@ -295,6 +415,10 @@ export default [
     description:
       "The hidden identity game Push The Button. Can you discover the aliens in time? ",
     pack_url: "https://www.jackboxgames.com/party-pack-six/",
+    duration: "Varies by player count",
+    familyFriendlySetting: true,
+    manualCensoring: true,
+    extendedTimers: false,
   },
   {
     name: "Drawful 2",
@@ -304,6 +428,10 @@ export default [
     url: "https://jackboxgames.com/drawful-two/",
     description:
       "Your phones or tablets are your controllers! The game of terrible drawings and hilariously wrong answers.",
+    duration: "15-20 Minutes",
+    familyFriendlySetting: true,
+    manualCensoring: true,
+    extendedTimers: true,
   },
   {
     name: "Fibbage",
@@ -313,6 +441,10 @@ export default [
     url: "https://www.jackboxgames.com/fibbage/",
     description:
       "Fibbage is the lying, bluffing, fib-till-you-win trivia party game from the makers of YOU DON’T KNOW JACK! Fool your friends with your lies, avoid theirs, and find the (usually outrageous) truth. And get this: your phone or tablet is your controller!",
+    duration: "15-20 Minutes",
+    familyFriendlySetting: false,
+    manualCensoring: false,
+    extendedTimers: false,
   },
   {
     name: "Quiplash",
@@ -321,6 +453,10 @@ export default [
     maxPlayers: 8,
     url: "https://www.jackboxgames.com/quiplash/",
     description: "Quiplash is the gut-busting battle of wits and wittiness!",
+    duration: "15 Minutes",
+    familyFriendlySetting: true,
+    manualCensoring: true,
+    extendedTimers: true,
   },
   {
     name: "You Don't Know Jack - Classic Bundle",
@@ -330,5 +466,21 @@ export default [
     url: "https://www.jackboxgames.com/ydkj-classic-bundle/",
     description:
       "Since 1995, Jackbox Games (formerly Jellyvision) has been making YOU DON’T KNOW JACK, the hit comedy trivia series where high culture and pop culture collide. And we refuse to stop until every human being has played it.",
+    duration: "25 Minutes",
+    familyFriendlySetting: false,
+    manualCensoring: false,
+    extendedTimers: false,
   },
+  {
+    name: "Quiplash 2 InterLASHional",
+    pack: "Standalone Title",
+    minPlayers: 3,
+    maxPlayers: 8,
+    url: "https://www.jackboxgames.com/quiplash-two-interlashional/",
+    description: "The “say anything” party game is going international! All the hilarious content from Quiplash 2, now in French, Italian, German, and Spanish! With 100 NEW prompts in each language! (And you can still play in boring old English.) Get this QUINTILINGUAL Quiplash now, and take your next party global!",
+    duration: "15 Minutes",
+    familyFriendlySetting: true,
+    manualCensoring: true,
+    extendedTimers: true,
+  }
 ];

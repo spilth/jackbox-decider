@@ -1,5 +1,14 @@
 import React from "react";
 import games from "./games";
+import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
+import {
+  faBan,
+  faCheck,
+  faChild,
+  faStopwatch,
+  faTimes,
+  faUsers,
+} from "@fortawesome/free-solid-svg-icons";
 
 function GamesTable({ playerCount }) {
   let filteredGames = games.filter((game) => {
@@ -15,8 +24,25 @@ function GamesTable({ playerCount }) {
         <thead>
           <tr>
             <th>Name</th>
-            <th>Party Pack</th>
-            <th>Players</th>
+            <th className="d-none d-sm-table-cell">Party Pack</th>
+            <th>
+              <span className="d-none d-sm-table-cell">Players</span>{" "}
+              <FontAwesomeIcon icon={faUsers} fixedWidth />
+            </th>
+            <th className="text-center">
+              <span className="d-none d-sm-table-cell">
+                Family Friendly Setting
+              </span>{" "}
+              <FontAwesomeIcon icon={faChild} fixedWidth />
+            </th>
+            <th className="text-center">
+              <span className="d-none d-sm-table-cell">Manual Censoring</span>{" "}
+              <FontAwesomeIcon icon={faBan} fixedWidth />
+            </th>
+            <th className="text-center">
+              <span className="d-none d-sm-table-cell">Extended Timers</span>{" "}
+              <FontAwesomeIcon icon={faStopwatch} fixedWidth />
+            </th>
             <th className="d-none d-sm-table-cell">Description</th>
           </tr>
         </thead>
@@ -27,11 +53,32 @@ function GamesTable({ playerCount }) {
                 <td>
                   <a href={game.url}>{game.name}</a>
                 </td>
-                <td>
+                <td className="d-none d-sm-table-cell">
                   <a href={game.pack_url}>{game.pack}</a>
                 </td>
                 <td>
-                  {game.minPlayers} - {game.maxPlayers}
+                  {game.minPlayers}-{game.maxPlayers}
+                </td>
+                <td className="text-center">
+                  {game.familyFriendlySetting ? (
+                    <FontAwesomeIcon icon={faCheck} fixedWidth color="green" />
+                  ) : (
+                    <FontAwesomeIcon icon={faTimes} fixedWidth color="red" />
+                  )}
+                </td>
+                <td className="text-center">
+                  {game.manualCensoring ? (
+                    <FontAwesomeIcon icon={faCheck} fixedWidth color="green" />
+                  ) : (
+                    <FontAwesomeIcon icon={faTimes} fixedWidth color="red" />
+                  )}
+                </td>
+                <td className="text-center">
+                  {game.extendedTimers ? (
+                    <FontAwesomeIcon icon={faCheck} fixedWidth color="green" />
+                  ) : (
+                    <FontAwesomeIcon icon={faTimes} fixedWidth color="red" />
+                  )}
                 </td>
                 <td className="d-none d-sm-table-cell">{game.description}</td>
               </tr>
