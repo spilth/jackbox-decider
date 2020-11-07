@@ -1,10 +1,9 @@
 import React, { useState } from "react";
-import "./App.css";
 import GamesTable from "./GamesTable";
 import ToggleButton from "react-bootstrap/ToggleButton";
 import ToggleButtonGroup from "react-bootstrap/ToggleButtonGroup";
 
-function App() {
+const App = () => {
   const [players, setPlayers] = useState(3);
 
   const buttonValues = [
@@ -49,6 +48,6 @@ function App() {
       </h6>
     </div>
   );
-}
+};
 
 export default App;

@@ -10,7 +10,7 @@ import {
   faUsers,
 } from "@fortawesome/free-solid-svg-icons";
 
-function GamesTable({ playerCount }) {
+const GamesTable = ({ playerCount }) => {
   let filteredGames = games.filter((game) => {
     return playerCount >= game.minPlayers && playerCount <= game.maxPlayers;
   });
@@ -88,6 +88,6 @@ function GamesTable({ playerCount }) {
       </table>
     </div>
   );
-}
+};
 
 export default GamesTable;
