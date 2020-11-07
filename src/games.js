@@ -1,4 +1,4 @@
-export default [
+const games = [
   {
     name: "You Don't Know Jack - 2015",
     pack: "The Jackbox Party Pack",
@@ -551,3 +551,5 @@ export default [
     extendedTimers: true,
   },
 ];
+
+export default games;
