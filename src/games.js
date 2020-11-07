@@ -25,7 +25,6 @@ export default [
     familyFriendlySetting: false,
     manualCensoring: false,
     extendedTimers: false,
-
   },
   {
     name: "Fibbage XL",
@@ -53,7 +52,6 @@ export default [
     familyFriendlySetting: false,
     manualCensoring: false,
     extendedTimers: false,
-
   },
   {
     name: "Drawful",
@@ -96,7 +94,6 @@ export default [
     familyFriendlySetting: true,
     manualCensoring: true,
     extendedTimers: true,
-
   },
   {
     name: "Bidiots",
@@ -111,7 +108,6 @@ export default [
     familyFriendlySetting: true,
     manualCensoring: true,
     extendedTimers: true,
-
   },
   {
     name: "Earwax",
@@ -413,11 +409,81 @@ export default [
     maxPlayers: 10,
     url: "https://jackboxgames.com/push-the-button/",
     description:
-      "The hidden identity game Push The Button. Can you discover the aliens in time? ",
+      "The hidden identity game Push The Button. Can you discover the aliens in time?",
     pack_url: "https://www.jackboxgames.com/party-pack-six/",
     duration: "Varies by player count",
     familyFriendlySetting: true,
     manualCensoring: true,
+    extendedTimers: false,
+  },
+  {
+    name: "Quiplash 3",
+    pack: "The Jackbox Party Pack 7",
+    minPlayers: 3,
+    maxPlayers: 8,
+    url: "https://www.jackboxgames.com/quiplash-three/",
+    description:
+      "The say-anything threequel Quiplash 3 (3-8 players). It’s a head-to-head battle of the wits as you give hilarious responses to quirky prompts while everyone else votes for their favorite!",
+    pack_url: "https://www.jackboxgames.com/party-pack-seven/",
+    duration: "~15 minutes",
+    familyFriendlySetting: true,
+    manualCensoring: true,
+    extendedTimers: true,
+  },
+  {
+    name: "The Devils and the Details",
+    pack: "The Jackbox Party Pack 7",
+    minPlayers: 3,
+    maxPlayers: 8,
+    url: "https://www.jackboxgames.com/the-devils-and-the-details/",
+    description:
+      "The collaborative chaos game The Devils and the Details (3-8 players). You’re a family of devils working together to survive in suburbia. Can you handle the daily torture of human life?",
+    pack_url: "https://www.jackboxgames.com/party-pack-seven/",
+    duration: "~15 minutes",
+    familyFriendlySetting: true,
+    manualCensoring: false,
+    extendedTimers: false,
+  },
+  {
+    name: "Champ’d Up",
+    pack: "The Jackbox Party Pack 7",
+    minPlayers: 3,
+    maxPlayers: 8,
+    url: "https://www.jackboxgames.com/champd-up/",
+    description:
+      "The drawing fighting game Champ’d Up (3-8 players). Create absurd characters that will battle over unusual titles. Can you take down the heavy favorite?",
+    pack_url: "https://www.jackboxgames.com/party-pack-seven/",
+    duration: "~20 minutes",
+    familyFriendlySetting: true,
+    manualCensoring: true,
+    extendedTimers: true,
+  },
+  {
+    name: "Talking Points",
+    pack: "The Jackbox Party Pack 7",
+    minPlayers: 3,
+    maxPlayers: 8,
+    url: "https://www.jackboxgames.com/talking-points/",
+    description:
+      "The on-the-spot public-speaking game Talking Points (3-8 players). Give a speech responding to picture slides you’ve never seen before or be the Assistant and approve pictures as fast as you can. Just keep talking whether it makes sense or not.",
+    pack_url: "https://www.jackboxgames.com/party-pack-seven/",
+    duration: "20-40 minutes",
+    familyFriendlySetting: true,
+    manualCensoring: true,
+    extendedTimers: true,
+  },
+  {
+    name: "Blather ‘Round",
+    pack: "The Jackbox Party Pack 7",
+    minPlayers: 2,
+    maxPlayers: 6,
+    url: "https://www.jackboxgames.com/blather-round/",
+    description:
+      "The pop culture guessing game Blather Round (2-6 players). Describe your secret prompt with a very limited vocabulary and hope that someone can figure it out in time. It’s a “GOOD” “FUN TIME” “EXPERIENCE.”",
+    pack_url: "https://www.jackboxgames.com/party-pack-seven/",
+    duration: "15-30 minutes",
+    familyFriendlySetting: true,
+    manualCensoring: false,
     extendedTimers: false,
   },
   {
@@ -477,10 +543,11 @@ export default [
     minPlayers: 3,
     maxPlayers: 8,
     url: "https://www.jackboxgames.com/quiplash-two-interlashional/",
-    description: "The “say anything” party game is going international! All the hilarious content from Quiplash 2, now in French, Italian, German, and Spanish! With 100 NEW prompts in each language! (And you can still play in boring old English.) Get this QUINTILINGUAL Quiplash now, and take your next party global!",
+    description:
+      "The “say anything” party game is going international! All the hilarious content from Quiplash 2, now in French, Italian, German, and Spanish! With 100 NEW prompts in each language! (And you can still play in boring old English.) Get this QUINTILINGUAL Quiplash now, and take your next party global!",
     duration: "15 Minutes",
     familyFriendlySetting: true,
     manualCensoring: true,
     extendedTimers: true,
-  }
+  },
 ];
