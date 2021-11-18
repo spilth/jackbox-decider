@@ -45,18 +45,25 @@ export const columns = [
   {
     id: "playerCount",
     Header: (
+      <>
       <span>
-        Players <FontAwesomeIcon icon={faUsers} fixedWidth />
+        Players{" "}
       </span>
+      <FontAwesomeIcon icon={faUsers} fixedWidth />
+      </>
+
     ),
     accessor: (game) => `${game.minPlayers}-${game.maxPlayers}`,
     className: "d-none d-sm-table-cell"
   },
   {
     Header: (
-      <span className="d-none d-sm-table-cell">
-        Family Friendly Setting <FontAwesomeIcon icon={faChild} fixedWidth />
-      </span>
+      <>
+        <span className="d-none d-sm-table-cell">
+          Family Friendly Setting{" "}
+        </span>
+        <FontAwesomeIcon icon={faChild} fixedWidth />
+      </>
     ),
     accessor: "familyFriendlySetting",
     className: "text-center",
@@ -65,9 +72,12 @@ export const columns = [
   },
   {
     Header: (
-      <span className="d-none d-sm-table-cell">
-        Manual Censoring <FontAwesomeIcon icon={faBan} fixedWidth />
-      </span>
+      <>
+        <span className="d-none d-sm-table-cell">
+          Manual Censoring{" "}
+        </span>
+        <FontAwesomeIcon icon={faBan} fixedWidth />
+      </>
     ),
     accessor: "manualCensoring",
     className: "text-center",
@@ -76,9 +86,12 @@ export const columns = [
   },
   {
     Header: (
-      <span className="d-none d-sm-table-cell">
-        Extended Timers <FontAwesomeIcon icon={faStopwatch} fixedWidth />
-      </span>
+      <>
+        <span className="d-none d-sm-table-cell">
+          Extended Timers{" "}
+        </span>
+        <FontAwesomeIcon icon={faStopwatch} fixedWidth />
+      </>
     ),
     accessor: "extendedTimers",
     Cell: BoolCell,
