@@ -40,6 +40,7 @@ export const columns = [
         </a>
       );
     },
+    className: "d-none d-md-table-cell"
   },
   {
     id: "playerCount",
@@ -49,10 +50,11 @@ export const columns = [
       </span>
     ),
     accessor: (game) => `${game.minPlayers}-${game.maxPlayers}`,
+    className: "d-none d-sm-table-cell"
   },
   {
     Header: (
-      <span>
+      <span className="d-none d-sm-table-cell">
         Family Friendly Setting <FontAwesomeIcon icon={faChild} fixedWidth />
       </span>
     ),
@@ -63,7 +65,7 @@ export const columns = [
   },
   {
     Header: (
-      <span>
+      <span className="d-none d-sm-table-cell">
         Manual Censoring <FontAwesomeIcon icon={faBan} fixedWidth />
       </span>
     ),
@@ -74,7 +76,7 @@ export const columns = [
   },
   {
     Header: (
-      <span>
+      <span className="d-none d-sm-table-cell">
         Extended Timers <FontAwesomeIcon icon={faStopwatch} fixedWidth />
       </span>
     ),
@@ -85,5 +87,6 @@ export const columns = [
   {
     Header: "Description",
     accessor: "description",
+    className: "d-none d-md-table-cell",
   },
 ];
