@@ -50,6 +50,7 @@ export const columns = [
     accessor: "familyFriendlySetting",
     className: "text-center",
     Cell: BoolCell,
+    sortType: "basic"
   },
   {
     Header: (
@@ -58,6 +59,7 @@ export const columns = [
     accessor: "manualCensoring",
     className: "text-center",
     Cell: BoolCell,
+    sortType: "basic"
   },
   {
     Header: (
@@ -65,6 +67,7 @@ export const columns = [
     ),
     accessor: "extendedTimers",
     Cell: BoolCell,
+    sortType: "basic"
   },
   {
     Header: "Description",

@@ -1,5 +1,5 @@
 import React from "react";
-import { useTable } from "react-table";
+import { useTable, useSortBy } from "react-table";
 import { columns } from "./columns";
 
 const GamesTable = ({ games }) => {
@@ -12,7 +12,8 @@ const GamesTable = ({ games }) => {
   } = useTable({
     columns,
     data: games,
-  })
+    defaultCanSort: true
+  }, useSortBy)
 
   return (
     <table className="table table-striped table-borderless" {...getTableProps()}>
@@ -20,7 +21,15 @@ const GamesTable = ({ games }) => {
         {headerGroups.map(headerGroup => (
           <tr {...headerGroup.getHeaderGroupProps()}>
             {headerGroup.headers.map(column => (
-              <th {...column.getHeaderProps({ className: column.className })}>{column.render('Header')}</th>
+              <th {...column.getHeaderProps(column.getSortByToggleProps({ className: column.className }))}>{column.render('Header')}
+              <span>
+                    {column.isSorted
+                      ? column.isSortedDesc
+                        ? ' 🔽'
+                        : ' 🔼'
+                      : ''}
+                  </span>
+              </th>
             ))}
           </tr>
         ))}
