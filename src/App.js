@@ -1,5 +1,6 @@
-import React, { useState } from "react";
+import React, { useMemo, useState } from "react";
 import GamesTable from "./GamesTable";
+import games from "./games";
 import ToggleButton from "react-bootstrap/ToggleButton";
 import ToggleButtonGroup from "react-bootstrap/ToggleButtonGroup";
 
@@ -18,6 +19,14 @@ const App = () => {
     { label: "9+", count: 9 },
     { label: "17+", count: 17 },
   ];
+
+  const filteredGames = useMemo(
+    () =>
+      games.filter((game) => {
+        return players >= game.minPlayers && players <= game.maxPlayers;
+      }),
+    [players]
+  );
 
   return (
     <div>
@@ -39,7 +48,12 @@ const App = () => {
         </ToggleButtonGroup>
       </div>
 
-      <GamesTable playerCount={players} />
+      <div>
+        <h2 className="text-center">
+          {filteredGames.length} game{filteredGames.length > 1 && "s"} to play!
+        </h2>
+        <GamesTable games={filteredGames} />
+      </div>
 
       <h6 className="text-center">
         <a href="https://github.com/spilth/jackbox-decider">
