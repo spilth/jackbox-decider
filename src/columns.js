@@ -40,7 +40,7 @@ export const columns = [
         </a>
       );
     },
-    className: "d-none d-md-table-cell"
+    className: "d-none d-md-table-cell",
   },
   {
     id: "playerCount",
@@ -50,7 +50,7 @@ export const columns = [
       </span>
     ),
     accessor: (game) => `${game.minPlayers}-${game.maxPlayers}`,
-    className: "d-none d-sm-table-cell"
+    className: "d-none d-sm-table-cell",
   },
   {
     Header: (

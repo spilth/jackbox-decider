@@ -1,10 +1,7 @@
 import React from "react";
 import { useTable, useSortBy } from "react-table";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
-import {
-  faSortUp,
-  faSortDown,
-} from "@fortawesome/free-solid-svg-icons";
+import { faSortUp, faSortDown } from "@fortawesome/free-solid-svg-icons";
 import { columns } from "./columns";
 
 const GamesTable = ({ games }) => {
@@ -34,13 +31,12 @@ const GamesTable = ({ games }) => {
               >
                 {column.render("Header")}
                 <span>
-                  {column.isSorted && (
-                     column.isSortedDesc ? (
-                       <FontAwesomeIcon icon={faSortDown} fixedWidth />
-                     ) : (
-                       <FontAwesomeIcon icon={faSortUp} fixedWidth />
-                     )
-                  )}
+                  {column.isSorted &&
+                    (column.isSortedDesc ? (
+                      <FontAwesomeIcon icon={faSortDown} fixedWidth />
+                    ) : (
+                      <FontAwesomeIcon icon={faSortUp} fixedWidth />
+                    ))}
                 </span>
               </th>
             ))}
