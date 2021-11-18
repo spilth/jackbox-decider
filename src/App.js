@@ -20,9 +20,13 @@ const App = () => {
     { label: "17+", count: 17 },
   ];
 
-  const filteredGames = useMemo(() => games.filter((game) => {
-    return players >= game.minPlayers && players <= game.maxPlayers
-  }), [players])
+  const filteredGames = useMemo(
+    () =>
+      games.filter((game) => {
+        return players >= game.minPlayers && players <= game.maxPlayers;
+      }),
+    [players]
+  );
 
   return (
     <div>
