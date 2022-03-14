@@ -46,12 +46,9 @@ export const columns = [
     id: "playerCount",
     Header: (
       <>
-      <span>
-        Players{" "}
-      </span>
-      <FontAwesomeIcon icon={faUsers} fixedWidth />
+        <span>Players </span>
+        <FontAwesomeIcon icon={faUsers} fixedWidth />
       </>
-
     ),
     accessor: (game) => `${game.minPlayers}-${game.maxPlayers}`,
     className: "d-none d-sm-table-cell",
@@ -59,9 +56,7 @@ export const columns = [
   {
     Header: (
       <>
-        <span className="d-none d-sm-table-cell">
-          Family Friendly Setting{" "}
-        </span>
+        <span className="d-none d-sm-table-cell">Family Friendly Setting </span>
         <FontAwesomeIcon icon={faChild} fixedWidth />
       </>
     ),
@@ -73,9 +68,7 @@ export const columns = [
   {
     Header: (
       <>
-        <span className="d-none d-sm-table-cell">
-          Manual Censoring{" "}
-        </span>
+        <span className="d-none d-sm-table-cell">Manual Censoring </span>
         <FontAwesomeIcon icon={faBan} fixedWidth />
       </>
     ),
@@ -87,9 +80,7 @@ export const columns = [
   {
     Header: (
       <>
-        <span className="d-none d-sm-table-cell">
-          Extended Timers{" "}
-        </span>
+        <span className="d-none d-sm-table-cell">Extended Timers </span>
         <FontAwesomeIcon icon={faStopwatch} fixedWidth />
       </>
     ),
