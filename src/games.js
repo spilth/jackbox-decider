@@ -1,6 +1,9 @@
 const games = [
   {
-    name: "You Don't Know Jack - 2015",
+    name: {
+      en: "You Don't Know Jack - 2015",
+      ru: "А голову ты не забыл? - 2015",
+    },
     pack: "The Jackbox Party Pack",
     minPlayers: 1,
     maxPlayers: 4,
@@ -14,7 +17,10 @@ const games = [
     extendedTimers: false,
   },
   {
-    name: "Lie Swatter",
+    name: {
+      en: "Lie Swatter",
+      ru: "Мухи-врухи",
+    },
     pack: "The Jackbox Party Pack",
     minPlayers: 1,
     maxPlayers: 100,
@@ -27,7 +33,10 @@ const games = [
     extendedTimers: false,
   },
   {
-    name: "Fibbage XL",
+    name: {
+      en: "Fibbage XL",
+      ru: "Бредовуха XL",
+    },
     pack: "The Jackbox Party Pack",
     minPlayers: 2,
     maxPlayers: 8,
@@ -41,7 +50,10 @@ const games = [
     extendedTimers: false,
   },
   {
-    name: "Word Spud",
+    name: {
+      en: "Word Spud",
+      ru: "Словоблуд",
+    },
     pack: "The Jackbox Party Pack",
     minPlayers: 2,
     maxPlayers: 8,
@@ -54,7 +66,10 @@ const games = [
     extendedTimers: false,
   },
   {
-    name: "Drawful",
+    name: {
+      en: "Drawful",
+      ru: "Рисовач",
+    },
     pack: "The Jackbox Party Pack",
     minPlayers: 3,
     maxPlayers: 8,
@@ -82,7 +97,10 @@ const games = [
     extendedTimers: true,
   },
   {
-    name: "Fibbage 2",
+    name: {
+      en: "Fibbage 2",
+      ru: "Бредовуха 2",
+    },
     pack: "The Jackbox Party Pack 2",
     minPlayers: 2,
     maxPlayers: 8,
@@ -96,7 +114,10 @@ const games = [
     extendedTimers: true,
   },
   {
-    name: "Bidiots",
+    name: {
+      en: "Bidiots",
+      ru: "Дуракцион",
+    },
     pack: "The Jackbox Party Pack 2",
     minPlayers: 3,
     maxPlayers: 6,
@@ -110,7 +131,10 @@ const games = [
     extendedTimers: true,
   },
   {
-    name: "Earwax",
+    name: {
+      en: "Earwax",
+      ru: "Звукварь",
+    },
     pack: "The Jackbox Party Pack 2",
     minPlayers: 3,
     maxPlayers: 8,
@@ -124,7 +148,10 @@ const games = [
     extendedTimers: true,
   },
   {
-    name: "Quiplash XL",
+    name: {
+      en: "Quiplash XL",
+      ru: "СмеXLыст",
+    },
     pack: "The Jackbox Party Pack 2",
     minPlayers: 3,
     maxPlayers: 8,
@@ -138,7 +165,10 @@ const games = [
     extendedTimers: true,
   },
   {
-    name: "Trivia Murder Party",
+    name: {
+      en: "Trivia Murder Party",
+      ru: "Смертельная вечеринка",
+    },
     pack: "The Jackbox Party Pack 3",
     minPlayers: 1,
     maxPlayers: 8,
@@ -152,7 +182,10 @@ const games = [
     extendedTimers: true,
   },
   {
-    name: "Guesspionage",
+    name: {
+      en: "Guesspionage",
+      ru: "Нашшпионаж",
+    },
     pack: "The Jackbox Party Pack 3",
     minPlayers: 2,
     maxPlayers: 8,
@@ -165,7 +198,10 @@ const games = [
     extendedTimers: true,
   },
   {
-    name: "Fakin' It",
+    name: {
+      en: "Fakin' It",
+      ru: "Обмани меня!",
+    },
     pack: "The Jackbox Party Pack 3",
     minPlayers: 3,
     maxPlayers: 8,
@@ -179,7 +215,10 @@ const games = [
     extendedTimers: false,
   },
   {
-    name: "Quiplash 2",
+    name: {
+      en: "Quiplash 2",
+      ru: "Смехлыст 2",
+    },
     pack: "The Jackbox Party Pack 3",
     minPlayers: 3,
     maxPlayers: 8,
@@ -193,7 +232,10 @@ const games = [
     extendedTimers: true,
   },
   {
-    name: "Tee K.O.",
+    name: {
+      en: "Tee K.O.",
+      ru: "Футбол К.О.",
+    },
     pack: "The Jackbox Party Pack 3",
     minPlayers: 3,
     maxPlayers: 8,
@@ -207,7 +249,10 @@ const games = [
     extendedTimers: true,
   },
   {
-    name: "Fibbage 3",
+    name: {
+      en: "Fibbage 3",
+      ru: "Бредовуха 3",
+    },
     pack: "The Jackbox Party Pack 4",
     minPlayers: 2,
     maxPlayers: 8,
@@ -221,7 +266,10 @@ const games = [
     extendedTimers: true,
   },
   {
-    name: "Monster Seeking Monster",
+    name: {
+      en: "Monster Seeking Monster",
+      ru: "Монстр ищет монстра",
+    },
     pack: "The Jackbox Party Pack 4",
     minPlayers: 3,
     maxPlayers: 7,
@@ -235,7 +283,10 @@ const games = [
     extendedTimers: true,
   },
   {
-    name: "Civic Doodle",
+    name: {
+      en: "Civic Doodle",
+      ru: "Гражданский холст",
+    },
     pack: "The Jackbox Party Pack 4",
     minPlayers: 3,
     maxPlayers: 8,
@@ -249,7 +300,10 @@ const games = [
     extendedTimers: true,
   },
   {
-    name: "Survive the Internet",
+    name: {
+      en: "Survive the Internet",
+      ru: "Монстр ищет монстра",
+    },
     pack: "The Jackbox Party Pack 4",
     minPlayers: 3,
     maxPlayers: 8,
@@ -263,7 +317,10 @@ const games = [
     extendedTimers: true,
   },
   {
-    name: "Bracketeering",
+    name: {
+      en: "Bracketeering",
+      ru: "Панччемпионат",
+    },
     pack: "The Jackbox Party Pack 4",
     minPlayers: 3,
     maxPlayers: 16,
@@ -277,7 +334,10 @@ const games = [
     extendedTimers: true,
   },
   {
-    name: "You Don't Know Jack - Full Stream",
+    name: {
+      en: "You Don't Know Jack - Full Stream",
+      ru: "А голову ты не забыл?",
+    },
     pack: "The Jackbox Party Pack 5",
     minPlayers: 1,
     maxPlayers: 8,
@@ -291,7 +351,10 @@ const games = [
     extendedTimers: true,
   },
   {
-    name: "Split The Room",
+    name: {
+      en: "Split The Room",
+      ru: "Раздели комнату",
+    },
     pack: "The Jackbox Party Pack 5",
     minPlayers: 3,
     maxPlayers: 8,
@@ -305,7 +368,10 @@ const games = [
     extendedTimers: true,
   },
   {
-    name: "Mad Verse City",
+    name: {
+      en: "Mad Verse City",
+      ru: "Город злых рифм",
+    },
     pack: "The Jackbox Party Pack 5",
     minPlayers: 3,
     maxPlayers: 8,
@@ -319,7 +385,10 @@ const games = [
     extendedTimers: true,
   },
   {
-    name: "Patently Stupid",
+    name: {
+      en: "Patently Stupid",
+      ru: "Творим патенты",
+    },
     pack: "The Jackbox Party Pack 5",
     minPlayers: 3,
     maxPlayers: 8,
@@ -333,7 +402,10 @@ const games = [
     extendedTimers: true,
   },
   {
-    name: "Zeeple Dome",
+    name: {
+      en: "Zeeple Dome",
+      ru: "Купол Зипол",
+    },
     pack: "The Jackbox Party Pack 5",
     minPlayers: 1,
     maxPlayers: 6,
@@ -347,7 +419,10 @@ const games = [
     extendedTimers: false,
   },
   {
-    name: "Trivia Murder Party 2",
+    name: {
+      en: "Trivia Murder Party 2",
+      ru: "Смертельная вечеринка 2",
+    },
     pack: "The Jackbox Party Pack 6",
     minPlayers: 1,
     maxPlayers: 8,
@@ -361,7 +436,10 @@ const games = [
     extendedTimers: true,
   },
   {
-    name: "Role Models",
+    name: {
+      en: "Role Models",
+      ru: "Анализ роли",
+    },
     pack: "The Jackbox Party Pack 6",
     minPlayers: 3,
     maxPlayers: 6,
@@ -375,7 +453,10 @@ const games = [
     extendedTimers: true,
   },
   {
-    name: "Joke Boat",
+    name: {
+      en: "Joke Boat",
+      ru: "Корабль смеха",
+    },
     pack: "The Jackbox Party Pack 6",
     minPlayers: 3,
     maxPlayers: 8,
@@ -389,7 +470,10 @@ const games = [
     extendedTimers: true,
   },
   {
-    name: "Dictionarium",
+    name: {
+      en: "Dictionarium",
+      ru: "Словариум",
+    },
     pack: "The Jackbox Party Pack 6",
     minPlayers: 3,
     maxPlayers: 8,
@@ -403,7 +487,10 @@ const games = [
     extendedTimers: true,
   },
   {
-    name: "Push The Button",
+    name: {
+      en: "Push The Button",
+      ru: "Жми на кнопку",
+    },
     pack: "The Jackbox Party Pack 6",
     minPlayers: 4,
     maxPlayers: 10,
@@ -417,7 +504,10 @@ const games = [
     extendedTimers: false,
   },
   {
-    name: "Quiplash 3",
+    name: {
+      en: "Quiplash 3",
+      ru: "Смехлыст 3",
+    },
     pack: "The Jackbox Party Pack 7",
     minPlayers: 3,
     maxPlayers: 8,
@@ -431,7 +521,10 @@ const games = [
     extendedTimers: true,
   },
   {
-    name: "The Devils and the Details",
+    name: {
+      en: "The Devils and the Details",
+      ru: "Дьяволы в деталях",
+    },
     pack: "The Jackbox Party Pack 7",
     minPlayers: 3,
     maxPlayers: 8,
@@ -445,7 +538,10 @@ const games = [
     extendedTimers: false,
   },
   {
-    name: "Champ’d Up",
+    name: {
+      en: "Champ’d Up",
+      ru: "ГладиАРТоры",
+    },
     pack: "The Jackbox Party Pack 7",
     minPlayers: 3,
     maxPlayers: 8,
@@ -459,7 +555,10 @@ const games = [
     extendedTimers: true,
   },
   {
-    name: "Talking Points",
+    name: {
+      en: "Talking Points",
+      ru: "На пальцах",
+    },
     pack: "The Jackbox Party Pack 7",
     minPlayers: 3,
     maxPlayers: 8,
@@ -473,7 +572,10 @@ const games = [
     extendedTimers: true,
   },
   {
-    name: "Blather ‘Round",
+    name: {
+      en: "Blather ‘Round",
+      ru: "Густой трёп",
+    },
     pack: "The Jackbox Party Pack 7",
     minPlayers: 2,
     maxPlayers: 6,
@@ -487,7 +589,10 @@ const games = [
     extendedTimers: false,
   },
   {
-    name: "Drawful Animate",
+    name: {
+      en: "Drawful Animate",
+      ru: "Рисовач: Анимач",
+    },
     pack: "The Jackbox Party Pack 8",
     minPlayers: 3,
     maxPlayers: 10,
@@ -501,7 +606,10 @@ const games = [
     extendedTimers: true,
   },
   {
-    name: "Job Job",
+    name: {
+      en: "Job Job",
+      ru: "За работой",
+    },
     pack: "The Jackbox Party Pack 8",
     minPlayers: 3,
     maxPlayers: 10,
@@ -515,7 +623,10 @@ const games = [
     extendedTimers: true,
   },
   {
-    name: "The Poll Mine",
+    name: {
+      en: "The Poll Mine",
+      ru: "Шахты Мнений",
+    },
     pack: "The Jackbox Party Pack 8",
     minPlayers: 2,
     maxPlayers: 10,
@@ -529,7 +640,10 @@ const games = [
     extendedTimers: false,
   },
   {
-    name: "Weapons Drawn",
+    name: {
+      en: "Weapons Drawn",
+      ru: "Преступление и рисование",
+    },
     pack: "The Jackbox Party Pack 8",
     minPlayers: 4,
     maxPlayers: 8,
@@ -543,7 +657,10 @@ const games = [
     extendedTimers: true,
   },
   {
-    name: "The Wheel of Enormous Proportions",
+    name: {
+      en: "The Wheel of Enormous Proportions",
+      ru: "Колесо невероятных масштабов",
+    },
     pack: "The Jackbox Party Pack 8",
     minPlayers: 3,
     maxPlayers: 8,
@@ -557,7 +674,10 @@ const games = [
     extendedTimers: false,
   },
   {
-    name: "Drawful 2",
+    name: {
+      en: "Drawful 2",
+      ru: "Шахты Мнений",
+    },
     pack: "Standalone Title",
     minPlayers: 3,
     maxPlayers: 8,
@@ -570,7 +690,10 @@ const games = [
     extendedTimers: true,
   },
   {
-    name: "Fibbage",
+    name: {
+      en: "Fibbage",
+      ru: "Бредовуха",
+    },
     pack: "Standalone Title",
     minPlayers: 2,
     maxPlayers: 8,
@@ -583,7 +706,10 @@ const games = [
     extendedTimers: false,
   },
   {
-    name: "Quiplash",
+    name: {
+      en: "Quiplash",
+      ru: "Смехлыст",
+    },
     pack: "Standalone Title",
     minPlayers: 3,
     maxPlayers: 8,

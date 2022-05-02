@@ -6,6 +6,7 @@ import ToggleButtonGroup from "react-bootstrap/ToggleButtonGroup";
 
 const App = () => {
   const [players, setPlayers] = useState(3);
+  const [lang, setLang] = useState("en");
 
   const buttonValues = [
     { label: "1", count: 1 },
@@ -19,13 +20,26 @@ const App = () => {
     { label: "9+", count: 9 },
     { label: "17+", count: 17 },
   ];
+  const langValues = [
+    { label: "English", lang: "en" },
+    { label: "Russian", lang: "ru" },
+  ];
 
   const filteredGames = useMemo(
     () =>
-      games.filter((game) => {
-        return players >= game.minPlayers && players <= game.maxPlayers;
-      }),
-    [players]
+      games
+        .filter((game) => {
+          return players >= game.minPlayers && players <= game.maxPlayers;
+        })
+        .map((game) => {
+          if (typeof game.name === "object" && lang in game.name) {
+            game.display_name = game.name[lang];
+          } else {
+            game.display_name = game.name;
+          }
+          return game;
+        }),
+    [players, lang]
   );
 
   return (
@@ -42,6 +56,22 @@ const App = () => {
         >
           {buttonValues.map((button) => (
             <ToggleButton key={button.count} value={button.count}>
+              {button.label}
+            </ToggleButton>
+          ))}
+        </ToggleButtonGroup>
+      </div>
+      <h2 className="text-center">What language?</h2>
+      <div className="text-center">
+        <ToggleButtonGroup
+          type="radio"
+          name="options_lang"
+          value={lang}
+          onChange={(val) => setLang(val)}
+          className="mb-4"
+        >
+          {langValues.map((button) => (
+            <ToggleButton key={button.lang} value={button.lang}>
               {button.label}
             </ToggleButton>
           ))}

@@ -19,12 +19,12 @@ const BoolCell = ({ cell: { value } }) => {
 export const columns = [
   {
     Header: "Name",
-    accessor: "name",
+    accessor: "display_name",
     Cell: ({ cell }) => {
       const game = cell.row.original;
       return (
         <a href={game.url} target="_blank" rel="noreferrer">
-          {game.name}
+          {game.display_name}
         </a>
       );
     },
