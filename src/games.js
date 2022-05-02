@@ -676,7 +676,7 @@ const games = [
   {
     name: {
       en: "Drawful 2",
-      ru: "Шахты Мнений",
+      ru: "Рисовач 2",
     },
     pack: "Standalone Title",
     minPlayers: 3,
