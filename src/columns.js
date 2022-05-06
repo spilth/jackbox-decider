@@ -90,7 +90,7 @@ export const columns = [
   },
   {
     Header: "Description",
-    accessor: "description",
+    accessor: "display_description",
     className: "d-none d-md-table-cell",
   },
 ];

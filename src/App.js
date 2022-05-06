@@ -32,11 +32,8 @@ const App = () => {
           return players >= game.minPlayers && players <= game.maxPlayers;
         })
         .map((game) => {
-          if (typeof game.name === "object" && lang in game.name) {
-            game.display_name = game.name[lang];
-          } else {
-            game.display_name = game.name;
-          }
+          game.display_name = (typeof game.name === "object" && lang in game.name) ? game.name[lang] : game.name;
+          game.display_description = (typeof game.description === "object" && lang in game.description) ? game.description[lang] : game.description;
           return game;
         }),
     [players, lang]

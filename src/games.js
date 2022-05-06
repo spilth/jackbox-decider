@@ -8,8 +8,10 @@ const games = [
     minPlayers: 1,
     maxPlayers: 4,
     url: "https://jackboxgames.com/ydkj-2015",
-    description:
-      "The comedy trivia sensation with hundreds of all-new questions.",
+    description: {
+      en: "The comedy trivia sensation with hundreds of all-new questions.",
+      ru: "Старая добрая комическая викторинка с весёлыми рубриками. И звуками пердежа.",
+    },
     pack_url: "https://www.jackboxgames.com/party-pack/",
     duration: "20 Minutes",
     familyFriendlySetting: false,
@@ -25,7 +27,10 @@ const games = [
     minPlayers: 1,
     maxPlayers: 100,
     url: "https://jackboxgames.com/lie-swatter",
-    description: "The wacky-fact-filled Lie Swatter.",
+    description: {
+      en: "The wacky-fact-filled Lie Swatter.",
+      ru: "Игра типа «правда-ложь» для почти бесконечного количества игроков. Места хватит всем!",
+    },
     pack_url: "https://www.jackboxgames.com/party-pack/",
     duration: "20 Minutes",
     familyFriendlySetting: false,
@@ -41,8 +46,10 @@ const games = [
     minPlayers: 2,
     maxPlayers: 8,
     url: "https://jackboxgames.com/fibbage-xl",
-    description:
-      "The hilarious bluffing game with 50% more questions added to the original hit.",
+    description: {
+      en: "The hilarious bluffing game with 50% more questions added to the original hit.",
+      ru: "Игра, в которой надо придумывать ложные варианты ответа и одновременно искать правдивые. В версии XL на 50% больше вопросов, чем в оригинальной версии!",
+    },
     pack_url: "https://www.jackboxgames.com/party-pack/",
     duration: "15-20 Minutes",
     familyFriendlySetting: true,
@@ -58,7 +65,10 @@ const games = [
     minPlayers: 2,
     maxPlayers: 8,
     url: "https://jackboxgames.com/word-spud",
-    description: "The racy-as-you-want-to-be fill-in-the-blank word game.",
+    description: {
+      en: "The racy-as-you-want-to-be fill-in-the-blank word game.",
+      ru: "Игра в которой тебе надо дополнить текст так, как ты захочешь, лишь бы это залайкали остальные игроки.",
+    },
     pack_url: "https://www.jackboxgames.com/party-pack/",
     duration: "Unlimited",
     familyFriendlySetting: false,
@@ -74,8 +84,10 @@ const games = [
     minPlayers: 3,
     maxPlayers: 8,
     url: "https://jackboxgames.com/drawful",
-    description:
-      "The bizarre drawing game where you draw right there on your phone or tablet.",
+    description: {
+      en: "The bizarre drawing game where you draw right there on your phone or tablet.",
+      ru: "Рисуй понятные рисунки, а твои друзья постараются отгадать их. Но они тоже в деле и будут предлагать свои варианты, дабы сбить всех с толку! Кто из вас рисует красивее всех, а кто понятнее всех?",
+    },
     pack_url: "https://www.jackboxgames.com/party-pack/",
     duration: "15-20 Minutes",
     familyFriendlySetting: true,
@@ -88,8 +100,10 @@ const games = [
     minPlayers: 1,
     maxPlayers: 4,
     url: "https://jackboxgames.com/bomb-corp",
-    description:
-      "The bomb-defusing nailbiter of a party game! As interns at Bomb Corp., you must defuse random bombs in the office in order to keep your jobs. You’ll probably die, but it’ll be good work experience!",
+    description: {
+      en: "The bomb-defusing nailbiter of a party game! As interns at Bomb Corp., you must defuse random bombs in the office in order to keep your jobs. You’ll probably die, but it’ll be good work experience!",
+      ru: "Вы — стажёры БомбоКорпорации, которые должны обезвреживать бомбы, чтобы поддерживать слаженную работу в офисе. Скорее всего, вы все подорвётесь, зато какое веселье!",
+    },
     pack_url: "https://www.jackboxgames.com/party-pack-two/",
     duration: "15-20 Minutes",
     familyFriendlySetting: true,
@@ -105,8 +119,10 @@ const games = [
     minPlayers: 2,
     maxPlayers: 8,
     url: "https://jackboxgames.com/fibbage-two",
-    description:
-      "The runaway hit bluffing game with over 500 brand-new questions, more than 2x the original! Plus new features, like the deFIBrillator!",
+    description: {
+      en: "The runaway hit bluffing game with over 500 brand-new questions, more than 2x the original! Plus new features, like the deFIBrillator!",
+      ru: "Вторая часть игры, в которой надо придумывать ложные варианты ответа и одновременно искать правдивые. Теперь вопросов более 500, что более чем в 2 раза больше, чем в первой части. Плюс новая фишка — деФИБриллятор! ",
+    },
     pack_url: "https://www.jackboxgames.com/party-pack-two/",
     duration: "15-20 Minutes",
     familyFriendlySetting: true,
@@ -122,8 +138,10 @@ const games = [
     minPlayers: 3,
     maxPlayers: 6,
     url: "https://jackboxgames.com/bidiots",
-    description:
-      "The absurd art auction game where you draw right there on your phone or tablet. Outbid your opponents for weird art pieces – drawn by players themselves – and win this strangely competitive auction game! Don’t be a bidiot!",
+    description: {
+      en: "The absurd art auction game where you draw right there on your phone or tablet. Outbid your opponents for weird art pieces – drawn by players themselves – and win this strangely competitive auction game! Don’t be a bidiot!",
+      ru: "Абсурдная игра-аукцион картинной галереи. Стоимость картин назначают секретные эксперты, а сами картины пишут… наши игроки! Купи по дешёвке самые ценные картины, но не дай другим переиграть тебя!",
+    },
     pack_url: "https://www.jackboxgames.com/party-pack-two/",
     duration: "15-20 Minutes",
     familyFriendlySetting: true,
@@ -139,8 +157,10 @@ const games = [
     minPlayers: 3,
     maxPlayers: 8,
     url: "https://jackboxgames.com/earwax",
-    description:
-      "The hear-larious sound-effects game that will leave you up to your ears in laughter! Cow moo? Huge explosion? Or tiny fart? Which to choose?",
+    description: {
+      en: "The hear-larious sound-effects game that will leave you up to your ears in laughter! Cow moo? Huge explosion? Or tiny fart? Which to choose?",
+      ru: "Звуки «МУ»? Большой взрыв? Или яростный пердёж? Выбери самые весёлые звуки и одержи победу.",
+    },
     pack_url: "https://www.jackboxgames.com/party-pack-two/",
     duration: "15-20 Minutes",
     familyFriendlySetting: true,
@@ -156,8 +176,10 @@ const games = [
     minPlayers: 3,
     maxPlayers: 8,
     url: "https://jackboxgames.com/quiplash-xl",
-    description:
-      "The say-anything, gut-busting Quiplash XL, which includes everything in Quiplash, Quip Pack 1, AND over 100 brand-new prompts!",
+    description: {
+      en: "The say-anything, gut-busting Quiplash XL, which includes everything in Quiplash, Quip Pack 1, AND over 100 brand-new prompts!",
+      ru: "Шути, что хочешь, и поддерживай хорошие варианты. На 100 весёлых заданий больше, чем в оригинальной (не-XL и не 2) версии!",
+    },
     pack_url: "https://www.jackboxgames.com/party-pack-two/",
     duration: "15-20 Minutes",
     familyFriendlySetting: true,
@@ -173,8 +195,10 @@ const games = [
     minPlayers: 1,
     maxPlayers: 8,
     url: "https://jackboxgames.com/trivia-murder-party",
-    description:
-      "A deadly quiz show where you match wits with a trivia-obsessed killer.",
+    description: {
+      en: "A deadly quiz show where you match wits with a trivia-obsessed killer.",
+      ru: "Ужасно страшная викторина, где ты встретишься со свихнувшимся серийным убийцей, который любит проверять интеллект!",
+    },
     pack_url: "https://www.jackboxgames.com/party-pack-three/",
     duration: "15-20 Minutes",
     familyFriendlySetting: false,
@@ -190,7 +214,10 @@ const games = [
     minPlayers: 2,
     maxPlayers: 8,
     url: "https://jackboxgames.com/guesspionage",
-    description: "The brain-battering data-mining guessing game.",
+    description: {
+      en: "The brain-battering data-mining guessing game.",
+      ru: "Игра, в которой тебе предстоит угадывать результаты анализа данных о других людях.",
+    },
     pack_url: "https://www.jackboxgames.com/party-pack-three/",
     duration: "10-15 Minutes",
     familyFriendlySetting: true,
@@ -206,8 +233,10 @@ const games = [
     minPlayers: 3,
     maxPlayers: 8,
     url: "https://jackboxgames.com/fakin-it",
-    description:
-      "One of your friends has something to hide in this sneaky game for tricksters.",
+    description: {
+      en: "One of your friends has something to hide in this sneaky game for tricksters.",
+      ru: "У твоего друга будет секрет, который тебе и надо раскрыть в этой игре, созданной для удачливых обманщиков.",
+    },
     pack_url: "https://www.jackboxgames.com/party-pack-three/",
     duration: "15-20 Minutes",
     familyFriendlySetting: true,
@@ -223,8 +252,10 @@ const games = [
     minPlayers: 3,
     maxPlayers: 8,
     url: "https://jackboxgames.com/quiplash-two",
-    description:
-      "The say-anything sequel. Play all new questions or make your own!",
+    description: {
+      en: "The say-anything sequel. Play all new questions or make your own!",
+      ru: "Сиквел, в котором ты можешь говорить всё, что хочешь. Играй с нашими новыми заданиями или придумай свои!",
+    },
     pack_url: "https://www.jackboxgames.com/party-pack-three/",
     duration: "15 Minutes",
     familyFriendlySetting: true,
@@ -240,8 +271,10 @@ const games = [
     minPlayers: 3,
     maxPlayers: 8,
     url: "https://jackboxgames.com/tee-ko",
-    description:
-      "The t-shirt slugfest where you battle your custom t-shirts to the death!",
+    description: {
+      en: "The t-shirt slugfest where you battle your custom t-shirts to the death!",
+      ru: "Фестиваль одежды, где придуманные игроками футболки сражаются не на жизнь, а на смерть.",
+    },
     pack_url: "https://www.jackboxgames.com/party-pack-three/",
     duration: "30 Minutes",
     familyFriendlySetting: true,
@@ -257,8 +290,10 @@ const games = [
     minPlayers: 2,
     maxPlayers: 8,
     url: "https://jackboxgames.com/fibbage-three",
-    description:
-      "The blanking fun sequel with all-new question types and the game mode Fibbage: Enough About You where you guess the weird facts about your friends.",
+    description: {
+      en: "The blanking fun sequel with all-new question types and the game mode Fibbage: Enough About You where you guess the weird facts about your friends.",
+      ru: "Третья часть игры на заполнение пропусков в интересных фактах, теперь с новыми типами вопросов и игровым режимом «Бредовуха: Мы всё про вас знаем».",
+    },
     pack_url: "https://www.jackboxgames.com/party-pack-four/",
     duration: "15-20 Minutes",
     familyFriendlySetting: true,
@@ -274,8 +309,10 @@ const games = [
     minPlayers: 3,
     maxPlayers: 7,
     url: "https://jackboxgames.com/monster-seeking-monster",
-    description:
-      "The spooky date-a-thon where you message and date fellow monsters with special powers.",
+    description: {
+      en: "The spooky date-a-thon where you message and date fellow monsters with special powers.",
+      ru: "Марафон ужасных свиданий, где тебе придётся переписываться и встречаться с монстрами, обладающими особыми способностями.",
+    },
     pack_url: "https://www.jackboxgames.com/party-pack-four/",
     duration: "15-20 Minutes",
     familyFriendlySetting: true,
@@ -291,8 +328,10 @@ const games = [
     minPlayers: 3,
     maxPlayers: 8,
     url: "https://jackboxgames.com/civic-doodle",
-    description:
-      "The one-up art game where you compete to improve the town murals. Play using your phones, tablets or computers. No extra controllers needed! Plus EVEN MORE features just for streamers!",
+    description: {
+      en: "The one-up art game where you compete to improve the town murals. Play using your phones, tablets or computers. No extra controllers needed! Plus EVEN MORE features just for streamers!",
+      ru: "Все любят красивые рисунки, а лучше красивых рисунков могут быть только красивые рисунки, нарисованные на стенах домов. Их созданием вам и предстоит заняться. Так как желающих много, каждый в свою очередь будет дорисовывать какой-то элемент рисунка. Кто из вас — новый да Винчи, а кому только надписи на заборе писать? Это вам скажет самое строгое жюри из возможных — ваши друзья.",
+    },
     pack_url: "https://www.jackboxgames.com/party-pack-four/",
     duration: "20 Minutes",
     familyFriendlySetting: true,
@@ -302,14 +341,16 @@ const games = [
   {
     name: {
       en: "Survive the Internet",
-      ru: "Монстр ищет монстра",
+      ru: "Выжить в Интернете",
     },
     pack: "The Jackbox Party Pack 4",
     minPlayers: 3,
     maxPlayers: 8,
     url: "https://jackboxgames.com/survive-the-internet",
-    description:
-      "The web-based frame game where you twist your friends’ “online” comments in hilarious ways.",
+    description: {
+      en: "The web-based frame game where you twist your friends’ “online” comments in hilarious ways.",
+      ru: "Весёлая игра про Всемирную паутину, где тебе нужно придумать смешной контекст к онлайн-комментариям своих друзей. Отличный повод получить или потерять друзей!",
+    },
     pack_url: "https://www.jackboxgames.com/party-pack-four/",
     duration: "20 Minutes",
     familyFriendlySetting: true,
@@ -325,8 +366,10 @@ const games = [
     minPlayers: 3,
     maxPlayers: 16,
     url: "https://jackboxgames.com/bracketeering",
-    description:
-      "The deranged debate match where you place smart bets on stupid arguments.",
+    description: {
+      en: "The deranged debate match where you place smart bets on stupid arguments.",
+      ru: "Чемпионат из сумасшедших ответов. Делай умные ставки на победу в глупых битвах!",
+    },
     pack_url: "https://www.jackboxgames.com/party-pack-four/",
     duration: "15-20 Minutes",
     familyFriendlySetting: true,
@@ -342,8 +385,10 @@ const games = [
     minPlayers: 1,
     maxPlayers: 8,
     url: "https://jackboxgames.com/ydkj-full-stream",
-    description:
-      "The pop-culture trivia mash-up YOU DON’T KNOW JACK: Full Stream. The classic returns, full of wild new surprises.",
+    description: {
+      en: "The pop-culture trivia mash-up YOU DON’T KNOW JACK: Full Stream. The classic returns, full of wild new surprises.",
+      ru: "Классика возвращается! Теперь с участием зрителей. Новые задания и звуки пердежа – уже внутри.",
+    },
     pack_url: "https://www.jackboxgames.com/party-pack-five/",
     duration: "15-20 Minutes",
     familyFriendlySetting: false,
@@ -359,8 +404,10 @@ const games = [
     minPlayers: 3,
     maxPlayers: 8,
     url: "https://jackboxgames.com/split-the-room",
-    description:
-      "The what-if game Split the Room. Create strange and divisive hypothetical situations.",
+    description: {
+      en: "The what-if game Split the Room. Create strange and divisive hypothetical situations.",
+      ru: "Создавай странные и противоречивые ситуации, а затем попытайся поделить всех остальных на два лагеря! Отличный повод потерять половину друзей (если не повезёт).",
+    },
     pack_url: "https://www.jackboxgames.com/party-pack-five/",
     duration: "15 Minutes",
     familyFriendlySetting: true,
@@ -376,8 +423,10 @@ const games = [
     minPlayers: 3,
     maxPlayers: 8,
     url: "https://jackboxgames.com/mad-verse-city",
-    description:
-      "The lyric-writing game Mad Verse City. Channel your inner MC as a rap battling robot.",
+    description: {
+      en: "The lyric-writing game Mad Verse City. Channel your inner MC as a rap battling robot.",
+      ru: "Сочини рэп и выиграй баттл в Городе роботов!",
+    },
     pack_url: "https://www.jackboxgames.com/party-pack-five/",
     duration: "15-20 Minutes",
     familyFriendlySetting: true,
@@ -393,8 +442,10 @@ const games = [
     minPlayers: 3,
     maxPlayers: 8,
     url: "https://jackboxgames.com/patently-stupid",
-    description:
-      "The competitive drawing game Patently Stupid. Create odd inventions to solve bizarre problems.",
+    description: {
+      en: "The competitive drawing game Patently Stupid. Create odd inventions to solve bizarre problems.",
+      ru: "Придумай проблему, а затем придумай средство для устранения придуманной проблемы! Представь свой проект, собери инвестиции и выиграй!",
+    },
     pack_url: "https://www.jackboxgames.com/party-pack-five/",
     duration: "20 Minutes",
     familyFriendlySetting: false,
@@ -410,8 +461,10 @@ const games = [
     minPlayers: 1,
     maxPlayers: 6,
     url: "https://jackboxgames.com/zeeple-dome",
-    description:
-      "The deadliest game show in the Crab Nebula, Zeeple Dome! Fling yourself at bloodthirsty aliens to win millions of Zubabucks!",
+    description: {
+      en: "The deadliest game show in the Crab Nebula, Zeeple Dome! Fling yourself at bloodthirsty aliens to win millions of Zubabucks!",
+      ru: "Это самое смертельное шоу во всём паке! Приведи своих друзей и поучавствуй в битве, подготовленной инопланетянами!",
+    },
     pack_url: "https://www.jackboxgames.com/party-pack-five/",
     duration: "10+ Minutes",
     familyFriendlySetting: false,
@@ -427,8 +480,10 @@ const games = [
     minPlayers: 1,
     maxPlayers: 8,
     url: "https://jackboxgames.com/trivia-murder-party-two/",
-    description:
-      "The popular trivia deathmatch Trivia Murder Party 2. Try to survive the bizarre new minigames.",
+    description: {
+      en: "The popular trivia deathmatch Trivia Murder Party 2. Try to survive the bizarre new minigames.",
+      ru: "Продолжение смертельной викторины. Новая локация, задания и игры на выживание! Как и всегда, останется только один. (Или никого.)",
+    },
     pack_url: "https://www.jackboxgames.com/party-pack-six/",
     duration: "15-25 Minutes",
     familyFriendlySetting: false,
@@ -444,8 +499,10 @@ const games = [
     minPlayers: 3,
     maxPlayers: 6,
     url: "https://jackboxgames.com/role-models/",
-    description:
-      "The offbeat personality test Role Models. Find out who you really are. (Or at least what your friends think of you.)",
+    description: {
+      en: "The offbeat personality test Role Models. Find out who you really are. (Or at least what your friends think of you.)",
+      ru: "Кто из вас ботаник, любящий бекон, а кто – меланхоличный комбинатор? Всё покажет «Анализ роли»!",
+    },
     pack_url: "https://www.jackboxgames.com/party-pack-six/",
     duration: "15 Minutes",
     familyFriendlySetting: true,
@@ -461,8 +518,10 @@ const games = [
     minPlayers: 3,
     maxPlayers: 8,
     url: "https://jackboxgames.com/joke-boat/",
-    description:
-      "The comedy contest Joke Boat. Craft one-liners for a cruise ship talent show.",
+    description: {
+      en: "The comedy contest Joke Boat. Craft one-liners for a cruise ship talent show.",
+      ru: "Отправляйтесь в смешной до колик круиз, рассмеши всех и получи главный приз — спасение с тонущего корабля!",
+    },
     pack_url: "https://www.jackboxgames.com/party-pack-six/",
     duration: "15-25 Minutes",
     familyFriendlySetting: true,
@@ -478,8 +537,10 @@ const games = [
     minPlayers: 3,
     maxPlayers: 8,
     url: "https://jackboxgames.com/dictionarium/",
-    description:
-      "The weird word circus Dictionarium. May the funniest definition win.",
+    description: {
+      en: "The weird word circus Dictionarium. May the funniest definition win.",
+      ru: "Всем словам нужны определения. Не все их имеют. Придумывайте значения слов и создавайте из них уморительные словосочетания!",
+    },
     pack_url: "https://www.jackboxgames.com/party-pack-six/",
     duration: "10 Minutes",
     familyFriendlySetting: true,
@@ -495,8 +556,10 @@ const games = [
     minPlayers: 4,
     maxPlayers: 10,
     url: "https://jackboxgames.com/push-the-button/",
-    description:
-      "The hidden identity game Push The Button. Can you discover the aliens in time?",
+    description: {
+      en: "The hidden identity game Push The Button. Can you discover the aliens in time?",
+      ru: "Всё то же «Обмани меня», только теперь в гиперпространстве. Найди жуликов-инопланетян и выгони их с корабля!",
+    },
     pack_url: "https://www.jackboxgames.com/party-pack-six/",
     duration: "Varies by player count",
     familyFriendlySetting: true,
@@ -512,8 +575,10 @@ const games = [
     minPlayers: 3,
     maxPlayers: 8,
     url: "https://www.jackboxgames.com/quiplash-three/",
-    description:
-      "The say-anything threequel Quiplash 3 (3-8 players). It’s a head-to-head battle of the wits as you give hilarious responses to quirky prompts while everyone else votes for their favorite!",
+    description: {
+      en: "The say-anything threequel Quiplash 3 (3-8 players). It’s a head-to-head battle of the wits as you give hilarious responses to quirky prompts while everyone else votes for their favorite!",
+      ru: "Триквел знаменитой игры – та же старая-добрая битва шуток, но теперь в пластилиновом мире и с новым финалом!",
+    },
     pack_url: "https://www.jackboxgames.com/party-pack-seven/",
     duration: "~15 minutes",
     familyFriendlySetting: true,
@@ -529,8 +594,10 @@ const games = [
     minPlayers: 3,
     maxPlayers: 8,
     url: "https://www.jackboxgames.com/the-devils-and-the-details/",
-    description:
-      "The collaborative chaos game The Devils and the Details (3-8 players). You’re a family of devils working together to survive in suburbia. Can you handle the daily torture of human life?",
+    description: {
+      en: "The collaborative chaos game The Devils and the Details (3-8 players). You’re a family of devils working together to survive in suburbia. Can you handle the daily torture of human life?",
+      ru: "Вы – семья дьяволов, перебравшаяся из ада на землю. Работая в команде, выполняйте обыденные дела людей и постарайтесь выжить в круговороте забот!",
+    },
     pack_url: "https://www.jackboxgames.com/party-pack-seven/",
     duration: "~15 minutes",
     familyFriendlySetting: true,
@@ -546,8 +613,10 @@ const games = [
     minPlayers: 3,
     maxPlayers: 8,
     url: "https://www.jackboxgames.com/champd-up/",
-    description:
-      "The drawing fighting game Champ’d Up (3-8 players). Create absurd characters that will battle over unusual titles. Can you take down the heavy favorite?",
+    description: {
+      en: "The drawing fighting game Champ’d Up (3-8 players). Create absurd characters that will battle over unusual titles. Can you take down the heavy favorite?",
+      ru: "Нарисуй бойцов, которые смогут стать чемпионами в борьбе за самые странные титулы!",
+    },
     pack_url: "https://www.jackboxgames.com/party-pack-seven/",
     duration: "~20 minutes",
     familyFriendlySetting: true,
@@ -563,8 +632,10 @@ const games = [
     minPlayers: 3,
     maxPlayers: 8,
     url: "https://www.jackboxgames.com/talking-points/",
-    description:
-      "The on-the-spot public-speaking game Talking Points (3-8 players). Give a speech responding to picture slides you’ve never seen before or be the Assistant and approve pictures as fast as you can. Just keep talking whether it makes sense or not.",
+    description: {
+      en: "The on-the-spot public-speaking game Talking Points (3-8 players). Give a speech responding to picture slides you’ve never seen before or be the Assistant and approve pictures as fast as you can. Just keep talking whether it makes sense or not.",
+      ru: "Выступи с презентацией, которую увидишь в первый раз. Просто без остановки говори о выбранных другим игроком слайдах, и неважно, будет ли в твоих словах смысл!",
+    },
     pack_url: "https://www.jackboxgames.com/party-pack-seven/",
     duration: "20-40 minutes",
     familyFriendlySetting: true,
@@ -580,8 +651,10 @@ const games = [
     minPlayers: 2,
     maxPlayers: 6,
     url: "https://www.jackboxgames.com/blather-round/",
-    description:
-      "The pop culture guessing game Blather Round (2-6 players). Describe your secret prompt with a very limited vocabulary and hope that someone can figure it out in time. It’s a “GOOD” “FUN TIME” “EXPERIENCE.”",
+    description: {
+      en: "The pop culture guessing game Blather Round (2-6 players). Describe your secret prompt with a very limited vocabulary and hope that someone can figure it out in time. It’s a “GOOD” “FUN TIME” “EXPERIENCE.”",
+      ru: "Игра на угадывание объектов поп-культуры. Опиши загаданное, используя очень ограниченный набор слов!",
+    },
     pack_url: "https://www.jackboxgames.com/party-pack-seven/",
     duration: "15-30 minutes",
     familyFriendlySetting: true,
@@ -597,8 +670,10 @@ const games = [
     minPlayers: 3,
     maxPlayers: 10,
     url: "https://www.jackboxgames.com/drawful-animate/",
-    description:
-      "It’s alive! The guessing game with terrible drawings and hilariously wrong answers makes a dynamic return. In this revamped title, players create looping, two-frame animations based on weird and random titles.",
+    description: {
+      en: "It’s alive! The guessing game with terrible drawings and hilariously wrong answers makes a dynamic return. In this revamped title, players create looping, two-frame animations based on weird and random titles.",
+      ru: "Триквел старой-доброй игры на рисование. Но теперь игроки рисуют не эти скучные рисунки, а настоящие анимации!",
+    },
     pack_url: "https://www.jackboxgames.com/party-pack-eight/",
     duration: "15-30 minutes",
     familyFriendlySetting: true,
@@ -614,8 +689,10 @@ const games = [
     minPlayers: 3,
     maxPlayers: 10,
     url: "https://www.jackboxgames.com/job-job/",
-    description:
-      "Use other people’s words to create unique and funny answers to classic job interview questions. Go head to head to see who scores the job!",
+    description: {
+      en: "Use other people’s words to create unique and funny answers to classic job interview questions. Go head to head to see who scores the job!",
+      ru: "Вырывай любые слова из предложений других игроков, чтобы ответить на вопросы собеседования и получить работу!",
+    },
     pack_url: "https://www.jackboxgames.com/party-pack-eight/",
     duration: "15-25 minutes",
     familyFriendlySetting: true,
@@ -631,8 +708,10 @@ const games = [
     minPlayers: 2,
     maxPlayers: 10,
     url: "https://www.jackboxgames.com/the-poll-mine/",
-    description:
-      "A survey game that’s all about YOU! Split into teams and see who can escape from the witch’s lair! Players individually rank their choices to a difficult question, then must guess how the group answered as a whole. How well do you know your friends?!",
+    description: {
+      en: "A survey game that’s all about YOU! Split into teams and see who can escape from the witch’s lair! Players individually rank their choices to a difficult question, then must guess how the group answered as a whole. How well do you know your friends?!",
+      ru: "Вместе со своей командой находи двери с правильными ответами на опросы, чтобы выбраться из страшной пещеры!",
+    },
     pack_url: "https://www.jackboxgames.com/party-pack-eight/",
     duration: " ~15 minutes minutes",
     familyFriendlySetting: true,
@@ -648,8 +727,10 @@ const games = [
     minPlayers: 4,
     maxPlayers: 8,
     url: "https://www.jackboxgames.com/weapons-drawn/",
-    description:
-      "A social deduction game where everyone is both a murderer and a detective. Players doodle all the clues, hiding a letter from their name in the weapon drawings. Can you solve murders while trying to get away with your own?",
+    description: {
+      en: "A social deduction game where everyone is both a murderer and a detective. Players doodle all the clues, hiding a letter from their name in the weapon drawings. Can you solve murders while trying to get away with your own?",
+      ru: "Игра в жанре «мафии», где каждый – и детектив, и убийца.",
+    },
     pack_url: "https://www.jackboxgames.com/party-pack-eight/",
     duration: "20-40 minutes",
     familyFriendlySetting: false,
@@ -665,8 +746,10 @@ const games = [
     minPlayers: 3,
     maxPlayers: 8,
     url: "https://www.jackboxgames.com/the-wheel-of-enormous-proportions/",
-    description:
-      "Trivia has never been so large! A fantastic, mystical wheel challenges you with a variety of trivia prompts. Winners are awarded slices of the Wheel’s face with a chance to win big with each nail-biting spin. In the end, one player will have their most burning question answered by the great Wheel.",
+    description: {
+      en: "Trivia has never been so large! A fantastic, mystical wheel challenges you with a variety of trivia prompts. Winners are awarded slices of the Wheel’s face with a chance to win big with each nail-biting spin. In the end, one player will have their most burning question answered by the great Wheel.",
+      ru: "Отвечай на вопросы правильно, чтобы увеличить свои шансы на победу. А выиграв, ты сможешь получить ответ на любой свой вопрос.",
+    },
     pack_url: "https://www.jackboxgames.com/party-pack-eight/",
     duration: "15-25 minutes",
     familyFriendlySetting: true,
@@ -682,8 +765,10 @@ const games = [
     minPlayers: 3,
     maxPlayers: 8,
     url: "https://jackboxgames.com/drawful-two/",
-    description:
-      "Your phones or tablets are your controllers! The game of terrible drawings and hilariously wrong answers.",
+    description: {
+      en: "Your phones or tablets are your controllers! The game of terrible drawings and hilariously wrong answers.",
+      ru: "Вторая часть игры-рисовашки. Рисуй понятные рисунки, а твои друзья постараются отгадать их. Но они тоже в деле и будут предлагать свои варианты, дабы сбить всех с толку! Кто из вас рисует красивее всех, а кто понятнее всех?",
+    },
     duration: "15-20 Minutes",
     familyFriendlySetting: true,
     manualCensoring: true,
