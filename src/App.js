@@ -75,7 +75,12 @@ const App = () => {
           className="mb-4"
         >
           {buttonValues.map((button) => (
-            <ToggleButton key={button.count} value={button.count}>
+            <ToggleButton
+              id={button.count}
+              key={button.count}
+              value={button.count}
+              type="radio"
+            >
               {button.label}
             </ToggleButton>
           ))}
