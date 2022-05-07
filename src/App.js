@@ -22,9 +22,9 @@ const App = () => {
 
   const filteredGames = useMemo(
     () =>
-      games.filter((game) => {
-        return players >= game.minPlayers && players <= game.maxPlayers;
-      }),
+      games.filter(
+        (game) => players >= game.minPlayers && players <= game.maxPlayers
+      ),
     [players]
   );
 
@@ -41,7 +41,12 @@ const App = () => {
           className="mb-4"
         >
           {buttonValues.map((button) => (
-            <ToggleButton key={button.count} value={button.count}>
+            <ToggleButton
+              id={button.count}
+              key={button.count}
+              value={button.count}
+              type="radio"
+            >
               {button.label}
             </ToggleButton>
           ))}
