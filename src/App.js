@@ -48,6 +48,23 @@ const App = () => {
   return (
     <div>
       <h1 className="text-center">Jackbox Decider</h1>
+      <div className="text-center">
+        <span>Select language: </span>
+        <ToggleButtonGroup
+          type="radio"
+          name="options_lang"
+          value={lang}
+          onChange={(val) => setLang(val)}
+          className="mb-1"
+          size="sm"
+        >
+          {langValues.map((button) => (
+            <ToggleButton key={button.lang} value={button.lang}>
+              {button.label}
+            </ToggleButton>
+          ))}
+        </ToggleButtonGroup>
+      </div>
       <h2 className="text-center">How many people?</h2>
       <div className="text-center">
         <ToggleButtonGroup
@@ -59,22 +76,6 @@ const App = () => {
         >
           {buttonValues.map((button) => (
             <ToggleButton key={button.count} value={button.count}>
-              {button.label}
-            </ToggleButton>
-          ))}
-        </ToggleButtonGroup>
-      </div>
-      <h2 className="text-center">What language?</h2>
-      <div className="text-center">
-        <ToggleButtonGroup
-          type="radio"
-          name="options_lang"
-          value={lang}
-          onChange={(val) => setLang(val)}
-          className="mb-4"
-        >
-          {langValues.map((button) => (
-            <ToggleButton key={button.lang} value={button.lang}>
               {button.label}
             </ToggleButton>
           ))}
