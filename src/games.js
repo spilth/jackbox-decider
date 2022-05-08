@@ -599,6 +599,7 @@ const games = [
   {
     name: "Drawful 2",
     pack: "Standalone Title",
+    image: "drawful_2.jpg",
     minPlayers: 3,
     maxPlayers: 8,
     url: "https://jackboxgames.com/drawful-two/",
@@ -625,6 +626,7 @@ const games = [
   {
     name: "Quiplash",
     pack: "Standalone Title",
+    image: "quiplash.jpg",
     minPlayers: 3,
     maxPlayers: 8,
     url: "https://www.jackboxgames.com/quiplash/",
@@ -650,6 +652,7 @@ const games = [
   {
     name: "Quiplash 2 InterLASHional",
     pack: "Standalone Title",
+    image: "quiplash_2_interlashional.jpg",
     minPlayers: 3,
     maxPlayers: 8,
     url: "https://www.jackboxgames.com/quiplash-two-interlashional/",
