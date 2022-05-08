@@ -10,7 +10,6 @@ import { Card, Col, Row, Stack } from "react-bootstrap";
 const GameCards = ({ games }) => {
   return (
     <Row xs={1} sm={2} md={2} lg={3} xl={3} xxl={3}>
-      {/*<div className="row row-cols-1 row-cols-md-3 g-4 mb-4">*/}
       {games.map((game) => {
         return (
           <Col key={game.name}>
@@ -53,14 +52,14 @@ const GameCards = ({ games }) => {
               </Card.Body>
               <Card.Footer>
                 {game.pack_url ? (
-                  <>
+                  <React.Fragment>
                     Part of{" "}
                     <a href={game.pack_url} className="text-decoration-none">
                       {game.pack}
                     </a>
-                  </>
+                  </React.Fragment>
                 ) : (
-                  <>{game.pack}</>
+                  <React.Fragment>{game.pack}</React.Fragment>
                 )}
               </Card.Footer>
             </Card>
