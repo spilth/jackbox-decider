@@ -11,8 +11,8 @@ const GameCards = ({ games }) => {
     <div className="row row-cols-1 row-cols-md-3 g-4 mb-4">
       {games.map((game) => {
         return (
-          <div className="col">
-            <div className="card mb-2" key={game.name}>
+          <div className="col" key={game.name}>
+            <div className="card mb-2">
               {game.image && (
                 <a href={game.url}>
                   <img
