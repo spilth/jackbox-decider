@@ -1,11 +1,11 @@
 import React, { useMemo, useState } from "react";
-import GamesTable from "./GamesTable";
 import games from "./games";
 import ToggleButton from "react-bootstrap/ToggleButton";
 import ToggleButtonGroup from "react-bootstrap/ToggleButtonGroup";
+import GameCards from "./GameCards";
 
 const App = () => {
-  const [players, setPlayers] = useState(3);
+  const [players, setPlayers] = useState(4);
 
   const buttonValues = [
     { label: "1", count: 1 },
@@ -57,10 +57,10 @@ const App = () => {
         <h2 className="text-center">
           {filteredGames.length} game{filteredGames.length > 1 && "s"} to play!
         </h2>
-        <GamesTable games={filteredGames} />
+        <GameCards games={filteredGames} />
       </div>
 
-      <h6 className="text-center">
+      <h6 className="text-center mb-4">
         <a href="https://github.com/spilth/jackbox-decider">
           https://github.com/spilth/jackbox-decider
         </a>

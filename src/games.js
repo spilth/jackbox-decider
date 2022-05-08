@@ -2,6 +2,7 @@ const games = [
   {
     name: "You Don't Know Jack - 2015",
     pack: "The Jackbox Party Pack",
+    image: "ydkj_2015.jpg",
     minPlayers: 1,
     maxPlayers: 4,
     url: "https://jackboxgames.com/ydkj-2015",
@@ -16,6 +17,7 @@ const games = [
   {
     name: "Lie Swatter",
     pack: "The Jackbox Party Pack",
+    image: "lie_swatter.jpg",
     minPlayers: 1,
     maxPlayers: 100,
     url: "https://jackboxgames.com/lie-swatter",
@@ -29,6 +31,7 @@ const games = [
   {
     name: "Fibbage XL",
     pack: "The Jackbox Party Pack",
+    image: "fibbage_xl.jpg",
     minPlayers: 2,
     maxPlayers: 8,
     url: "https://jackboxgames.com/fibbage-xl",
@@ -43,6 +46,7 @@ const games = [
   {
     name: "Word Spud",
     pack: "The Jackbox Party Pack",
+    image: "word_spud.jpg",
     minPlayers: 2,
     maxPlayers: 8,
     url: "https://jackboxgames.com/word-spud",
@@ -56,6 +60,7 @@ const games = [
   {
     name: "Drawful",
     pack: "The Jackbox Party Pack",
+    image: "drawful.jpg",
     minPlayers: 3,
     maxPlayers: 8,
     url: "https://jackboxgames.com/drawful",
@@ -70,6 +75,7 @@ const games = [
   {
     name: "Bomb Corp.",
     pack: "The Jackbox Party Pack 2",
+    image: "bomb_corp.jpg",
     minPlayers: 1,
     maxPlayers: 4,
     url: "https://jackboxgames.com/bomb-corp",
@@ -84,6 +90,7 @@ const games = [
   {
     name: "Fibbage 2",
     pack: "The Jackbox Party Pack 2",
+    image: "fibbage_2.jpg",
     minPlayers: 2,
     maxPlayers: 8,
     url: "https://jackboxgames.com/fibbage-two",
@@ -98,6 +105,7 @@ const games = [
   {
     name: "Bidiots",
     pack: "The Jackbox Party Pack 2",
+    image: "bidiots.jpg",
     minPlayers: 3,
     maxPlayers: 6,
     url: "https://jackboxgames.com/bidiots",
@@ -112,6 +120,7 @@ const games = [
   {
     name: "Earwax",
     pack: "The Jackbox Party Pack 2",
+    image: "earwax.jpg",
     minPlayers: 3,
     maxPlayers: 8,
     url: "https://jackboxgames.com/earwax",
@@ -126,6 +135,7 @@ const games = [
   {
     name: "Quiplash XL",
     pack: "The Jackbox Party Pack 2",
+    image: "quiplash_xl.jpg",
     minPlayers: 3,
     maxPlayers: 8,
     url: "https://jackboxgames.com/quiplash-xl",
@@ -140,6 +150,7 @@ const games = [
   {
     name: "Trivia Murder Party",
     pack: "The Jackbox Party Pack 3",
+    image: "trivia_murder_party.jpg",
     minPlayers: 1,
     maxPlayers: 8,
     url: "https://jackboxgames.com/trivia-murder-party",
@@ -154,6 +165,7 @@ const games = [
   {
     name: "Guesspionage",
     pack: "The Jackbox Party Pack 3",
+    image: "guesspionage.jpg",
     minPlayers: 2,
     maxPlayers: 8,
     url: "https://jackboxgames.com/guesspionage",
@@ -167,6 +179,7 @@ const games = [
   {
     name: "Fakin' It",
     pack: "The Jackbox Party Pack 3",
+    image: "fakin_it.jpg",
     minPlayers: 3,
     maxPlayers: 8,
     url: "https://jackboxgames.com/fakin-it",
@@ -181,6 +194,7 @@ const games = [
   {
     name: "Quiplash 2",
     pack: "The Jackbox Party Pack 3",
+    image: "quiplash_2.jpg",
     minPlayers: 3,
     maxPlayers: 8,
     url: "https://jackboxgames.com/quiplash-two",
@@ -195,6 +209,7 @@ const games = [
   {
     name: "Tee K.O.",
     pack: "The Jackbox Party Pack 3",
+    image: "tee_ko.jpg",
     minPlayers: 3,
     maxPlayers: 8,
     url: "https://jackboxgames.com/tee-ko",
@@ -209,6 +224,7 @@ const games = [
   {
     name: "Fibbage 3",
     pack: "The Jackbox Party Pack 4",
+    image: "fibbage_3.png",
     minPlayers: 2,
     maxPlayers: 8,
     url: "https://jackboxgames.com/fibbage-three",
@@ -223,6 +239,7 @@ const games = [
   {
     name: "Monster Seeking Monster",
     pack: "The Jackbox Party Pack 4",
+    image: "monster_seeking_monster.jpg",
     minPlayers: 3,
     maxPlayers: 7,
     url: "https://jackboxgames.com/monster-seeking-monster",
@@ -237,6 +254,7 @@ const games = [
   {
     name: "Civic Doodle",
     pack: "The Jackbox Party Pack 4",
+    image: "civic_doodle.jpg",
     minPlayers: 3,
     maxPlayers: 8,
     url: "https://jackboxgames.com/civic-doodle",
@@ -251,6 +269,7 @@ const games = [
   {
     name: "Survive the Internet",
     pack: "The Jackbox Party Pack 4",
+    image: "survive_the_internet.jpg",
     minPlayers: 3,
     maxPlayers: 8,
     url: "https://jackboxgames.com/survive-the-internet",
@@ -265,6 +284,7 @@ const games = [
   {
     name: "Bracketeering",
     pack: "The Jackbox Party Pack 4",
+    image: "bracketeering.jpg",
     minPlayers: 3,
     maxPlayers: 16,
     url: "https://jackboxgames.com/bracketeering",
@@ -279,6 +299,7 @@ const games = [
   {
     name: "You Don't Know Jack - Full Stream",
     pack: "The Jackbox Party Pack 5",
+    image: "full_stream.png",
     minPlayers: 1,
     maxPlayers: 8,
     url: "https://jackboxgames.com/ydkj-full-stream",
@@ -293,6 +314,7 @@ const games = [
   {
     name: "Split The Room",
     pack: "The Jackbox Party Pack 5",
+    image: "split_the_room.png",
     minPlayers: 3,
     maxPlayers: 8,
     url: "https://jackboxgames.com/split-the-room",
@@ -307,6 +329,7 @@ const games = [
   {
     name: "Mad Verse City",
     pack: "The Jackbox Party Pack 5",
+    image: "mad_verse_city.jpg",
     minPlayers: 3,
     maxPlayers: 8,
     url: "https://jackboxgames.com/mad-verse-city",
@@ -321,6 +344,7 @@ const games = [
   {
     name: "Patently Stupid",
     pack: "The Jackbox Party Pack 5",
+    image: "patently_stupid.png",
     minPlayers: 3,
     maxPlayers: 8,
     url: "https://jackboxgames.com/patently-stupid",
@@ -335,6 +359,7 @@ const games = [
   {
     name: "Zeeple Dome",
     pack: "The Jackbox Party Pack 5",
+    image: "zeeple_dome.jpg",
     minPlayers: 1,
     maxPlayers: 6,
     url: "https://jackboxgames.com/zeeple-dome",
@@ -349,6 +374,7 @@ const games = [
   {
     name: "Trivia Murder Party 2",
     pack: "The Jackbox Party Pack 6",
+    image: "trivia_murder_party_2.jpg",
     minPlayers: 1,
     maxPlayers: 8,
     url: "https://jackboxgames.com/trivia-murder-party-two/",
@@ -363,6 +389,7 @@ const games = [
   {
     name: "Role Models",
     pack: "The Jackbox Party Pack 6",
+    image: "role_models.jpg",
     minPlayers: 3,
     maxPlayers: 6,
     url: "https://jackboxgames.com/role-models/",
@@ -377,6 +404,7 @@ const games = [
   {
     name: "Joke Boat",
     pack: "The Jackbox Party Pack 6",
+    image: "joke_boat.jpg",
     minPlayers: 3,
     maxPlayers: 8,
     url: "https://jackboxgames.com/joke-boat/",
@@ -391,6 +419,7 @@ const games = [
   {
     name: "Dictionarium",
     pack: "The Jackbox Party Pack 6",
+    image: "dictionarium.png",
     minPlayers: 3,
     maxPlayers: 8,
     url: "https://jackboxgames.com/dictionarium/",
@@ -405,6 +434,7 @@ const games = [
   {
     name: "Push The Button",
     pack: "The Jackbox Party Pack 6",
+    image: "push_the_button.jpg",
     minPlayers: 4,
     maxPlayers: 10,
     url: "https://jackboxgames.com/push-the-button/",
@@ -419,6 +449,7 @@ const games = [
   {
     name: "Quiplash 3",
     pack: "The Jackbox Party Pack 7",
+    image: "quiplash_3.jpg",
     minPlayers: 3,
     maxPlayers: 8,
     url: "https://www.jackboxgames.com/quiplash-three/",
@@ -433,6 +464,7 @@ const games = [
   {
     name: "The Devils and the Details",
     pack: "The Jackbox Party Pack 7",
+    image: "the_devils_and_the_details.jpg",
     minPlayers: 3,
     maxPlayers: 8,
     url: "https://www.jackboxgames.com/the-devils-and-the-details/",
@@ -447,6 +479,7 @@ const games = [
   {
     name: "Champ’d Up",
     pack: "The Jackbox Party Pack 7",
+    image: "champd_up.jpg",
     minPlayers: 3,
     maxPlayers: 8,
     url: "https://www.jackboxgames.com/champd-up/",
@@ -461,6 +494,7 @@ const games = [
   {
     name: "Talking Points",
     pack: "The Jackbox Party Pack 7",
+    image: "talking_points.png",
     minPlayers: 3,
     maxPlayers: 8,
     url: "https://www.jackboxgames.com/talking-points/",
@@ -475,6 +509,7 @@ const games = [
   {
     name: "Blather ‘Round",
     pack: "The Jackbox Party Pack 7",
+    image: "blather_round.jpg",
     minPlayers: 2,
     maxPlayers: 6,
     url: "https://www.jackboxgames.com/blather-round/",
@@ -489,6 +524,7 @@ const games = [
   {
     name: "Drawful Animate",
     pack: "The Jackbox Party Pack 8",
+    image: "drawful_animate.jpg",
     minPlayers: 3,
     maxPlayers: 10,
     url: "https://www.jackboxgames.com/drawful-animate/",
@@ -503,6 +539,7 @@ const games = [
   {
     name: "Job Job",
     pack: "The Jackbox Party Pack 8",
+    image: "job_job.png",
     minPlayers: 3,
     maxPlayers: 10,
     url: "https://www.jackboxgames.com/job-job/",
@@ -517,6 +554,7 @@ const games = [
   {
     name: "The Poll Mine",
     pack: "The Jackbox Party Pack 8",
+    image: "the_poll_mine.jpg",
     minPlayers: 2,
     maxPlayers: 10,
     url: "https://www.jackboxgames.com/the-poll-mine/",
@@ -531,6 +569,7 @@ const games = [
   {
     name: "Weapons Drawn",
     pack: "The Jackbox Party Pack 8",
+    image: "weapons_drawn.jpg",
     minPlayers: 4,
     maxPlayers: 8,
     url: "https://www.jackboxgames.com/weapons-drawn/",
@@ -545,6 +584,7 @@ const games = [
   {
     name: "The Wheel of Enormous Proportions",
     pack: "The Jackbox Party Pack 8",
+    image: "the_wheel_of_enormous_proportions.jpg",
     minPlayers: 3,
     maxPlayers: 8,
     url: "https://www.jackboxgames.com/the-wheel-of-enormous-proportions/",
@@ -620,6 +660,6 @@ const games = [
     manualCensoring: true,
     extendedTimers: true,
   },
-];
+].sort((a, b) => a.name.localeCompare(b.name));
 
 export default games;
