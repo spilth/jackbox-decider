@@ -1,3 +1,5 @@
+# Jackbox Decider [![Netlify Status](https://api.netlify.com/api/v1/badges/5b5e1b8b-2c19-4a8b-a7ea-888be2a67889/deploy-status)](https://app.netlify.com/sites/jackbox-decider/deploys)
+
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
 ## Available Scripts
