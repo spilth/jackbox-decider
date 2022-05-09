@@ -59,7 +59,12 @@ const App = () => {
           size="sm"
         >
           {langValues.map((button) => (
-            <ToggleButton key={button.lang} value={button.lang}>
+            <ToggleButton
+              id={button.lang}
+              key={button.lang}
+              value={button.lang}
+              type="radio"
+            >
               {button.label}
             </ToggleButton>
           ))}
