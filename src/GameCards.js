@@ -16,9 +16,9 @@ const GameCards = ({ games }) => {
           return (
             <Col key={game.display_name}>
               <Card className="mb-4 shadow">
-                {game.image && (
+                {game.display_image && (
                   <a href={game.url}>
-                    <Card.Img variant="top" src={`/images/${game.image}`} />
+                    <Card.Img variant="top" src={`${game.display_image}`} />
                   </a>
                 )}
                 <Card.Body>
