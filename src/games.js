@@ -874,6 +874,6 @@ const games = [
     manualCensoring: true,
     extendedTimers: true,
   },
-].sort((a, b) => a.name.localeCompare(b.name));
+];
 
 export default games;
