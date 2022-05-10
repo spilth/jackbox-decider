@@ -41,9 +41,10 @@ const App = () => {
               ? game.description[lang]
               : game.description;
           game.display_image =
-            typeof game.image === "object" && lang in game.image
+            game.image &&
+            (typeof game.image === "object" && lang in game.image
               ? "/images/" + lang + "/" + game.image[lang]
-              : "/images/en/" + game.image;
+              : "/images/en/" + game.image);
           return game;
         }),
     [players, lang]
