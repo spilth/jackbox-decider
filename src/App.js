@@ -6,6 +6,7 @@ import GameCards from "./GameCards";
 
 const App = () => {
   const [players, setPlayers] = useState(4);
+  const [lang, setLang] = useState("en");
 
   const buttonValues = [
     { label: "1", count: 1 },
@@ -19,18 +20,56 @@ const App = () => {
     { label: "9+", count: 9 },
     { label: "17+", count: 17 },
   ];
+  const langValues = [
+    { label: "English", lang: "en" },
+    { label: "Russian", lang: "ru" },
+  ];
 
   const filteredGames = useMemo(
     () =>
-      games.filter(
-        (game) => players >= game.minPlayers && players <= game.maxPlayers
-      ),
-    [players]
+      games
+        .filter((game) => {
+          return players >= game.minPlayers && players <= game.maxPlayers;
+        })
+        .map((game) => {
+          game.display_name = game.name[lang] || game.name.en;
+          game.display_description =
+            game.description[lang] || game.description.en;
+          game.display_image =
+            game.image &&
+            (game.image[lang]
+              ? "/images/" + lang + "/" + game.image[lang]
+              : "/images/en/" + game.image.en);
+          return game;
+        }),
+    [players, lang]
   );
 
   return (
     <div>
       <h1 className="text-center">Jackbox Decider</h1>
+      <div className="text-center">
+        <span>Select language: </span>
+        <ToggleButtonGroup
+          type="radio"
+          name="options_lang"
+          value={lang}
+          onChange={(val) => setLang(val)}
+          className="mb-1"
+          size="sm"
+        >
+          {langValues.map((button) => (
+            <ToggleButton
+              id={button.lang}
+              key={button.lang}
+              value={button.lang}
+              type="radio"
+            >
+              {button.label}
+            </ToggleButton>
+          ))}
+        </ToggleButtonGroup>
+      </div>
       <h2 className="text-center">How many people?</h2>
       <div className="text-center">
         <ToggleButtonGroup
