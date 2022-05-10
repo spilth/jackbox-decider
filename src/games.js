@@ -100,7 +100,9 @@ const games = [
     extendedTimers: true,
   },
   {
-    name: "Bomb Corp.",
+    name: {
+      en: "Bomb Corp.",
+    },
     pack: "The Jackbox Party Pack 2",
     image: "bomb_corp.jpg",
     minPlayers: 1,
@@ -875,8 +877,9 @@ const games = [
     minPlayers: 2,
     maxPlayers: 8,
     url: "https://www.jackboxgames.com/fibbage/",
-    description:
-      "Fibbage is the lying, bluffing, fib-till-you-win trivia party game from the makers of YOU DON’T KNOW JACK! Fool your friends with your lies, avoid theirs, and find the (usually outrageous) truth. And get this: your phone or tablet is your controller!",
+    description: {
+      en: "Fibbage is the lying, bluffing, fib-till-you-win trivia party game from the makers of YOU DON’T KNOW JACK! Fool your friends with your lies, avoid theirs, and find the (usually outrageous) truth. And get this: your phone or tablet is your controller!",
+    },
     duration: "15-20 Minutes",
     familyFriendlySetting: false,
     manualCensoring: false,
@@ -892,34 +895,42 @@ const games = [
     minPlayers: 3,
     maxPlayers: 8,
     url: "https://www.jackboxgames.com/quiplash/",
-    description: "Quiplash is the gut-busting battle of wits and wittiness!",
+    description: {
+      en: "Quiplash is the gut-busting battle of wits and wittiness!",
+    },
     duration: "15 Minutes",
     familyFriendlySetting: true,
     manualCensoring: true,
     extendedTimers: true,
   },
   {
-    name: "You Don't Know Jack - Classic Bundle",
+    name: {
+      en: "You Don't Know Jack - Classic Bundle",
+    },
     pack: "Standalone Title",
     minPlayers: 3,
     maxPlayers: 8,
     url: "https://www.jackboxgames.com/ydkj-classic-bundle/",
-    description:
-      "Since 1995, Jackbox Games (formerly Jellyvision) has been making YOU DON’T KNOW JACK, the hit comedy trivia series where high culture and pop culture collide. And we refuse to stop until every human being has played it.",
+    description: {
+      en: "Since 1995, Jackbox Games (formerly Jellyvision) has been making YOU DON’T KNOW JACK, the hit comedy trivia series where high culture and pop culture collide. And we refuse to stop until every human being has played it.",
+    },
     duration: "25 Minutes",
     familyFriendlySetting: false,
     manualCensoring: false,
     extendedTimers: false,
   },
   {
-    name: "Quiplash 2 InterLASHional",
+    name: {
+      en: "Quiplash 2 InterLASHional",
+    },
     pack: "Standalone Title",
     image: "quiplash_2_interlashional.jpg",
     minPlayers: 3,
     maxPlayers: 8,
     url: "https://www.jackboxgames.com/quiplash-two-interlashional/",
-    description:
-      "The “say anything” party game is going international! All the hilarious content from Quiplash 2, now in French, Italian, German, and Spanish! With 100 NEW prompts in each language! (And you can still play in boring old English.) Get this QUINTILINGUAL Quiplash now, and take your next party global!",
+    description: {
+      en: "The “say anything” party game is going international! All the hilarious content from Quiplash 2, now in French, Italian, German, and Spanish! With 100 NEW prompts in each language! (And you can still play in boring old English.) Get this QUINTILINGUAL Quiplash now, and take your next party global!",
+    },
     duration: "15 Minutes",
     familyFriendlySetting: true,
     manualCensoring: true,
