@@ -6,7 +6,7 @@ import GameCards from "./GameCards";
 
 const App = () => {
   const [players, setPlayers] = useState(4);
-  const [lang, setLang] = useState("en");
+  const [language, setLanguage] = useState("en");
 
   const buttonValues = [
     { label: "1", count: 1 },
@@ -21,8 +21,8 @@ const App = () => {
     { label: "17+", count: 17 },
   ];
   const langValues = [
-    { label: "English", lang: "en" },
-    { label: "Russian", lang: "ru" },
+    { label: "English", language: "en" },
+    { label: "Russian", language: "ru" },
   ];
 
   const filteredGames = useMemo(
@@ -32,17 +32,17 @@ const App = () => {
           return players >= game.minPlayers && players <= game.maxPlayers;
         })
         .map((game) => {
-          game.display_name = game.name[lang] || game.name.en;
+          game.display_name = game.name[language] || game.name.en;
           game.display_description =
-            game.description[lang] || game.description.en;
+            game.description[language] || game.description.en;
           game.display_image =
             game.image &&
-            (game.image[lang]
-              ? "/images/" + lang + "/" + game.image[lang]
+            (game.image[language]
+              ? "/images/" + language + "/" + game.image[language]
               : "/images/en/" + game.image.en);
           return game;
         }),
-    [players, lang]
+    [players, language]
   );
 
   return (
@@ -52,17 +52,17 @@ const App = () => {
         <span>Select language: </span>
         <ToggleButtonGroup
           type="radio"
-          name="options_lang"
-          value={lang}
-          onChange={(val) => setLang(val)}
+          name="language"
+          value={language}
+          onChange={(value) => setLanguage(value)}
           className="mb-1"
           size="sm"
         >
           {langValues.map((button) => (
             <ToggleButton
-              id={button.lang}
-              key={button.lang}
-              value={button.lang}
+              id={button.language}
+              key={button.language}
+              value={button.language}
               type="radio"
             >
               {button.label}
@@ -74,9 +74,9 @@ const App = () => {
       <div className="text-center">
         <ToggleButtonGroup
           type="radio"
-          name="options"
+          name="players"
           value={players}
-          onChange={(val) => setPlayers(val)}
+          onChange={(value) => setPlayers(value)}
           className="mb-4"
         >
           {buttonValues.map((button) => (
