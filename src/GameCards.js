@@ -5,7 +5,7 @@ import {
   faCommentSlash,
 } from "@fortawesome/free-solid-svg-icons";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
-import { Card, Col, Row, Stack } from "react-bootstrap";
+import { Card, Col, Row } from "react-bootstrap";
 
 const GameCards = ({ games }) => {
   return (
@@ -31,26 +31,27 @@ const GameCards = ({ games }) => {
                     {game.minPlayers} - {game.maxPlayers} players
                   </Card.Subtitle>
                   <Card.Text>{game.display_description}</Card.Text>
-                  <Stack direction="vertical" gap={1}>
+
+                  <ul className="list-unstyled">
                     {game.familyFriendlySetting && (
-                      <div>
+                      <li>
                         <FontAwesomeIcon icon={faChildReaching} fixedWidth />{" "}
                         Family Friendly Setting
-                      </div>
+                      </li>
                     )}
                     {game.manualCensoring && (
-                      <div>
+                      <li>
                         <FontAwesomeIcon icon={faCommentSlash} fixedWidth />{" "}
                         Manual Censoring
-                      </div>
+                      </li>
                     )}
                     {game.extendedTimers && (
-                      <div>
-                        <FontAwesomeIcon icon={faHourglass} fixedWidth />
+                      <li>
+                        <FontAwesomeIcon icon={faHourglass} fixedWidth />{" "}
                         Extended Timers
-                      </div>
+                      </li>
                     )}
-                  </Stack>
+                  </ul>
                 </Card.Body>
                 <Card.Footer>
                   {game.pack_url ? (
