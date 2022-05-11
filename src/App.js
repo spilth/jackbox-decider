@@ -8,21 +8,21 @@ const App = () => {
   const [players, setPlayers] = useState(4);
   const [language, setLanguage] = useState("en");
 
-  const buttonValues = [
-    { label: "1", count: 1 },
-    { label: "2", count: 2 },
-    { label: "3", count: 3 },
-    { label: "4", count: 4 },
-    { label: "5", count: 5 },
-    { label: "6", count: 6 },
-    { label: "7", count: 7 },
-    { label: "8", count: 8 },
-    { label: "9+", count: 9 },
-    { label: "17+", count: 17 },
+  const playerButtons = [
+    { label: "1", value: 1 },
+    { label: "2", value: 2 },
+    { label: "3", value: 3 },
+    { label: "4", value: 4 },
+    { label: "5", value: 5 },
+    { label: "6", value: 6 },
+    { label: "7", value: 7 },
+    { label: "8", value: 8 },
+    { label: "9+", value: 9 },
+    { label: "17+", value: 17 },
   ];
-  const langValues = [
-    { label: "English", language: "en" },
-    { label: "Russian", language: "ru" },
+  const languageButtons = [
+    { label: "English", value: "en" },
+    { label: "Russian", value: "ru" },
   ];
 
   const filteredGames = useMemo(
@@ -58,11 +58,11 @@ const App = () => {
           className="mb-1"
           size="sm"
         >
-          {langValues.map((button) => (
+          {languageButtons.map((button) => (
             <ToggleButton
-              id={button.language}
-              key={button.language}
-              value={button.language}
+              id={button.value}
+              key={button.value}
+              value={button.value}
               type="radio"
             >
               {button.label}
@@ -79,11 +79,11 @@ const App = () => {
           onChange={(value) => setPlayers(value)}
           className="mb-4"
         >
-          {buttonValues.map((button) => (
+          {playerButtons.map((button) => (
             <ToggleButton
-              id={button.count}
-              key={button.count}
-              value={button.count}
+              id={button.value}
+              key={button.value}
+              value={button.value}
               type="radio"
             >
               {button.label}
