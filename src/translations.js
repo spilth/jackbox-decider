@@ -11,6 +11,10 @@ const translations = {
     en: (count) => count + " game" + (count > 1 ? "s" : "") + " to play!",
     ru: (count) => count + (count === 1 ? " игра найдена!" : " игр найдено!"),
   },
+  players: {
+    en: "players",
+    ru: "игроков",
+  },
   familyFriendlySetting: {
     en: "Family Friendly Setting",
     ru: "Семейный фильтр",

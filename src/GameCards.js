@@ -31,7 +31,8 @@ const GameCards = ({ games, lang }) => {
                     </a>
                   </Card.Title>
                   <Card.Subtitle className="text-muted mb-2">
-                    {game.minPlayers} - {game.maxPlayers} players
+                    {game.minPlayers} - {game.maxPlayers}{" "}
+                    {translations.players[lang]}
                   </Card.Subtitle>
                   <Card.Text>{game.display_description}</Card.Text>
                   <Stack direction="vertical" gap={1}>
