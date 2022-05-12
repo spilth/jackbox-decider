@@ -3,6 +3,8 @@ import {
   faChildReaching,
   faHourglass,
   faCommentSlash,
+  faCircleCheck,
+  faCircleXmark,
 } from "@fortawesome/free-solid-svg-icons";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { Card, Col, Row, Stack } from "react-bootstrap";
@@ -46,10 +48,22 @@ const GameCards = ({ games }) => {
                     )}
                     {game.extendedTimers && (
                       <div>
-                        <FontAwesomeIcon icon={faHourglass} fixedWidth />
+                        <FontAwesomeIcon icon={faHourglass} fixedWidth />{" "}
                         Extended Timers
                       </div>
                     )}
+                    {game.has_translation !== null &&
+                      (game.has_translation ? (
+                        <div>
+                          <FontAwesomeIcon icon={faCircleCheck} fixedWidth />{" "}
+                          Translated
+                        </div>
+                      ) : (
+                        <div>
+                          <FontAwesomeIcon icon={faCircleXmark} fixedWidth />{" "}
+                          Not translated
+                        </div>
+                      ))}
                   </Stack>
                 </Card.Body>
                 <Card.Footer>

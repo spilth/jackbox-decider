@@ -40,6 +40,7 @@ const App = () => {
             (game.image[lang]
               ? "/images/" + lang + "/" + game.image[lang]
               : "/images/en/" + game.image.en);
+          game.has_translation = lang == "en" ? null : game.translations.includes(lang);
           return game;
         }),
     [players, lang]
