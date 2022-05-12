@@ -3,6 +3,7 @@ import games from "./games";
 import ToggleButton from "react-bootstrap/ToggleButton";
 import ToggleButtonGroup from "react-bootstrap/ToggleButtonGroup";
 import GameCards from "./GameCards";
+import translations from "./translations";
 
 const App = () => {
   const [players, setPlayers] = useState(4);
@@ -51,7 +52,7 @@ const App = () => {
     <div>
       <h1 className="text-center">Jackbox Decider</h1>
       <div className="text-center">
-        <span>Select language: </span>
+        <span>{translations.select_language[lang]}</span>
         <ToggleButtonGroup
           type="radio"
           name="options_lang"
@@ -72,7 +73,7 @@ const App = () => {
           ))}
         </ToggleButtonGroup>
       </div>
-      <h2 className="text-center">How many people?</h2>
+      <h2 className="text-center">{translations.how_many_people[lang]}</h2>
       <div className="text-center">
         <ToggleButtonGroup
           type="radio"
@@ -96,7 +97,7 @@ const App = () => {
 
       <div>
         <h2 className="text-center">
-          {filteredGames.length} game{filteredGames.length > 1 && "s"} to play!
+          {translations.display_game_count[lang](filteredGames.length)}
         </h2>
         <GameCards games={filteredGames} lang={lang} />
       </div>
