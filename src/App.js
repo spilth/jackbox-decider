@@ -41,8 +41,8 @@ const App = () => {
             (game.image[language]
               ? "/images/" + language + "/" + game.image[language]
               : "/images/en/" + game.image.en);
-            game.has_translation =
-              language === "en" ? null : game.translations.includes(language);
+          game.has_translation =
+            language === "en" ? null : game.translations.includes(language);
           return game;
         }),
     [players, language]
@@ -52,7 +52,7 @@ const App = () => {
     <div>
       <h1 className="text-center">Jackbox Decider</h1>
       <div className="text-center">
-        <span>{translations.select_language[lang]}</span>
+        <span>{translations.select_language[language]}</span>
         <ToggleButtonGroup
           type="radio"
           name="language"
@@ -73,7 +73,7 @@ const App = () => {
           ))}
         </ToggleButtonGroup>
       </div>
-      <h2 className="text-center">{translations.how_many_people[lang]}</h2>
+      <h2 className="text-center">{translations.how_many_people[language]}</h2>
       <div className="text-center">
         <ToggleButtonGroup
           type="radio"
@@ -97,9 +97,9 @@ const App = () => {
 
       <div>
         <h2 className="text-center">
-          {translations.display_game_count[lang](filteredGames.length)}
+          {translations.display_game_count[language](filteredGames.length)}
         </h2>
-        <GameCards games={filteredGames} lang={lang} />
+        <GameCards games={filteredGames} lang={language} />
       </div>
 
       <h6 className="text-center mb-4">

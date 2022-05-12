@@ -78,7 +78,9 @@ const GameCards = ({ games, lang }) => {
                       </a>
                     </React.Fragment>
                   ) : (
-                    <React.Fragment>{translations.standalone_title[lang]}</React.Fragment>
+                    <React.Fragment>
+                      {translations.standalone_title[lang]}
+                    </React.Fragment>
                   )}
                 </Card.Footer>
               </Card>
