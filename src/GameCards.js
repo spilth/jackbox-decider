@@ -8,8 +8,9 @@ import {
 } from "@fortawesome/free-solid-svg-icons";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { Card, Col, Row, Stack } from "react-bootstrap";
+import translations from "./translations";
 
-const GameCards = ({ games }) => {
+const GameCards = ({ games, lang }) => {
   return (
     <Row xs={1} sm={2} md={2} lg={3} xl={3} xxl={3}>
       {games
@@ -37,31 +38,31 @@ const GameCards = ({ games }) => {
                     {game.familyFriendlySetting && (
                       <div>
                         <FontAwesomeIcon icon={faChildReaching} fixedWidth />{" "}
-                        Family Friendly Setting
+                        {translations.familyFriendlySetting[lang]}
                       </div>
                     )}
                     {game.manualCensoring && (
                       <div>
                         <FontAwesomeIcon icon={faCommentSlash} fixedWidth />{" "}
-                        Manual Censoring
+                        {translations.manualCensoring[lang]}
                       </div>
                     )}
                     {game.extendedTimers && (
                       <div>
                         <FontAwesomeIcon icon={faHourglass} fixedWidth />{" "}
-                        Extended Timers
+                        {translations.extendedTimers[lang]}
                       </div>
                     )}
                     {game.has_translation !== null &&
                       (game.has_translation ? (
                         <div>
                           <FontAwesomeIcon icon={faCircleCheck} fixedWidth />{" "}
-                          Translated
+                          {translations.has_translation[lang]}
                         </div>
                       ) : (
                         <div>
                           <FontAwesomeIcon icon={faCircleXmark} fixedWidth />{" "}
-                          Not translated
+                          {translations.no_translation[lang]}
                         </div>
                       ))}
                   </Stack>
