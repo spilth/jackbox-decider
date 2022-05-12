@@ -31,6 +31,14 @@ const translations = {
     en: "Not translated",
     ru: "Не переведено",
   },
+  part_of: {
+    en: "Part of",
+    ru: "В составе",
+  },
+  standalone_title: {
+    en: "Standalone Title",
+    ru: "Отдельная игра",
+  },
 };
 
 export default translations;

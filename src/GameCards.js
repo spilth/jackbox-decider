@@ -70,13 +70,15 @@ const GameCards = ({ games, lang }) => {
                 <Card.Footer>
                   {game.pack_url ? (
                     <React.Fragment>
-                      Part of{" "}
+                      {translations.part_of[lang]}{" "}
                       <a href={game.pack_url} className="text-decoration-none">
                         {game.pack}
                       </a>
                     </React.Fragment>
                   ) : (
-                    <React.Fragment>{game.pack}</React.Fragment>
+                    <React.Fragment>
+                      {translations.standalone_title[lang]}
+                    </React.Fragment>
                   )}
                 </Card.Footer>
               </Card>
