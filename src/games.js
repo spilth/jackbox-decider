@@ -112,6 +112,7 @@ const games = [
   {
     name: {
       en: "Bomb Corp.",
+      ru: "БомбоКорпорация",
     },
     pack: "The Jackbox Party Pack 2",
     image: {
@@ -956,6 +957,7 @@ const games = [
   {
     name: {
       en: "You Don't Know Jack - Classic Bundle",
+      ru: "А голову ты не забыл? - Классическая версия",
     },
     pack: "Standalone Title",
     minPlayers: 3,
@@ -972,6 +974,7 @@ const games = [
   {
     name: {
       en: "Quiplash 2 InterLASHional",
+      ru: "Смехлыст 2 Международный",
     },
     pack: "Standalone Title",
     image: {
