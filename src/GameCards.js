@@ -7,7 +7,7 @@ import {
   faCircleXmark,
 } from "@fortawesome/free-solid-svg-icons";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
-import { Card, Col, Row, Stack } from "react-bootstrap";
+import { Card, Col, Row } from "react-bootstrap";
 import translations from "./translations";
 
 const GameCards = ({ games, lang }) => {
@@ -35,38 +35,39 @@ const GameCards = ({ games, lang }) => {
                     {translations.players[lang]}
                   </Card.Subtitle>
                   <Card.Text>{game.display_description}</Card.Text>
-                  <Stack direction="vertical" gap={1}>
+
+                  <ul className="list-unstyled">
                     {game.familyFriendlySetting && (
-                      <div>
+                      <li>
                         <FontAwesomeIcon icon={faChildReaching} fixedWidth />{" "}
                         {translations.familyFriendlySetting[lang]}
-                      </div>
+                      </li>
                     )}
                     {game.manualCensoring && (
-                      <div>
+                      <li>
                         <FontAwesomeIcon icon={faCommentSlash} fixedWidth />{" "}
                         {translations.manualCensoring[lang]}
-                      </div>
+                      </li>
                     )}
                     {game.extendedTimers && (
-                      <div>
+                      <li>
                         <FontAwesomeIcon icon={faHourglass} fixedWidth />{" "}
                         {translations.extendedTimers[lang]}
-                      </div>
+                      </li>
                     )}
                     {game.has_translation !== null &&
                       (game.has_translation ? (
-                        <div>
+                        <li>
                           <FontAwesomeIcon icon={faCircleCheck} fixedWidth />{" "}
                           {translations.has_translation[lang]}
-                        </div>
+                        </li>
                       ) : (
-                        <div>
+                        <li>
                           <FontAwesomeIcon icon={faCircleXmark} fixedWidth />{" "}
                           {translations.no_translation[lang]}
-                        </div>
+                        </li>
                       ))}
-                  </Stack>
+                  </ul>
                 </Card.Body>
                 <Card.Footer>
                   {game.pack_url ? (
@@ -77,9 +78,7 @@ const GameCards = ({ games, lang }) => {
                       </a>
                     </React.Fragment>
                   ) : (
-                    <React.Fragment>
-                      {translations.standalone_title[lang]}
-                    </React.Fragment>
+                    <React.Fragment>{translations.standalone_title[lang]}</React.Fragment>
                   )}
                 </Card.Footer>
               </Card>
