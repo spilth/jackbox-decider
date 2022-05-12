@@ -99,7 +99,7 @@ const App = () => {
         <h2 className="text-center">
           {translations.display_game_count[language](filteredGames.length)}
         </h2>
-        <GameCards games={filteredGames} lang={language} />
+        <GameCards games={filteredGames} language={language} />
       </div>
 
       <h6 className="text-center mb-4">
