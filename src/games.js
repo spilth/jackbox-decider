@@ -20,6 +20,7 @@ const games = [
     familyFriendlySetting: false,
     manualCensoring: false,
     extendedTimers: false,
+    translations: [],
   },
   {
     name: {
@@ -42,6 +43,7 @@ const games = [
     familyFriendlySetting: false,
     manualCensoring: false,
     extendedTimers: false,
+    translations: ["ru"],
   },
   {
     name: {
@@ -64,6 +66,7 @@ const games = [
     familyFriendlySetting: true,
     manualCensoring: false,
     extendedTimers: false,
+    translations: [],
   },
   {
     name: {
@@ -86,6 +89,7 @@ const games = [
     familyFriendlySetting: false,
     manualCensoring: false,
     extendedTimers: false,
+    translations: ["ru"],
   },
   {
     name: {
@@ -108,6 +112,7 @@ const games = [
     familyFriendlySetting: true,
     manualCensoring: true,
     extendedTimers: true,
+    translations: ["ru"],
   },
   {
     name: {
@@ -130,6 +135,7 @@ const games = [
     familyFriendlySetting: true,
     manualCensoring: true,
     extendedTimers: true,
+    translations: [],
   },
   {
     name: {
@@ -152,6 +158,7 @@ const games = [
     familyFriendlySetting: true,
     manualCensoring: true,
     extendedTimers: true,
+    translations: [],
   },
   {
     name: {
@@ -175,6 +182,7 @@ const games = [
     familyFriendlySetting: true,
     manualCensoring: true,
     extendedTimers: true,
+    translations: ["ru"],
   },
   {
     name: {
@@ -197,6 +205,7 @@ const games = [
     familyFriendlySetting: true,
     manualCensoring: true,
     extendedTimers: true,
+    translations: ["ru"],
   },
   {
     name: {
@@ -219,6 +228,7 @@ const games = [
     familyFriendlySetting: true,
     manualCensoring: true,
     extendedTimers: true,
+    translations: ["ru"],
   },
   {
     name: {
@@ -241,6 +251,7 @@ const games = [
     familyFriendlySetting: false,
     manualCensoring: false,
     extendedTimers: true,
+    translations: [],
   },
   {
     name: {
@@ -264,6 +275,7 @@ const games = [
     familyFriendlySetting: true,
     manualCensoring: true,
     extendedTimers: true,
+    translations: ["ru"],
   },
   {
     name: {
@@ -287,6 +299,7 @@ const games = [
     familyFriendlySetting: true,
     manualCensoring: true,
     extendedTimers: false,
+    translations: ["ru"],
   },
   {
     name: {
@@ -310,6 +323,7 @@ const games = [
     familyFriendlySetting: true,
     manualCensoring: true,
     extendedTimers: true,
+    translations: ["ru"],
   },
   {
     name: {
@@ -333,6 +347,7 @@ const games = [
     familyFriendlySetting: true,
     manualCensoring: true,
     extendedTimers: true,
+    translations: ["ru"],
   },
   {
     name: {
@@ -355,6 +370,7 @@ const games = [
     familyFriendlySetting: true,
     manualCensoring: true,
     extendedTimers: true,
+    translations: ["ru"],
   },
   {
     name: {
@@ -378,6 +394,7 @@ const games = [
     familyFriendlySetting: true,
     manualCensoring: true,
     extendedTimers: true,
+    translations: ["ru"],
   },
   {
     name: {
@@ -401,6 +418,7 @@ const games = [
     familyFriendlySetting: true,
     manualCensoring: true,
     extendedTimers: true,
+    translations: ["ru"],
   },
   {
     name: {
@@ -424,6 +442,7 @@ const games = [
     familyFriendlySetting: true,
     manualCensoring: true,
     extendedTimers: true,
+    translations: ["ru"],
   },
   {
     name: {
@@ -447,6 +466,7 @@ const games = [
     familyFriendlySetting: true,
     manualCensoring: true,
     extendedTimers: true,
+    translations: ["ru"],
   },
   {
     name: {
@@ -469,6 +489,7 @@ const games = [
     familyFriendlySetting: false,
     manualCensoring: true,
     extendedTimers: true,
+    translations: [],
   },
   {
     name: {
@@ -492,6 +513,7 @@ const games = [
     familyFriendlySetting: true,
     manualCensoring: true,
     extendedTimers: true,
+    translations: ["ru"],
   },
   {
     name: {
@@ -514,6 +536,7 @@ const games = [
     familyFriendlySetting: true,
     manualCensoring: true,
     extendedTimers: true,
+    translations: [],
   },
   {
     name: {
@@ -537,6 +560,7 @@ const games = [
     familyFriendlySetting: false,
     manualCensoring: true,
     extendedTimers: true,
+    translations: ["ru"],
   },
   {
     name: {
@@ -559,6 +583,7 @@ const games = [
     familyFriendlySetting: false,
     manualCensoring: false,
     extendedTimers: false,
+    translations: [],
   },
   {
     name: {
@@ -582,6 +607,7 @@ const games = [
     familyFriendlySetting: false,
     manualCensoring: false,
     extendedTimers: true,
+    translations: ["ru"],
   },
   {
     name: {
@@ -604,6 +630,7 @@ const games = [
     familyFriendlySetting: true,
     manualCensoring: true,
     extendedTimers: true,
+    translations: [],
   },
   {
     name: {
@@ -627,6 +654,7 @@ const games = [
     familyFriendlySetting: true,
     manualCensoring: true,
     extendedTimers: true,
+    translations: ["ru"],
   },
   {
     name: {
@@ -649,6 +677,7 @@ const games = [
     familyFriendlySetting: true,
     manualCensoring: true,
     extendedTimers: true,
+    translations: [],
   },
   {
     name: {
@@ -672,6 +701,7 @@ const games = [
     familyFriendlySetting: true,
     manualCensoring: true,
     extendedTimers: false,
+    translations: ["ru"],
   },
   {
     name: {
@@ -694,6 +724,7 @@ const games = [
     familyFriendlySetting: true,
     manualCensoring: true,
     extendedTimers: true,
+    translations: ["ru"],
   },
   {
     name: {
@@ -716,6 +747,7 @@ const games = [
     familyFriendlySetting: true,
     manualCensoring: false,
     extendedTimers: false,
+    translations: ["ru"],
   },
   {
     name: {
@@ -739,6 +771,7 @@ const games = [
     familyFriendlySetting: true,
     manualCensoring: true,
     extendedTimers: true,
+    translations: ["ru"],
   },
   {
     name: {
@@ -762,6 +795,7 @@ const games = [
     familyFriendlySetting: true,
     manualCensoring: true,
     extendedTimers: true,
+    translations: ["ru"],
   },
   {
     name: {
@@ -784,6 +818,7 @@ const games = [
     familyFriendlySetting: true,
     manualCensoring: false,
     extendedTimers: false,
+    translations: [],
   },
   {
     name: {
@@ -806,6 +841,7 @@ const games = [
     familyFriendlySetting: true,
     manualCensoring: true,
     extendedTimers: true,
+    translations: ["ru"],
   },
   {
     name: {
@@ -828,6 +864,7 @@ const games = [
     familyFriendlySetting: true,
     manualCensoring: false,
     extendedTimers: true,
+    translations: ["ru"],
   },
   {
     name: {
@@ -850,6 +887,7 @@ const games = [
     familyFriendlySetting: true,
     manualCensoring: false,
     extendedTimers: false,
+    translations: [],
   },
   {
     name: {
@@ -872,6 +910,7 @@ const games = [
     familyFriendlySetting: false,
     manualCensoring: false,
     extendedTimers: true,
+    translations: ["ru"],
   },
   {
     name: {
@@ -895,6 +934,7 @@ const games = [
     familyFriendlySetting: true,
     manualCensoring: false,
     extendedTimers: false,
+    translations: [],
   },
   {
     name: {
@@ -916,6 +956,7 @@ const games = [
     familyFriendlySetting: true,
     manualCensoring: true,
     extendedTimers: true,
+    translations: [],
   },
   {
     name: {
@@ -933,6 +974,7 @@ const games = [
     familyFriendlySetting: false,
     manualCensoring: false,
     extendedTimers: false,
+    translations: [],
   },
   {
     name: {
@@ -953,6 +995,7 @@ const games = [
     familyFriendlySetting: true,
     manualCensoring: true,
     extendedTimers: true,
+    translations: [],
   },
   {
     name: {
@@ -970,6 +1013,7 @@ const games = [
     familyFriendlySetting: false,
     manualCensoring: false,
     extendedTimers: false,
+    translations: [],
   },
   {
     name: {
@@ -990,6 +1034,7 @@ const games = [
     familyFriendlySetting: true,
     manualCensoring: true,
     extendedTimers: true,
+    translations: [],
   },
 ];
 
