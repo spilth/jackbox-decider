@@ -27,8 +27,8 @@ const App = () => {
     { label: "Russian", value: "ru" },
   ];
   const sortButtons = [
-    { label: "Name", value: "displayName" },
-    { label: "Pack", value: "pack" },
+    { label: "name", value: "displayName" },
+    { label: "pack", value: "pack" },
   ];
 
   const localizedGames = useMemo(
@@ -110,7 +110,7 @@ const App = () => {
         </ToggleButtonGroup>
       </div>
       <div>
-        <span>Sort by: </span>
+        <span>{translations.sortBy[language]}</span>
         <ToggleButtonGroup
           type="radio"
           name="sort"
@@ -126,7 +126,7 @@ const App = () => {
               value={button.value}
               type="radio"
             >
-              {button.label}
+              {translations[button.label][language]}
             </ToggleButton>
           ))}
         </ToggleButtonGroup>
