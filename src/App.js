@@ -29,15 +29,15 @@ const App = () => {
   const localizedGames = useMemo(
     () =>
       games.map((game) => {
-        game.display_name = game.name[language] || game.name.en;
-        game.display_description =
+        game.displayName = game.name[language] || game.name.en;
+        game.displayDescription =
           game.description[language] || game.description.en;
-        game.display_image =
+        game.displayImage =
           game.image &&
           (game.image[language]
             ? "/images/" + language + "/" + game.image[language]
             : "/images/en/" + game.image.en);
-        game.has_translation =
+        game.hasTranslation =
           language === "en" ? null : game.translations.includes(language);
         return game;
       }),
@@ -56,7 +56,7 @@ const App = () => {
     <div>
       <h1 className="text-center">Jackbox Decider</h1>
       <div className="text-center">
-        <span>{translations.select_language[language]}</span>
+        <span>{translations.selectLanguage[language]}</span>
         <ToggleButtonGroup
           type="radio"
           name="language"
@@ -77,7 +77,7 @@ const App = () => {
           ))}
         </ToggleButtonGroup>
       </div>
-      <h2 className="text-center">{translations.how_many_people[language]}</h2>
+      <h2 className="text-center">{translations.howManyPeople[language]}</h2>
       <div className="text-center">
         <ToggleButtonGroup
           type="radio"
@@ -101,7 +101,7 @@ const App = () => {
 
       <div>
         <h2 className="text-center">
-          {translations.display_game_count[language](filteredGames.length)}
+          {translations.displayGameCount[language](filteredGames.length)}
         </h2>
         <GameCards games={filteredGames} language={language} />
       </div>

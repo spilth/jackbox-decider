@@ -14,27 +14,27 @@ const GameCards = ({ games, language }) => {
   return (
     <Row xs={1} sm={2} md={2} lg={3} xl={3} xxl={3}>
       {games
-        .sort((a, b) => a.display_name.localeCompare(b.display_name))
+        .sort((a, b) => a.displayName.localeCompare(b.displayName))
         .map((game) => {
           return (
-            <Col key={game.display_name}>
+            <Col key={game.displayName}>
               <Card className="mb-4 shadow">
-                {game.display_image && (
+                {game.displayImage && (
                   <a href={game.url}>
-                    <Card.Img variant="top" src={`${game.display_image}`} />
+                    <Card.Img variant="top" src={`${game.displayImage}`} />
                   </a>
                 )}
                 <Card.Body>
                   <Card.Title>
                     <a href={game.url} className="text-decoration-none">
-                      {game.display_name}
+                      {game.displayName}
                     </a>
                   </Card.Title>
                   <Card.Subtitle className="text-muted mb-2">
                     {game.minPlayers} - {game.maxPlayers}{" "}
                     {translations.players[language]}
                   </Card.Subtitle>
-                  <Card.Text>{game.display_description}</Card.Text>
+                  <Card.Text>{game.displayDescription}</Card.Text>
 
                   <ul className="list-unstyled">
                     {game.familyFriendlySetting && (
@@ -55,31 +55,31 @@ const GameCards = ({ games, language }) => {
                         {translations.extendedTimers[language]}
                       </li>
                     )}
-                    {game.has_translation !== null &&
-                      (game.has_translation ? (
+                    {game.hasTranslation !== null &&
+                      (game.hasTranslation ? (
                         <li>
                           <FontAwesomeIcon icon={faCircleCheck} fixedWidth />{" "}
-                          {translations.has_translation[language]}
+                          {translations.hasTranslation[language]}
                         </li>
                       ) : (
                         <li>
                           <FontAwesomeIcon icon={faCircleXmark} fixedWidth />{" "}
-                          {translations.no_translation[language]}
+                          {translations.noTranslation[language]}
                         </li>
                       ))}
                   </ul>
                 </Card.Body>
                 <Card.Footer>
-                  {game.pack_url ? (
+                  {game.packUrl ? (
                     <React.Fragment>
-                      {translations.part_of[language]}{" "}
-                      <a href={game.pack_url} className="text-decoration-none">
+                      {translations.partOf[language]}{" "}
+                      <a href={game.packUrl} className="text-decoration-none">
                         {game.pack}
                       </a>
                     </React.Fragment>
                   ) : (
                     <React.Fragment>
-                      {translations.standalone_title[language]}
+                      {translations.standaloneTitle[language]}
                     </React.Fragment>
                   )}
                 </Card.Footer>

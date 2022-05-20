@@ -1,13 +1,13 @@
 const translations = {
-  select_language: {
+  selectLanguage: {
     en: "Select language: ",
     ru: "Выберите язык: ",
   },
-  how_many_people: {
+  howManyPeople: {
     en: "How many people?",
     ru: "Сколько людей?",
   },
-  display_game_count: {
+  displayGameCount: {
     en: (count) => count + " game" + (count > 1 ? "s" : "") + " to play!",
     ru: (count) => count + (count === 1 ? " игра найдена!" : " игр найдено!"),
   },
@@ -27,19 +27,19 @@ const translations = {
     en: "Extended Timers",
     ru: "Увеличенные таймеры",
   },
-  has_translation: {
+  hasTranslation: {
     en: "Translated",
     ru: "Переведено",
   },
-  no_translation: {
+  noTranslation: {
     en: "Not translated",
     ru: "Не переведено",
   },
-  part_of: {
+  partOf: {
     en: "Part of",
     ru: "В составе",
   },
-  standalone_title: {
+  standaloneTitle: {
     en: "Standalone Title",
     ru: "Отдельная игра",
   },
