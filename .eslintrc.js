@@ -6,6 +6,9 @@ module.exports = {
     },
     requireConfigFile: false,
   },
+  rules: {
+    camelcase: [2, { properties: "always" }],
+  },
   plugins: ["prettier"],
   extends: ["react-app", "eslint:recommended", "plugin:prettier/recommended"],
 };
