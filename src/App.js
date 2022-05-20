@@ -8,6 +8,7 @@ import translations from "./translations";
 const App = () => {
   const [players, setPlayers] = useState(4);
   const [language, setLanguage] = useState("en");
+  const [sortField, setSort] = useState("displayName");
 
   const playerButtons = [
     { label: "1", value: 1 },
@@ -24,6 +25,10 @@ const App = () => {
   const languageButtons = [
     { label: "English", value: "en" },
     { label: "Russian", value: "ru" },
+  ];
+  const sortButtons = [
+    { label: "Name", value: "displayName" },
+    { label: "Pack", value: "pack" },
   ];
 
   const localizedGames = useMemo(
@@ -50,6 +55,12 @@ const App = () => {
         return players >= game.minPlayers && players <= game.maxPlayers;
       }),
     [players, localizedGames]
+  );
+
+  const sortedGames = useMemo(
+    () =>
+      filteredGames.sort((a, b) => a[sortField].localeCompare(b[sortField])),
+    [sortField, filteredGames]
   );
 
   return (
@@ -98,12 +109,33 @@ const App = () => {
           ))}
         </ToggleButtonGroup>
       </div>
-
+      <div>
+        <span>Sort by: </span>
+        <ToggleButtonGroup
+          type="radio"
+          name="sort"
+          value={sortField}
+          onChange={(value) => setSort(value)}
+          className="mb-1"
+          size="sm"
+        >
+          {sortButtons.map((button) => (
+            <ToggleButton
+              id={button.value}
+              key={button.value}
+              value={button.value}
+              type="radio"
+            >
+              {button.label}
+            </ToggleButton>
+          ))}
+        </ToggleButtonGroup>
+      </div>
       <div>
         <h2 className="text-center">
-          {translations.displayGameCount[language](filteredGames.length)}
+          {translations.displayGameCount[language](sortedGames.length)}
         </h2>
-        <GameCards games={filteredGames} language={language} />
+        <GameCards games={sortedGames} language={language} />
       </div>
 
       <h6 className="text-center mb-4">

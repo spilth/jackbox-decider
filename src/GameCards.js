@@ -14,7 +14,6 @@ const GameCards = ({ games, language }) => {
   return (
     <Row xs={1} sm={2} md={2} lg={3} xl={3} xxl={3}>
       {games
-        .sort((a, b) => a.displayName.localeCompare(b.displayName))
         .map((game) => {
           return (
             <Col key={game.displayName}>
