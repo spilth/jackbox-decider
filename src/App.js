@@ -26,26 +26,30 @@ const App = () => {
     { label: "Russian", value: "ru" },
   ];
 
+  const localizedGames = useMemo(
+    () =>
+      games.map((game) => {
+        game.display_name = game.name[language] || game.name.en;
+        game.display_description =
+          game.description[language] || game.description.en;
+        game.display_image =
+          game.image &&
+          (game.image[language]
+            ? "/images/" + language + "/" + game.image[language]
+            : "/images/en/" + game.image.en);
+        game.has_translation =
+          language === "en" ? null : game.translations.includes(language);
+        return game;
+      }),
+    [language]
+  );
+
   const filteredGames = useMemo(
     () =>
-      games
-        .filter((game) => {
-          return players >= game.minPlayers && players <= game.maxPlayers;
-        })
-        .map((game) => {
-          game.display_name = game.name[language] || game.name.en;
-          game.display_description =
-            game.description[language] || game.description.en;
-          game.display_image =
-            game.image &&
-            (game.image[language]
-              ? "/images/" + language + "/" + game.image[language]
-              : "/images/en/" + game.image.en);
-          game.has_translation =
-            language === "en" ? null : game.translations.includes(language);
-          return game;
-        }),
-    [players, language]
+      localizedGames.filter((game) => {
+        return players >= game.minPlayers && players <= game.maxPlayers;
+      }),
+    [players, localizedGames]
   );
 
   return (
