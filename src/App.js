@@ -30,8 +30,9 @@ const App = () => {
     { label: "Russian", value: "ru" },
   ];
   const sortButtons = [
-    { label: "name", value: "displayName" },
-    { label: "pack", value: "pack" },
+    { label: "byName", value: "displayName" },
+    { label: "byPack", value: "pack" },
+    { label: "byRating", value: "rating" },
   ];
 
   function changeSort(value) {
@@ -70,8 +71,8 @@ const App = () => {
     () =>
       filteredGames.sort((a, b) =>
         sortDirection >= 0
-          ? a[sortField].localeCompare(b[sortField])
-          : b[sortField].localeCompare(a[sortField])
+          ? a[sortField].toString().localeCompare(b[sortField].toString())
+          : b[sortField].toString().localeCompare(a[sortField].toString())
       ),
     [sortField, sortDirection, filteredGames]
   );

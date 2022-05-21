@@ -47,13 +47,21 @@ const translations = {
     en: "Sort by: ",
     ru: "Сортировка: ",
   },
-  name: {
+  byName: {
     en: "Name",
     ru: "Название",
   },
-  pack: {
+  byPack: {
     en: "Pack",
     ru: "Издание",
+  },
+  rating: {
+    en: "Rating:",
+    ru: "Рейтинг:",
+  },
+  byRating: {
+    en: "Rating",
+    ru: "Рейтинг",
   },
 };
 

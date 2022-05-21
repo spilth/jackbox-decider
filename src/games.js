@@ -21,6 +21,7 @@ const games = [
     manualCensoring: false,
     extendedTimers: false,
     translations: [],
+    rating: 2,
   },
   {
     name: {
@@ -44,6 +45,7 @@ const games = [
     manualCensoring: false,
     extendedTimers: false,
     translations: ["ru"],
+    rating: 2,
   },
   {
     name: {
@@ -67,6 +69,7 @@ const games = [
     manualCensoring: false,
     extendedTimers: false,
     translations: [],
+    rating: 4,
   },
   {
     name: {
@@ -90,6 +93,7 @@ const games = [
     manualCensoring: false,
     extendedTimers: false,
     translations: ["ru"],
+    rating: 2,
   },
   {
     name: {
@@ -113,6 +117,7 @@ const games = [
     manualCensoring: true,
     extendedTimers: true,
     translations: ["ru"],
+    rating: 5,
   },
   {
     name: {
@@ -136,6 +141,7 @@ const games = [
     manualCensoring: true,
     extendedTimers: true,
     translations: [],
+    rating: 4,
   },
   {
     name: {
@@ -159,6 +165,7 @@ const games = [
     manualCensoring: true,
     extendedTimers: true,
     translations: [],
+    rating: 4,
   },
   {
     name: {
@@ -183,6 +190,7 @@ const games = [
     manualCensoring: true,
     extendedTimers: true,
     translations: ["ru"],
+    rating: 2,
   },
   {
     name: {
@@ -206,6 +214,7 @@ const games = [
     manualCensoring: true,
     extendedTimers: true,
     translations: ["ru"],
+    rating: 2,
   },
   {
     name: {
@@ -229,6 +238,7 @@ const games = [
     manualCensoring: true,
     extendedTimers: true,
     translations: ["ru"],
+    rating: 5,
   },
   {
     name: {
@@ -252,6 +262,7 @@ const games = [
     manualCensoring: false,
     extendedTimers: true,
     translations: [],
+    rating: 4,
   },
   {
     name: {
@@ -276,6 +287,7 @@ const games = [
     manualCensoring: true,
     extendedTimers: true,
     translations: ["ru"],
+    rating: 4,
   },
   {
     name: {
@@ -300,6 +312,7 @@ const games = [
     manualCensoring: true,
     extendedTimers: false,
     translations: ["ru"],
+    rating: 5,
   },
   {
     name: {
@@ -324,6 +337,7 @@ const games = [
     manualCensoring: true,
     extendedTimers: true,
     translations: ["ru"],
+    rating: 5,
   },
   {
     name: {
@@ -348,6 +362,7 @@ const games = [
     manualCensoring: true,
     extendedTimers: true,
     translations: ["ru"],
+    rating: 4,
   },
   {
     name: {
@@ -371,6 +386,7 @@ const games = [
     manualCensoring: true,
     extendedTimers: true,
     translations: ["ru"],
+    rating: 5,
   },
   {
     name: {
@@ -395,6 +411,7 @@ const games = [
     manualCensoring: true,
     extendedTimers: true,
     translations: ["ru"],
+    rating: 4,
   },
   {
     name: {
@@ -419,6 +436,7 @@ const games = [
     manualCensoring: true,
     extendedTimers: true,
     translations: ["ru"],
+    rating: 3,
   },
   {
     name: {
@@ -443,6 +461,7 @@ const games = [
     manualCensoring: true,
     extendedTimers: true,
     translations: ["ru"],
+    rating: 4,
   },
   {
     name: {
@@ -467,6 +486,7 @@ const games = [
     manualCensoring: true,
     extendedTimers: true,
     translations: ["ru"],
+    rating: 2,
   },
   {
     name: {
@@ -490,6 +510,7 @@ const games = [
     manualCensoring: true,
     extendedTimers: true,
     translations: [],
+    rating: 2,
   },
   {
     name: {
@@ -514,6 +535,7 @@ const games = [
     manualCensoring: true,
     extendedTimers: true,
     translations: ["ru"],
+    rating: 4,
   },
   {
     name: {
@@ -537,6 +559,7 @@ const games = [
     manualCensoring: true,
     extendedTimers: true,
     translations: [],
+    rating: 4,
   },
   {
     name: {
@@ -561,6 +584,7 @@ const games = [
     manualCensoring: true,
     extendedTimers: true,
     translations: ["ru"],
+    rating: 3,
   },
   {
     name: {
@@ -584,6 +608,7 @@ const games = [
     manualCensoring: false,
     extendedTimers: false,
     translations: [],
+    rating: 2,
   },
   {
     name: {
@@ -608,6 +633,7 @@ const games = [
     manualCensoring: false,
     extendedTimers: true,
     translations: ["ru"],
+    rating: 4,
   },
   {
     name: {
@@ -631,6 +657,7 @@ const games = [
     manualCensoring: true,
     extendedTimers: true,
     translations: [],
+    rating: 3,
   },
   {
     name: {
@@ -655,6 +682,7 @@ const games = [
     manualCensoring: true,
     extendedTimers: true,
     translations: ["ru"],
+    rating: 4,
   },
   {
     name: {
@@ -678,6 +706,7 @@ const games = [
     manualCensoring: true,
     extendedTimers: true,
     translations: [],
+    rating: 2,
   },
   {
     name: {
@@ -702,6 +731,7 @@ const games = [
     manualCensoring: true,
     extendedTimers: false,
     translations: ["ru"],
+    rating: 3,
   },
   {
     name: {
@@ -725,6 +755,7 @@ const games = [
     manualCensoring: true,
     extendedTimers: true,
     translations: ["ru"],
+    rating: 5,
   },
   {
     name: {
@@ -748,6 +779,7 @@ const games = [
     manualCensoring: false,
     extendedTimers: false,
     translations: ["ru"],
+    rating: 3,
   },
   {
     name: {
@@ -772,6 +804,7 @@ const games = [
     manualCensoring: true,
     extendedTimers: true,
     translations: ["ru"],
+    rating: 4,
   },
   {
     name: {
@@ -796,6 +829,7 @@ const games = [
     manualCensoring: true,
     extendedTimers: true,
     translations: ["ru"],
+    rating: 4,
   },
   {
     name: {
@@ -819,6 +853,7 @@ const games = [
     manualCensoring: false,
     extendedTimers: false,
     translations: [],
+    rating: 5,
   },
   {
     name: {
@@ -842,6 +877,7 @@ const games = [
     manualCensoring: true,
     extendedTimers: true,
     translations: ["ru"],
+    rating: 4,
   },
   {
     name: {
@@ -865,6 +901,7 @@ const games = [
     manualCensoring: false,
     extendedTimers: true,
     translations: ["ru"],
+    rating: 5,
   },
   {
     name: {
@@ -888,6 +925,7 @@ const games = [
     manualCensoring: false,
     extendedTimers: false,
     translations: [],
+    rating: 4,
   },
   {
     name: {
@@ -911,6 +949,7 @@ const games = [
     manualCensoring: false,
     extendedTimers: true,
     translations: ["ru"],
+    rating: 4,
   },
   {
     name: {
@@ -935,6 +974,7 @@ const games = [
     manualCensoring: false,
     extendedTimers: false,
     translations: [],
+    rating: 2,
   },
   {
     name: {
@@ -957,6 +997,7 @@ const games = [
     manualCensoring: true,
     extendedTimers: true,
     translations: [],
+    rating: 5,
   },
   {
     name: {
@@ -975,6 +1016,7 @@ const games = [
     manualCensoring: false,
     extendedTimers: false,
     translations: [],
+    rating: 5,
   },
   {
     name: {
@@ -996,6 +1038,7 @@ const games = [
     manualCensoring: true,
     extendedTimers: true,
     translations: [],
+    rating: 5,
   },
   {
     name: {
@@ -1014,6 +1057,7 @@ const games = [
     manualCensoring: false,
     extendedTimers: false,
     translations: [],
+    rating: 2,
   },
   {
     name: {
@@ -1035,6 +1079,7 @@ const games = [
     manualCensoring: true,
     extendedTimers: true,
     translations: [],
+    rating: 5,
   },
 ];
 

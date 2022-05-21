@@ -5,6 +5,7 @@ import {
   faCommentSlash,
   faCircleCheck,
   faCircleXmark,
+  faStar,
 } from "@fortawesome/free-solid-svg-icons";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { Card, Col, Row } from "react-bootstrap";
@@ -65,6 +66,14 @@ const GameCards = ({ games, language }) => {
                         {translations.noTranslation[language]}
                       </li>
                     ))}
+                  <li>
+                    {translations.rating[language]}{" "}
+                    {Array(game.rating)
+                      .fill()
+                      .map((star) => (
+                        <FontAwesomeIcon icon={faStar} fixedWidth />
+                      ))}
+                  </li>
                 </ul>
               </Card.Body>
               <Card.Footer>
