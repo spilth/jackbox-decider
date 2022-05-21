@@ -2,12 +2,16 @@ import React, { useMemo, useState } from "react";
 import games from "./games";
 import ToggleButton from "react-bootstrap/ToggleButton";
 import ToggleButtonGroup from "react-bootstrap/ToggleButtonGroup";
+import ButtonGroup from "react-bootstrap/ButtonGroup";
+import Button from "react-bootstrap/Button";
 import GameCards from "./GameCards";
 import translations from "./translations";
 
 const App = () => {
   const [players, setPlayers] = useState(4);
   const [language, setLanguage] = useState("en");
+  const [sortField, setSortField] = useState("displayName");
+  const [sortDirection, setSortDirection] = useState(0);
 
   const playerButtons = [
     { label: "1", value: 1 },
@@ -25,6 +29,16 @@ const App = () => {
     { label: "English", value: "en" },
     { label: "Russian", value: "ru" },
   ];
+  const sortButtons = [
+    { label: "name", value: "displayName" },
+    { label: "pack", value: "pack" },
+  ];
+
+  function changeSort(value) {
+    if (sortField !== value) setSortDirection(1);
+    else setSortDirection(sortDirection === 0 ? -1 : sortDirection * -1);
+    setSortField(value);
+  }
 
   const localizedGames = useMemo(
     () =>
@@ -50,6 +64,16 @@ const App = () => {
         return players >= game.minPlayers && players <= game.maxPlayers;
       }),
     [players, localizedGames]
+  );
+
+  const sortedGames = useMemo(
+    () =>
+      filteredGames.sort((a, b) =>
+        sortDirection >= 0
+          ? a[sortField].localeCompare(b[sortField])
+          : b[sortField].localeCompare(a[sortField])
+      ),
+    [sortField, sortDirection, filteredGames]
   );
 
   return (
@@ -98,12 +122,26 @@ const App = () => {
           ))}
         </ToggleButtonGroup>
       </div>
-
+      <div>
+        <span>{translations.sortBy[language]}</span>
+        <ButtonGroup name="sort" className="mb-1" size="sm">
+          {sortButtons.map((button) => (
+            <Button id={button.value} onClick={() => changeSort(button.value)}>
+              {translations[button.label][language]}
+              {sortField === button.value && sortDirection !== 0
+                ? sortDirection === 1
+                  ? "👆️"
+                  : "👇"
+                : ""}
+            </Button>
+          ))}
+        </ButtonGroup>
+      </div>
       <div>
         <h2 className="text-center">
-          {translations.displayGameCount[language](filteredGames.length)}
+          {translations.displayGameCount[language](sortedGames.length)}
         </h2>
-        <GameCards games={filteredGames} language={language} />
+        <GameCards games={sortedGames} language={language} />
       </div>
 
       <h6 className="text-center mb-4">

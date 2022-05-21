@@ -43,6 +43,18 @@ const translations = {
     en: "Standalone Title",
     ru: "Отдельная игра",
   },
+  sortBy: {
+    en: "Sort by: ",
+    ru: "Сортировка: ",
+  },
+  name: {
+    en: "Name",
+    ru: "Название",
+  },
+  pack: {
+    en: "Pack",
+    ru: "Издание",
+  },
 };
 
 export default translations;
