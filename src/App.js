@@ -10,8 +10,8 @@ import translations from "./translations";
 const App = () => {
   const [players, setPlayers] = useState(4);
   const [language, setLanguage] = useState("en");
-  const [sortField, setSort] = useState("displayName");
-  const [sortDirection, setDirection] = useState(0);
+  const [sortField, setSortField] = useState("displayName");
+  const [sortDirection, setSortDirection] = useState(0);
 
   const playerButtons = [
     { label: "1", value: 1 },
@@ -35,9 +35,9 @@ const App = () => {
   ];
 
   function changeSort(value) {
-    if (sortField !== value) setDirection(1);
-    else setDirection(sortDirection === 0 ? -1 : sortDirection * -1);
-    setSort(value);
+    if (sortField !== value) setSortDirection(1);
+    else setSortDirection(sortDirection === 0 ? -1 : sortDirection * -1);
+    setSortField(value);
   }
 
   const localizedGames = useMemo(
