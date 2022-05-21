@@ -2,6 +2,8 @@ import React, { useMemo, useState } from "react";
 import games from "./games";
 import ToggleButton from "react-bootstrap/ToggleButton";
 import ToggleButtonGroup from "react-bootstrap/ToggleButtonGroup";
+import ButtonGroup from "react-bootstrap/ButtonGroup";
+import Button from "react-bootstrap/Button";
 import GameCards from "./GameCards";
 import translations from "./translations";
 
@@ -9,6 +11,7 @@ const App = () => {
   const [players, setPlayers] = useState(4);
   const [language, setLanguage] = useState("en");
   const [sortField, setSort] = useState("displayName");
+  const [sortDirection, setDirection] = useState(0);
 
   const playerButtons = [
     { label: "1", value: 1 },
@@ -30,6 +33,12 @@ const App = () => {
     { label: "name", value: "displayName" },
     { label: "pack", value: "pack" },
   ];
+
+  function changeSort(value) {
+    if (sortField !== value) setDirection(1);
+    else setDirection(sortDirection === 0 ? -1 : sortDirection * -1);
+    setSort(value);
+  }
 
   const localizedGames = useMemo(
     () =>
@@ -59,8 +68,12 @@ const App = () => {
 
   const sortedGames = useMemo(
     () =>
-      filteredGames.sort((a, b) => a[sortField].localeCompare(b[sortField])),
-    [sortField, filteredGames]
+      filteredGames.sort((a, b) =>
+        sortDirection >= 0
+          ? a[sortField].localeCompare(b[sortField])
+          : b[sortField].localeCompare(a[sortField])
+      ),
+    [sortField, sortDirection, filteredGames]
   );
 
   return (
@@ -111,25 +124,18 @@ const App = () => {
       </div>
       <div>
         <span>{translations.sortBy[language]}</span>
-        <ToggleButtonGroup
-          type="radio"
-          name="sort"
-          value={sortField}
-          onChange={(value) => setSort(value)}
-          className="mb-1"
-          size="sm"
-        >
+        <ButtonGroup name="sort" className="mb-1" size="sm">
           {sortButtons.map((button) => (
-            <ToggleButton
-              id={button.value}
-              key={button.value}
-              value={button.value}
-              type="radio"
-            >
+            <Button id={button.value} onClick={() => changeSort(button.value)}>
               {translations[button.label][language]}
-            </ToggleButton>
+              {sortField === button.value && sortDirection !== 0
+                ? sortDirection === 1
+                  ? "👆️"
+                  : "👇"
+                : ""}
+            </Button>
           ))}
-        </ToggleButtonGroup>
+        </ButtonGroup>
       </div>
       <div>
         <h2 className="text-center">
