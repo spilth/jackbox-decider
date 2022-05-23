@@ -1,4 +1,4 @@
-import React, { useMemo, useState } from "react";
+import React, { useEffect, useMemo, useState } from "react";
 import games from "./games";
 import ToggleButton from "react-bootstrap/ToggleButton";
 import ToggleButtonGroup from "react-bootstrap/ToggleButtonGroup";
@@ -6,8 +6,20 @@ import GameCards from "./GameCards";
 import translations from "./translations";
 
 const App = () => {
-  const [players, setPlayers] = useState(4);
-  const [language, setLanguage] = useState("en");
+  const [players, setPlayers] = useState(
+    Number.parseInt(localStorage.getItem("players")) || 4
+  );
+  const [language, setLanguage] = useState(
+    localStorage.getItem("language") || "en"
+  );
+
+  useEffect(() => {
+    localStorage.setItem("language", language);
+  }, [language]);
+
+  useEffect(() => {
+    localStorage.setItem("players", players);
+  }, [players]);
 
   const playerButtons = [
     { label: "1", value: 1 },
