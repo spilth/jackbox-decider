@@ -12,7 +12,7 @@ const translations = {
   displayGameCount: {
     en: (count) => count + " game" + (count > 1 ? "s" : "") + " to play!",
     ru: (count) => count + (count === 1 ? " игра найдена!" : " игр найдено!"),
-    ua: (count) => count + (count === 1 ? " гра знайдена!" : " ігор знайдено!")
+    ua: (count) => count + (count === 1 ? " гра знайдена!" : " ігор знайдено!"),
   },
   players: {
     en: "players",

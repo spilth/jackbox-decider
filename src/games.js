@@ -111,7 +111,7 @@ const games = [
     description: {
       en: "The bizarre drawing game where you draw right there on your phone or tablet.",
       ru: "Рисуй понятные рисунки, а твои друзья постараются отгадать их. Но они тоже в деле и будут предлагать свои варианты, дабы сбить всех с толку! Кто из вас рисует красивее всех, а кто понятнее всех?",
-      ua: "Гра на малювання, де твої друзі мають здогадатися, що зображено на твоєму малюнку. Але кожен з них запропонує свій варіант, щоб заплутати інших."
+      ua: "Гра на малювання, де твої друзі мають здогадатися, що зображено на твоєму малюнку. Але кожен з них запропонує свій варіант, щоб заплутати інших.",
     },
     packUrl: "https://www.jackboxgames.com/party-pack/",
     duration: "15-20 Minutes",
@@ -257,7 +257,7 @@ const games = [
     description: {
       en: "A deadly quiz show where you match wits with a trivia-obsessed killer.",
       ru: "Ужасно страшная викторина, где ты встретишься со свихнувшимся серийным убийцей, который любит проверять интеллект!",
-      ua: "Лячна смертельна вікторина, де ви відповідаєте на питання одержимого вбивці."
+      ua: "Лячна смертельна вікторина, де ви відповідаєте на питання одержимого вбивці.",
     },
     packUrl: "https://www.jackboxgames.com/party-pack-three/",
     duration: "15-20 Minutes",
@@ -282,7 +282,7 @@ const games = [
     description: {
       en: "The brain-battering data-mining guessing game.",
       ru: "Игра, в которой тебе предстоит угадывать результаты анализа данных о других людях.",
-      ua: "Гра у відгадуванні результатів аналізу даних о людях."
+      ua: "Гра у відгадуванні результатів аналізу даних о людях.",
     },
     packUrl: "https://www.jackboxgames.com/party-pack-three/",
     duration: "10-15 Minutes",
@@ -483,7 +483,7 @@ const games = [
     description: {
       en: "The deranged debate match where you place smart bets on stupid arguments.",
       ru: "Чемпионат из сумасшедших ответов. Делай умные ставки на победу в глупых битвах!",
-      ua: "Чемпіонат божевільних дебатів, де ви робите розумні ставки на дурні аргументи."
+      ua: "Чемпіонат божевільних дебатів, де ви робите розумні ставки на дурні аргументи.",
     },
     packUrl: "https://www.jackboxgames.com/party-pack-four/",
     duration: "15-20 Minutes",
@@ -556,7 +556,7 @@ const games = [
     description: {
       en: "The lyric-writing game Mad Verse City. Channel your inner MC as a rap battling robot.",
       ru: "Сочини рэп и выиграй баттл в Городе роботов!",
-      ua: "Розбудіть свого внтутрішнього МС та вигадайте текст для пісні у цьому реп змаганні роботів!"
+      ua: "Розбудіть свого внтутрішнього МС та вигадайте текст для пісні у цьому реп змаганні роботів!",
     },
     packUrl: "https://www.jackboxgames.com/party-pack-five/",
     duration: "15-20 Minutes",
