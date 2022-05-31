@@ -14,6 +14,7 @@ const games = [
     description: {
       en: "The comedy trivia sensation with hundreds of all-new questions.",
       ru: "Старая добрая комическая викторинка с весёлыми рубриками. И звуками пердежа.",
+      ua: "Комедійна вікторина із сотнями нових питань",
     },
     packUrl: "https://www.jackboxgames.com/party-pack/",
     duration: "20 Minutes",
@@ -37,6 +38,7 @@ const games = [
     description: {
       en: "The wacky-fact-filled Lie Swatter.",
       ru: "Игра типа «правда-ложь» для почти бесконечного количества игроков. Места хватит всем!",
+      ua: "Гра, в якій потрібно зрозуміти, де правда, а де брехня.",
     },
     packUrl: "https://www.jackboxgames.com/party-pack/",
     duration: "20 Minutes",
@@ -60,6 +62,7 @@ const games = [
     description: {
       en: "The hilarious bluffing game with 50% more questions added to the original hit.",
       ru: "Игра, в которой надо придумывать ложные варианты ответа и одновременно искать правдивые. В версии XL на 50% больше вопросов, чем в оригинальной версии!",
+      ua: "Весела гра на блеф, у якій додано на 50% більше запитань, ніж в оригіналі.",
     },
     packUrl: "https://www.jackboxgames.com/party-pack/",
     duration: "15-20 Minutes",
@@ -83,6 +86,7 @@ const games = [
     description: {
       en: "The racy-as-you-want-to-be fill-in-the-blank word game.",
       ru: "Игра в которой тебе надо дополнить текст так, как ты захочешь, лишь бы это залайкали остальные игроки.",
+      ua: "Гра, у якій потрібно заповнити пропуски будь-яким чином, аби було смішно.",
     },
     packUrl: "https://www.jackboxgames.com/party-pack/",
     duration: "Unlimited",
@@ -95,6 +99,7 @@ const games = [
     name: {
       en: "Drawful",
       ru: "Рисовач",
+      ua: "Малювач",
     },
     pack: "The Jackbox Party Pack",
     image: {
@@ -106,6 +111,7 @@ const games = [
     description: {
       en: "The bizarre drawing game where you draw right there on your phone or tablet.",
       ru: "Рисуй понятные рисунки, а твои друзья постараются отгадать их. Но они тоже в деле и будут предлагать свои варианты, дабы сбить всех с толку! Кто из вас рисует красивее всех, а кто понятнее всех?",
+      ua: "Гра на малювання, де твої друзі мають здогадатися, що зображено на твоєму малюнку. Але кожен з них запропонує свій варіант, щоб заплутати інших.",
     },
     packUrl: "https://www.jackboxgames.com/party-pack/",
     duration: "15-20 Minutes",
@@ -129,6 +135,7 @@ const games = [
     description: {
       en: "The bomb-defusing nailbiter of a party game! As interns at Bomb Corp., you must defuse random bombs in the office in order to keep your jobs. You’ll probably die, but it’ll be good work experience!",
       ru: "Вы — стажёры БомбоКорпорации, которые должны обезвреживать бомбы, чтобы поддерживать слаженную работу в офисе. Скорее всего, вы все подорвётесь, зато какое веселье!",
+      ua: "Ви граєте за стажерів у Bomb Corp і маєте знешкодити різні бомби в офісі, щоб зберегти роботу. Вибухова вечірня гра!",
     },
     packUrl: "https://www.jackboxgames.com/party-pack-two/",
     duration: "15-20 Minutes",
@@ -152,6 +159,7 @@ const games = [
     description: {
       en: "The runaway hit bluffing game with over 500 brand-new questions, more than 2x the original! Plus new features, like the deFIBrillator!",
       ru: "Вторая часть игры, в которой надо придумывать ложные варианты ответа и одновременно искать правдивые. Теперь вопросов более 500, что более чем в 2 раза больше, чем в первой части. Плюс новая фишка — деФИБриллятор! ",
+      ua: "Нестримна друга частина гри на блеф, у якій понад 500 абсолютно нових питаннь!",
     },
     packUrl: "https://www.jackboxgames.com/party-pack-two/",
     duration: "15-20 Minutes",
@@ -176,6 +184,7 @@ const games = [
     description: {
       en: "The absurd art auction game where you draw right there on your phone or tablet. Outbid your opponents for weird art pieces – drawn by players themselves – and win this strangely competitive auction game! Don’t be a bidiot!",
       ru: "Абсурдная игра-аукцион картинной галереи. Стоимость картин назначают секретные эксперты, а сами картины пишут… наши игроки! Купи по дешёвке самые ценные картины, но не дай другим переиграть тебя!",
+      ua: "Абсурдна гра на аукціоні мистецтва. Переплюньте своїх опонентів за дивні твори мистецтва, намальовані самими гравцями, і перемагайте в цій дивній змагальній грі на аукціоні!",
     },
     packUrl: "https://www.jackboxgames.com/party-pack-two/",
     duration: "15-20 Minutes",
@@ -199,6 +208,7 @@ const games = [
     description: {
       en: "The hear-larious sound-effects game that will leave you up to your ears in laughter! Cow moo? Huge explosion? Or tiny fart? Which to choose?",
       ru: "Звуки «МУ»? Большой взрыв? Или яростный пердёж? Выбери самые весёлые звуки и одержи победу.",
+      ua: "Смішна гра зі звуковими ефектами, яка змусить вас сміятися до вух! Мукає корова? Чи величезний вибух? Або може маленький пук? Що обрати?",
     },
     packUrl: "https://www.jackboxgames.com/party-pack-two/",
     duration: "15-20 Minutes",
@@ -222,6 +232,7 @@ const games = [
     description: {
       en: "The say-anything, gut-busting Quiplash XL, which includes everything in Quiplash, Quip Pack 1, AND over 100 brand-new prompts!",
       ru: "Шути, что хочешь, и поддерживай хорошие варианты. На 100 весёлых заданий больше, чем в оригинальной (не-XL и не 2) версии!",
+      ua: "Вражаючий Quiplash XL, який включає все із Quiplash, Quip Pack 1 і понад 100 абсолютно нових запитань!",
     },
     packUrl: "https://www.jackboxgames.com/party-pack-two/",
     duration: "15-20 Minutes",
@@ -234,6 +245,7 @@ const games = [
     name: {
       en: "Trivia Murder Party",
       ru: "Смертельная вечеринка",
+      ua: "Смертельна вечірка",
     },
     pack: "The Jackbox Party Pack 3",
     image: {
@@ -245,6 +257,7 @@ const games = [
     description: {
       en: "A deadly quiz show where you match wits with a trivia-obsessed killer.",
       ru: "Ужасно страшная викторина, где ты встретишься со свихнувшимся серийным убийцей, который любит проверять интеллект!",
+      ua: "Лячна смертельна вікторина, де ви відповідаєте на питання одержимого вбивці.",
     },
     packUrl: "https://www.jackboxgames.com/party-pack-three/",
     duration: "15-20 Minutes",
@@ -269,6 +282,7 @@ const games = [
     description: {
       en: "The brain-battering data-mining guessing game.",
       ru: "Игра, в которой тебе предстоит угадывать результаты анализа данных о других людях.",
+      ua: "Гра у відгадуванні результатів аналізу даних о людях.",
     },
     packUrl: "https://www.jackboxgames.com/party-pack-three/",
     duration: "10-15 Minutes",
@@ -293,6 +307,7 @@ const games = [
     description: {
       en: "One of your friends has something to hide in this sneaky game for tricksters.",
       ru: "У твоего друга будет секрет, который тебе и надо раскрыть в этой игре, созданной для удачливых обманщиков.",
+      ua: "Дехто із твоїх друзів щось приховує, а ви маєте його викрити. Гра просто створена для талановитих шахраїв!",
     },
     packUrl: "https://www.jackboxgames.com/party-pack-three/",
     duration: "15-20 Minutes",
@@ -317,6 +332,7 @@ const games = [
     description: {
       en: "The say-anything sequel. Play all new questions or make your own!",
       ru: "Сиквел, в котором ты можешь говорить всё, что хочешь. Играй с нашими новыми заданиями или придумай свои!",
+      ua: "Сіквел, в якому можеш казати будь-що. Грайте із новими запитаннями або створюйте власні!",
     },
     packUrl: "https://www.jackboxgames.com/party-pack-three/",
     duration: "15 Minutes",
@@ -341,6 +357,7 @@ const games = [
     description: {
       en: "The t-shirt slugfest where you battle your custom t-shirts to the death!",
       ru: "Фестиваль одежды, где придуманные игроками футболки сражаются не на жизнь, а на смерть.",
+      ua: "Фестиваль футболок, де ви змагаєтеся своїми нестандартними малюнками.",
     },
     packUrl: "https://www.jackboxgames.com/party-pack-three/",
     duration: "30 Minutes",
@@ -364,6 +381,7 @@ const games = [
     description: {
       en: "The blanking fun sequel with all-new question types and the game mode Fibbage: Enough About You where you guess the weird facts about your friends.",
       ru: "Третья часть игры на заполнение пропусков в интересных фактах, теперь с новыми типами вопросов и игровым режимом «Бредовуха: Мы всё про вас знаем».",
+      ua: "Веселе продовження безглуздої гри з абсолютно новими типами запитань та новим ігровим режимом «Ми все про вас знаємо», де ви вгадуєте дивні факти про своїх друзів.",
     },
     packUrl: "https://www.jackboxgames.com/party-pack-four/",
     duration: "15-20 Minutes",
@@ -376,6 +394,7 @@ const games = [
     name: {
       en: "Monster Seeking Monster",
       ru: "Монстр ищет монстра",
+      ua: "Монстр шукає монстра",
     },
     pack: "The Jackbox Party Pack 4",
     image: {
@@ -388,6 +407,7 @@ const games = [
     description: {
       en: "The spooky date-a-thon where you message and date fellow monsters with special powers.",
       ru: "Марафон ужасных свиданий, где тебе придётся переписываться и встречаться с монстрами, обладающими особыми способностями.",
+      ua: "Моторошне побачення, де ви спілкуєтеся та зустрічаєтеся з друзями-монстрами, де в кожного свої особливі здібності.",
     },
     packUrl: "https://www.jackboxgames.com/party-pack-four/",
     duration: "15-20 Minutes",
@@ -412,6 +432,7 @@ const games = [
     description: {
       en: "The one-up art game where you compete to improve the town murals. Play using your phones, tablets or computers. No extra controllers needed! Plus EVEN MORE features just for streamers!",
       ru: "Все любят красивые рисунки, а лучше красивых рисунков могут быть только красивые рисунки, нарисованные на стенах домов. Их созданием вам и предстоит заняться. Так как желающих много, каждый в свою очередь будет дорисовывать какой-то элемент рисунка. Кто из вас — новый да Винчи, а кому только надписи на заборе писать? Это вам скажет самое строгое жюри из возможных — ваши друзья.",
+      ua: "Мистецька гра, в якій ви змагаєтеся за покращення міста малюючи мурали на стінах домів.",
     },
     packUrl: "https://www.jackboxgames.com/party-pack-four/",
     duration: "20 Minutes",
@@ -424,6 +445,7 @@ const games = [
     name: {
       en: "Survive the Internet",
       ru: "Выжить в Интернете",
+      ua: "Вижити в Інтернеті",
     },
     pack: "The Jackbox Party Pack 4",
     image: {
@@ -436,6 +458,7 @@ const games = [
     description: {
       en: "The web-based frame game where you twist your friends’ “online” comments in hilarious ways.",
       ru: "Весёлая игра про Всемирную паутину, где тебе нужно придумать смешной контекст к онлайн-комментариям своих друзей. Отличный повод получить или потерять друзей!",
+      ua: "Гра про інтернет, в якій ви перекручуєте коментарі своїх друзів смішним способом.",
     },
     packUrl: "https://www.jackboxgames.com/party-pack-four/",
     duration: "20 Minutes",
@@ -460,6 +483,7 @@ const games = [
     description: {
       en: "The deranged debate match where you place smart bets on stupid arguments.",
       ru: "Чемпионат из сумасшедших ответов. Делай умные ставки на победу в глупых битвах!",
+      ua: "Чемпіонат божевільних дебатів, де ви робите розумні ставки на дурні аргументи.",
     },
     packUrl: "https://www.jackboxgames.com/party-pack-four/",
     duration: "15-20 Minutes",
@@ -483,6 +507,7 @@ const games = [
     description: {
       en: "The pop-culture trivia mash-up YOU DON’T KNOW JACK: Full Stream. The classic returns, full of wild new surprises.",
       ru: "Классика возвращается! Теперь с участием зрителей. Новые задания и звуки пердежа – уже внутри.",
+      ua: "Класика повертається як поп-культурна вікторина, що сповнена нових шалених сюрпризів!",
     },
     packUrl: "https://www.jackboxgames.com/party-pack-five/",
     duration: "15-20 Minutes",
@@ -507,6 +532,7 @@ const games = [
     description: {
       en: "The what-if game Split the Room. Create strange and divisive hypothetical situations.",
       ru: "Создавай странные и противоречивые ситуации, а затем попытайся поделить всех остальных на два лагеря! Отличный повод потерять половину друзей (если не повезёт).",
+      ua: "Гра «Що, якщо», в якій потрібно розділіти кімнату своїми відповідями. Створюйте дивні гіпотетичні ситуації, що викликають розбіжності.",
     },
     packUrl: "https://www.jackboxgames.com/party-pack-five/",
     duration: "15 Minutes",
@@ -530,6 +556,7 @@ const games = [
     description: {
       en: "The lyric-writing game Mad Verse City. Channel your inner MC as a rap battling robot.",
       ru: "Сочини рэп и выиграй баттл в Городе роботов!",
+      ua: "Розбудіть свого внтутрішнього МС та вигадайте текст для пісні у цьому реп змаганні роботів!",
     },
     packUrl: "https://www.jackboxgames.com/party-pack-five/",
     duration: "15-20 Minutes",
@@ -554,6 +581,7 @@ const games = [
     description: {
       en: "The competitive drawing game Patently Stupid. Create odd inventions to solve bizarre problems.",
       ru: "Придумай проблему, а затем придумай средство для устранения придуманной проблемы! Представь свой проект, собери инвестиции и выиграй!",
+      ua: "Гра на малювання, в якій ви створюєте дивні винаходи для вирішення дивних проблем.",
     },
     packUrl: "https://www.jackboxgames.com/party-pack-five/",
     duration: "20 Minutes",
@@ -577,6 +605,7 @@ const games = [
     description: {
       en: "The deadliest game show in the Crab Nebula, Zeeple Dome! Fling yourself at bloodthirsty aliens to win millions of Zubabucks!",
       ru: "Это самое смертельное шоу во всём паке! Приведи своих друзей и поучавствуй в битве, подготовленной инопланетянами!",
+      ua: "Найсмертоносніше ігрове шоу в Крабовидній Туманності! Киньте себе на кровожерливих інопланетян, щоб виграти мільйони Зубабаксів!",
     },
     packUrl: "https://www.jackboxgames.com/party-pack-five/",
     duration: "10+ Minutes",
@@ -589,6 +618,7 @@ const games = [
     name: {
       en: "Trivia Murder Party 2",
       ru: "Смертельная вечеринка 2",
+      ua: "Смертельна вечірка 2",
     },
     pack: "The Jackbox Party Pack 6",
     image: {
@@ -601,6 +631,7 @@ const games = [
     description: {
       en: "The popular trivia deathmatch Trivia Murder Party 2. Try to survive the bizarre new minigames.",
       ru: "Продолжение смертельной викторины. Новая локация, задания и игры на выживание! Как и всегда, останется только один. (Или никого.)",
+      ua: "Продовження популярної смертельної вікторини. Спробуйте вижити в нових химерних міні-іграх!",
     },
     packUrl: "https://www.jackboxgames.com/party-pack-six/",
     duration: "15-25 Minutes",
@@ -624,6 +655,7 @@ const games = [
     description: {
       en: "The offbeat personality test Role Models. Find out who you really are. (Or at least what your friends think of you.)",
       ru: "Кто из вас ботаник, любящий бекон, а кто – меланхоличный комбинатор? Всё покажет «Анализ роли»!",
+      ua: "Незвичайний тест для аналізу особистості. Дізнайтеся, хто ви є насправді. (Або принаймні, що про вас думають ваші друзі)",
     },
     packUrl: "https://www.jackboxgames.com/party-pack-six/",
     duration: "15 Minutes",
@@ -648,6 +680,7 @@ const games = [
     description: {
       en: "The comedy contest Joke Boat. Craft one-liners for a cruise ship talent show.",
       ru: "Отправляйтесь в смешной до колик круиз, рассмеши всех и получи главный приз — спасение с тонущего корабля!",
+      ua: "Комедійний конкурс на круїзному кораблі, в якому вам необхідно створити жарт і росмішити всіх!",
     },
     packUrl: "https://www.jackboxgames.com/party-pack-six/",
     duration: "15-25 Minutes",
@@ -671,6 +704,7 @@ const games = [
     description: {
       en: "The weird word circus Dictionarium. May the funniest definition win.",
       ru: "Всем словам нужны определения. Не все их имеют. Придумывайте значения слов и создавайте из них уморительные словосочетания!",
+      ua: "Цирк із дивних слів. І нехай переможе найсмішніше визначення.",
     },
     packUrl: "https://www.jackboxgames.com/party-pack-six/",
     duration: "10 Minutes",
@@ -695,6 +729,7 @@ const games = [
     description: {
       en: "The hidden identity game Push The Button. Can you discover the aliens in time?",
       ru: "Всё то же «Обмани меня», только теперь в гиперпространстве. Найди жуликов-инопланетян и выгони их с корабля!",
+      ua: "Гра прихованої особистості на космічному кораблі. Чи зможете ви вчасно виявити інопланетян?",
     },
     packUrl: "https://www.jackboxgames.com/party-pack-six/",
     duration: "Varies by player count",
@@ -718,6 +753,7 @@ const games = [
     description: {
       en: "The say-anything threequel Quiplash 3 (3-8 players). It’s a head-to-head battle of the wits as you give hilarious responses to quirky prompts while everyone else votes for their favorite!",
       ru: "Триквел знаменитой игры – та же старая-добрая битва шуток, но теперь в пластилиновом мире и с новым финалом!",
+      ua: "Триквел відомої гри - та сама спільна битва розумів, де ви даєте веселі відповіді і всі інші голосують за свого фаворита!",
     },
     packUrl: "https://www.jackboxgames.com/party-pack-seven/",
     duration: "~15 minutes",
@@ -741,6 +777,7 @@ const games = [
     description: {
       en: "The collaborative chaos game The Devils and the Details (3-8 players). You’re a family of devils working together to survive in suburbia. Can you handle the daily torture of human life?",
       ru: "Вы – семья дьяволов, перебравшаяся из ада на землю. Работая в команде, выполняйте обыденные дела людей и постарайтесь выжить в круговороте забот!",
+      ua: "Ви — сім’я дияволів, які разом працюють, щоб вижити на землі. Чи зможете ви впоратися з щоденними тортурами людського життя?",
     },
     packUrl: "https://www.jackboxgames.com/party-pack-seven/",
     duration: "~15 minutes",
@@ -765,6 +802,7 @@ const games = [
     description: {
       en: "The drawing fighting game Champ’d Up (3-8 players). Create absurd characters that will battle over unusual titles. Can you take down the heavy favorite?",
       ru: "Нарисуй бойцов, которые смогут стать чемпионами в борьбе за самые странные титулы!",
+      ua: "Намалюйте абсурдних персонажів, які будуть битися за дуже незвичайні звання.",
     },
     packUrl: "https://www.jackboxgames.com/party-pack-seven/",
     duration: "~20 minutes",
@@ -789,6 +827,7 @@ const games = [
     description: {
       en: "The on-the-spot public-speaking game Talking Points (3-8 players). Give a speech responding to picture slides you’ve never seen before or be the Assistant and approve pictures as fast as you can. Just keep talking whether it makes sense or not.",
       ru: "Выступи с презентацией, которую увидишь в первый раз. Просто без остановки говори о выбранных другим игроком слайдах, и неважно, будет ли в твоих словах смысл!",
+      ua: "Виступіть із презентацією, відповідаючи на слайди зображень, які ви ніколи раніше не бачили, або будьте помічником і обирайте зображення якомога швидше. Просто продовжуйте говорити, має це сенс чи ні.",
     },
     packUrl: "https://www.jackboxgames.com/party-pack-seven/",
     duration: "20-40 minutes",
@@ -812,6 +851,7 @@ const games = [
     description: {
       en: "The pop culture guessing game Blather Round (2-6 players). Describe your secret prompt with a very limited vocabulary and hope that someone can figure it out in time. It’s a “GOOD” “FUN TIME” “EXPERIENCE.”",
       ru: "Игра на угадывание объектов поп-культуры. Опиши загаданное, используя очень ограниченный набор слов!",
+      ua: "Гра, в якій потрібно вгадувати обʼєкти із поп-культури. Опишіть свою таємну підказку з дуже обмеженим словниковим запасом і сподівайтеся, що хтось зможе це зрозуміти.",
     },
     packUrl: "https://www.jackboxgames.com/party-pack-seven/",
     duration: "15-30 minutes",
@@ -835,6 +875,7 @@ const games = [
     description: {
       en: "It’s alive! The guessing game with terrible drawings and hilariously wrong answers makes a dynamic return. In this revamped title, players create looping, two-frame animations based on weird and random titles.",
       ru: "Триквел старой-доброй игры на рисование. Но теперь игроки рисуют не эти скучные рисунки, а настоящие анимации!",
+      ua: "Триквел старої гри на вгадування із жахливими малюнками і веселими неправильними відповідями. У цій новій частині гравці створюють циклічні двокадрові анімації на основі дивних і випадкових назв.",
     },
     packUrl: "https://www.jackboxgames.com/party-pack-eight/",
     duration: "15-30 minutes",
@@ -858,6 +899,7 @@ const games = [
     description: {
       en: "Use other people’s words to create unique and funny answers to classic job interview questions. Go head to head to see who scores the job!",
       ru: "Вырывай любые слова из предложений других игроков, чтобы ответить на вопросы собеседования и получить работу!",
+      ua: "Використовуйте слова інших людей, щоб створити унікальні та кумедні відповіді на класичні питання співбесіди та отримати роботу!",
     },
     packUrl: "https://www.jackboxgames.com/party-pack-eight/",
     duration: "15-25 minutes",
@@ -881,6 +923,7 @@ const games = [
     description: {
       en: "A survey game that’s all about YOU! Split into teams and see who can escape from the witch’s lair! Players individually rank their choices to a difficult question, then must guess how the group answered as a whole. How well do you know your friends?!",
       ru: "Вместе со своей командой находи двери с правильными ответами на опросы, чтобы выбраться из страшной пещеры!",
+      ua: "Командна гра-опитування, у якій ви вгадуєте правильні відповіді, щоб втекти з лігва відьми!",
     },
     packUrl: "https://www.jackboxgames.com/party-pack-eight/",
     duration: " ~15 minutes minutes",
@@ -904,6 +947,7 @@ const games = [
     description: {
       en: "A social deduction game where everyone is both a murderer and a detective. Players doodle all the clues, hiding a letter from their name in the weapon drawings. Can you solve murders while trying to get away with your own?",
       ru: "Игра в жанре «мафии», где каждый – и детектив, и убийца.",
+      ua: "Гра соціальної дедукції, де кожен є і вбивцею, і детективом. Гравці малюють всі підказки, приховуючи літеру свого імені на малюнках зброї. Та чи зможете ви розкрити ці вбивства?",
     },
     packUrl: "https://www.jackboxgames.com/party-pack-eight/",
     duration: "20-40 minutes",
@@ -928,6 +972,7 @@ const games = [
     description: {
       en: "Trivia has never been so large! A fantastic, mystical wheel challenges you with a variety of trivia prompts. Winners are awarded slices of the Wheel’s face with a chance to win big with each nail-biting spin. In the end, one player will have their most burning question answered by the great Wheel.",
       ru: "Отвечай на вопросы правильно, чтобы увеличить свои шансы на победу. А выиграв, ты сможешь получить ответ на любой свой вопрос.",
+      ua: "Відповідай на запитання правильно, щоб збільшити свої шанси на перемогу. А вигравши, ти зможеш отримати відповідь на своє питання.",
     },
     packUrl: "https://www.jackboxgames.com/party-pack-eight/",
     duration: "15-25 minutes",
@@ -951,6 +996,7 @@ const games = [
     description: {
       en: "Your phones or tablets are your controllers! The game of terrible drawings and hilariously wrong answers.",
       ru: "Вторая часть игры-рисовашки. Рисуй понятные рисунки, а твои друзья постараются отгадать их. Но они тоже в деле и будут предлагать свои варианты, дабы сбить всех с толку! Кто из вас рисует красивее всех, а кто понятнее всех?",
+      ua: "Дру частина гри жахливих малюнків і веселих неправильних відповідей.",
     },
     duration: "15-20 Minutes",
     familyFriendlySetting: true,
@@ -969,6 +1015,7 @@ const games = [
     url: "https://www.jackboxgames.com/fibbage/",
     description: {
       en: "Fibbage is the lying, bluffing, fib-till-you-win trivia party game from the makers of YOU DON’T KNOW JACK! Fool your friends with your lies, avoid theirs, and find the (usually outrageous) truth. And get this: your phone or tablet is your controller!",
+      ua: "Гра - це суцільна брехня, у якій вам потрібно обдуріти своїх друзів своєю брехнею, та знайти (зазвичай обурливу) правду.",
     },
     duration: "15-20 Minutes",
     familyFriendlySetting: false,
@@ -990,6 +1037,7 @@ const games = [
     url: "https://www.jackboxgames.com/quiplash/",
     description: {
       en: "Quiplash is the gut-busting battle of wits and wittiness!",
+      ua: "Боротьба розуму та дотепності, що розмішить усіх!",
     },
     duration: "15 Minutes",
     familyFriendlySetting: true,
@@ -1008,6 +1056,7 @@ const games = [
     url: "https://www.jackboxgames.com/ydkj-classic-bundle/",
     description: {
       en: "Since 1995, Jackbox Games (formerly Jellyvision) has been making YOU DON’T KNOW JACK, the hit comedy trivia series where high culture and pop culture collide. And we refuse to stop until every human being has played it.",
+      ua: "Хітова комедійна вікторина, де стикаються висока та поп культура.",
     },
     duration: "25 Minutes",
     familyFriendlySetting: false,
@@ -1029,6 +1078,7 @@ const games = [
     url: "https://www.jackboxgames.com/quiplash-two-interlashional/",
     description: {
       en: "The “say anything” party game is going international! All the hilarious content from Quiplash 2, now in French, Italian, German, and Spanish! With 100 NEW prompts in each language! (And you can still play in boring old English.) Get this QUINTILINGUAL Quiplash now, and take your next party global!",
+      ua: "Та сама гра Quiplash, але вже міжнародна! Весь веселий контент із Quiplash 2 тепер французькою, італійською, німецькою та іспанською мовами! Але тепер із 100 НОВИМИ запитаннями!",
     },
     duration: "15 Minutes",
     familyFriendlySetting: true,

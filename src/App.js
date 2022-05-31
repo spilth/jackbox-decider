@@ -35,7 +35,8 @@ const App = () => {
   ];
   const languageButtons = [
     { label: "English", value: "en" },
-    { label: "Russian", value: "ru" },
+    { label: "Русский", value: "ru" },
+    { label: "Українська", value: "ua" },
   ];
 
   const localizedGames = useMemo(
