@@ -1086,6 +1086,111 @@ const games = [
     extendedTimers: true,
     translations: [],
   },
+  {
+    name: {
+      en: "Roomerang",
+    },
+    pack: "The Jackbox Party Pack 9",
+    packUrl: "https://www.jackboxgames.com/party-pack-nine/",
+    image: {
+      en: "roomerang.jpg",
+    },
+    minPlayers: 4,
+    maxPlayers: 9,
+    url: "https://www.jackboxgames.com/roomerang/",
+    description: {
+      en: "In Roomerang, channel your inner reality TV star in an attempt to come out on top! Respond to prompts, bring the competition and role-play to avoid being voted out.",
+    },
+    duration: "25-35 minutes",
+    familyFriendlySetting: true,
+    manualCensoring: null,
+    extendedTimers: null,
+    translations: [],
+  },
+  {
+    name: {
+      en: "Junktopia",
+    },
+    pack: "The Jackbox Party Pack 9",
+    packUrl: "https://www.jackboxgames.com/party-pack-nine/",
+    image: {
+      en: "junktopia.jpg",
+    },
+    minPlayers: 3,
+    maxPlayers: 8,
+    url: "https://www.jackboxgames.com/junktopia/",
+    description: {
+      en: "In Junktopia, a strange wizard has turned you into a frog! Create hilarious backstories for weird objects and then get them appraised. The player with the most valuable items becomes human again!",
+    },
+    duration: "15-25 minutes",
+    familyFriendlySetting: true,
+    manualCensoring: null,
+    extendedTimers: null,
+    translations: [],
+  },
+  {
+    name: {
+      en: "Nonsensory",
+    },
+    pack: "The Jackbox Party Pack 9",
+    packUrl: "https://www.jackboxgames.com/party-pack-nine/",
+    image: {
+      en: "nonsensory.jpg",
+    },
+    minPlayers: 3,
+    maxPlayers: 8,
+    url: "https://www.jackboxgames.com/nonsensory/",
+    description: {
+      en: "Professor Nanners is here to test your NSP (Nonsensory Perception) in this drawing, writing, and guessing game! How close can you get to guessing where another player’s prompt ranks on the silliest of scales?",
+    },
+    duration: "15-25 minutes",
+    familyFriendlySetting: true,
+    manualCensoring: null,
+    extendedTimers: null,
+    translations: [],
+  },
+  {
+    name: {
+      en: "Fibbage 4",
+    },
+    pack: "The Jackbox Party Pack 9",
+    packUrl: "https://www.jackboxgames.com/party-pack-nine/",
+    image: {
+      en: "fibbage_4.jpg",
+    },
+    minPlayers: 3,
+    maxPlayers: 8,
+    url: "https://www.jackboxgames.com/fibbage-four/",
+    description: {
+      en: "The hilarious bluffing party game returns with an all-new Final Fibbage, video questions, fan-submitted questions, and Fibbage Enough About You mode! It’s a game so beloved that we decided to slap a 4 on it.",
+    },
+    duration: "20 minutes",
+    familyFriendlySetting: true,
+    manualCensoring: null,
+    extendedTimers: null,
+    translations: [],
+  },
+  {
+    name: {
+      en: "Quixort",
+    },
+    pack: "The Jackbox Party Pack 9",
+    packUrl: "https://www.jackboxgames.com/party-pack-nine/",
+    image: {
+      en: "quixort.jpg",
+    },
+    minPlayers: 1,
+    maxPlayers: 10,
+    url: "https://www.jackboxgames.com/quixort/",
+    description: {
+      en: "In this trivia sorting factory, work with your team to sort falling answers into their proper order before they hit the floor! Or, play the single player mode and see how many blocks you can sort before topping out. It’s as easy as A, C, B!",
+    },
+    duration: "15-20 minutes",
+    familyFriendlySetting: true,
+    manualCensoring: null,
+    extendedTimers: null,
+    translations: [],
+  },
 ];
 
 export default games;
